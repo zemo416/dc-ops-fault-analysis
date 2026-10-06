@@ -1,0 +1,1576 @@
+machine_id,model,zone,fault_type,detected_at,resolved_at,action
+M0736,Model-X1,E,high_reject_rate,2026-07-01 01:49:00,2026-07-01 03:02:36.216769057,check firmware / reboot
+M0035,Model-X1,F,high_reject_rate,2026-07-01 02:39:00,2026-07-01 05:44:08.610269349,check firmware / reboot
+M0006,Model-Y1,E,hashboard_fault,2026-07-01 02:43:00,2026-07-01 13:39:39.763828857,replace hashboard
+M0073,Model-X2,F,hashboard_fault,2026-07-01 06:43:00,2026-07-01 12:50:15.750419272,replace hashboard
+M0800,Model-X1,F,offline,2026-07-01 10:08:00,2026-07-01 12:38:50.319946790,check network / power cycle
+M0412,Model-X1,E,zero_hashrate,2026-07-01 10:28:00,2026-07-01 14:43:14.253664456,check pool config / reboot
+M0575,Model-X1,E,high_temp,2026-07-01 11:32:00,2026-07-01 14:31:42.069151844,clean intake / adjust cooling
+M0238,Model-X2,C,hashboard_fault,2026-07-01 11:39:00,2026-07-02 02:33:07.220683526,replace hashboard
+M0010,Model-X2,D,zero_hashrate,2026-07-01 12:55:00,2026-07-01 17:00:55.554295571,check pool config / reboot
+M0559,Model-X2,B,zero_hashrate,2026-07-01 13:37:00,2026-07-01 15:13:17.921064708,check pool config / reboot
+M0485,Model-Y1,A,high_temp,2026-07-01 14:50:00,2026-07-01 17:51:35.656075352,clean intake / adjust cooling
+M0071,Model-X1,E,high_temp,2026-07-01 15:38:00,2026-07-01 16:13:11.633024849,clean intake / adjust cooling
+M0147,Model-X1,D,zero_hashrate,2026-07-01 16:14:00,2026-07-02 00:10:34.257902954,check pool config / reboot
+M0478,Model-X2,C,fan_fault,2026-07-01 16:30:00,2026-07-01 19:08:19.741676763,replace fan
+M0473,Model-X2,E,offline,2026-07-01 16:31:00,2026-07-01 18:16:41.047001042,check network / power cycle
+M0689,Model-X1,E,offline,2026-07-01 17:08:00,2026-07-01 17:41:55.057157478,check network / power cycle
+M0217,Model-Y1,B,offline,2026-07-01 17:22:00,2026-07-01 21:46:14.635492043,check network / power cycle
+M0522,Model-X2,F,high_reject_rate,2026-07-01 23:00:00,2026-07-02 08:46:19.405056744,check firmware / reboot
+M0419,Model-X1,B,fan_fault,2026-07-01 23:44:00,2026-07-02 03:04:25.700777570,replace fan
+M0666,Model-X2,F,zero_hashrate,2026-07-02 01:52:00,2026-07-02 07:33:01.438497729,check pool config / reboot
+M0175,Model-X2,D,offline,2026-07-02 02:34:00,2026-07-02 04:43:25.425959244,check network / power cycle
+M0034,Model-Y1,B,offline,2026-07-02 05:11:00,2026-07-02 06:14:48.194576353,check network / power cycle
+M0506,Model-X2,B,zero_hashrate,2026-07-02 08:30:00,2026-07-02 22:48:07.288979163,check pool config / reboot
+M0123,Model-X2,E,zero_hashrate,2026-07-02 09:50:00,2026-07-02 10:10:04.652559740,check pool config / reboot
+M0275,Model-X1,E,fan_fault,2026-07-02 13:11:00,2026-07-02 15:41:44.264319470,replace fan
+M0490,Model-Y1,B,offline,2026-07-02 13:47:00,2026-07-02 15:13:02.747911853,check network / power cycle
+M0705,Model-X2,A,high_temp,2026-07-02 15:20:00,2026-07-02 17:12:12.008900814,clean intake / adjust cooling
+M0431,Model-X1,F,offline,2026-07-02 16:15:00,2026-07-02 20:52:38.129687576,check network / power cycle
+M0346,Model-Y1,E,hashboard_fault,2026-07-02 20:30:00,2026-07-03 03:46:51.762764638,replace hashboard
+M0234,Model-X1,A,hashboard_fault,2026-07-02 20:38:00,2026-07-03 03:51:44.909706498,replace hashboard
+M0385,Model-X2,D,offline,2026-07-02 20:45:00,2026-07-02 22:46:21.936065075,check network / power cycle
+M0674,Model-X1,B,zero_hashrate,2026-07-02 21:00:00,2026-07-02 21:22:57.278707454,check pool config / reboot
+M0767,Model-X2,E,zero_hashrate,2026-07-02 22:38:00,2026-07-03 01:44:57.340790941,check pool config / reboot
+M0075,Model-X2,D,hashboard_fault,2026-07-02 23:08:00,2026-07-03 08:32:38.581891059,replace hashboard
+M0737,Model-X1,B,hashboard_fault,2026-07-02 23:57:00,2026-07-03 03:45:58.614473160,replace hashboard
+M0473,Model-X1,C,zero_hashrate,2026-07-03 00:16:00,2026-07-03 04:48:24.784745367,check pool config / reboot
+M0142,Model-X2,B,hashboard_fault,2026-07-03 04:33:00,2026-07-03 08:26:17.692078179,replace hashboard
+M0506,Model-X2,D,high_reject_rate,2026-07-03 05:33:00,2026-07-03 07:58:52.418814098,check firmware / reboot
+M0179,Model-X2,C,zero_hashrate,2026-07-03 06:10:00,2026-07-03 10:00:52.535238839,check pool config / reboot
+M0426,Model-X1,E,high_reject_rate,2026-07-03 07:11:00,2026-07-03 10:51:20.466414480,check firmware / reboot
+M0748,Model-Y1,E,offline,2026-07-03 10:08:00,2026-07-03 10:15:20.077346781,check network / power cycle
+M0538,Model-X1,F,zero_hashrate,2026-07-03 10:23:00,2026-07-03 13:49:30.670473023,check pool config / reboot
+M0472,Model-X2,D,high_temp,2026-07-03 11:40:00,2026-07-03 12:30:28.064628885,clean intake / adjust cooling
+M0467,Model-Y1,E,high_reject_rate,2026-07-03 11:50:00,2026-07-03 13:44:21.705123412,check firmware / reboot
+M0015,Model-Y1,D,zero_hashrate,2026-07-03 12:32:00,2026-07-03 15:03:30.872304875,check pool config / reboot
+M0563,Model-X2,D,fan_fault,2026-07-03 12:43:00,2026-07-03 13:34:45.988367033,replace fan
+M0450,Model-X2,A,high_temp,2026-07-03 15:06:00,2026-07-03 15:24:58.084204911,clean intake / adjust cooling
+M0520,Model-X2,B,high_temp,2026-07-03 15:33:00,2026-07-03 17:03:25.074932202,clean intake / adjust cooling
+M0788,Model-Y1,C,zero_hashrate,2026-07-03 17:12:00,2026-07-03 21:17:13.938841251,check pool config / reboot
+M0799,Model-Y1,E,offline,2026-07-03 17:35:00,2026-07-03 19:28:16.906933745,check network / power cycle
+M0506,Model-X1,C,fan_fault,2026-07-03 18:57:00,2026-07-03 23:22:36.648033917,replace fan
+M0340,Model-X1,A,zero_hashrate,2026-07-03 19:32:00,2026-07-03 23:19:50.418001465,check pool config / reboot
+M0082,Model-Y1,E,high_temp,2026-07-03 21:14:00,2026-07-03 22:06:12.153840459,clean intake / adjust cooling
+M0560,Model-X1,E,hashboard_fault,2026-07-03 21:36:00,2026-07-04 00:51:34.021466745,replace hashboard
+M0029,Model-X2,D,offline,2026-07-04 01:03:00,2026-07-04 01:42:31.179018215,check network / power cycle
+M0154,Model-X2,A,high_reject_rate,2026-07-04 03:36:00,2026-07-04 07:11:23.414679919,check firmware / reboot
+M0334,Model-X2,A,high_temp,2026-07-04 06:24:00,2026-07-04 07:20:24.193090671,clean intake / adjust cooling
+M0393,Model-X1,E,offline,2026-07-04 09:13:00,2026-07-04 10:51:56.798662602,check network / power cycle
+M0346,Model-X1,C,zero_hashrate,2026-07-04 20:40:00,2026-07-05 05:22:30.394708881,check pool config / reboot
+M0546,Model-Y1,B,fan_fault,2026-07-05 04:55:00,2026-07-05 08:05:05.447565012,replace fan
+M0666,Model-Y1,E,hashboard_fault,2026-07-05 06:51:00,2026-07-06 09:00:19.972251087,replace hashboard
+M0567,Model-X1,E,high_temp,2026-07-05 08:03:00,2026-07-05 09:21:33.785196159,clean intake / adjust cooling
+M0139,Model-Y1,A,offline,2026-07-05 09:07:00,2026-07-05 11:07:32.123452896,check network / power cycle
+M0688,Model-Y1,E,zero_hashrate,2026-07-05 09:31:00,2026-07-05 17:04:14.051974260,check pool config / reboot
+M0560,Model-X1,E,high_temp,2026-07-05 09:51:00,2026-07-05 10:48:35.865484050,clean intake / adjust cooling
+M0711,Model-X2,E,fan_fault,2026-07-05 13:56:00,2026-07-05 15:35:59.311448823,replace fan
+M0696,Model-X1,E,hashboard_fault,2026-07-05 14:07:00,2026-07-06 01:14:21.628437938,replace hashboard
+M0238,Model-X2,C,high_temp,2026-07-05 17:12:00,2026-07-05 19:18:43.705822471,clean intake / adjust cooling
+M0528,Model-X1,C,offline,2026-07-05 17:50:00,2026-07-05 22:52:36.775276302,check network / power cycle
+M0644,Model-Y1,A,fan_fault,2026-07-05 17:55:00,2026-07-05 20:40:44.918410750,replace fan
+M0215,Model-X2,E,zero_hashrate,2026-07-05 18:43:00,2026-07-05 21:17:31.530766230,check pool config / reboot
+M0236,Model-X1,E,offline,2026-07-05 20:15:00,2026-07-05 21:02:47.182284367,check network / power cycle
+M0787,Model-X2,F,offline,2026-07-05 22:05:00,2026-07-06 00:48:57.133375188,check network / power cycle
+M0446,Model-X1,F,high_temp,2026-07-05 23:27:00,2026-07-06 04:31:00.752468142,clean intake / adjust cooling
+M0167,Model-X1,F,offline,2026-07-06 01:27:00,2026-07-06 04:08:22.135481794,check network / power cycle
+M0237,Model-X1,E,zero_hashrate,2026-07-06 03:02:00,2026-07-06 06:41:02.689064006,check pool config / reboot
+M0492,Model-Y1,F,high_temp,2026-07-06 08:58:00,2026-07-06 09:34:02.687500598,clean intake / adjust cooling
+M0195,Model-X1,C,high_temp,2026-07-06 11:03:00,2026-07-06 12:15:19.556954343,clean intake / adjust cooling
+M0297,Model-Y1,F,zero_hashrate,2026-07-06 11:50:00,2026-07-06 17:58:31.032716112,check pool config / reboot
+M0327,Model-X1,F,high_temp,2026-07-06 12:07:00,2026-07-06 12:36:21.637027741,clean intake / adjust cooling
+M0299,Model-Y1,D,high_reject_rate,2026-07-06 13:57:00,2026-07-06 17:50:21.956268897,check firmware / reboot
+M0595,Model-X1,E,zero_hashrate,2026-07-06 14:24:00,2026-07-06 16:47:10.168338676,check pool config / reboot
+M0434,Model-X2,F,offline,2026-07-06 17:17:00,2026-07-06 17:45:34.447141342,check network / power cycle
+M0149,Model-X2,B,high_temp,2026-07-06 18:14:00,2026-07-06 20:58:20.678092083,clean intake / adjust cooling
+M0753,Model-X2,D,hashboard_fault,2026-07-06 19:26:00,2026-07-07 04:15:54.036962258,replace hashboard
+M0375,Model-X2,F,hashboard_fault,2026-07-06 21:06:00,2026-07-07 07:49:49.025664163,replace hashboard
+M0019,Model-X2,B,offline,2026-07-06 22:43:00,2026-07-06 23:07:43.200903873,check network / power cycle
+M0369,Model-X1,F,zero_hashrate,2026-07-07 02:40:00,2026-07-07 08:22:55.383251447,check pool config / reboot
+M0528,Model-X2,E,zero_hashrate,2026-07-07 03:43:00,2026-07-07 07:22:21.977808827,check pool config / reboot
+M0196,Model-X1,F,offline,2026-07-07 09:27:00,2026-07-07 11:40:30.994310002,check network / power cycle
+M0363,Model-X2,F,zero_hashrate,2026-07-07 12:45:00,2026-07-07 20:42:41.249801620,check pool config / reboot
+M0332,Model-Y1,D,fan_fault,2026-07-07 17:43:00,2026-07-07 19:30:00.625334751,replace fan
+M0123,Model-X2,E,high_temp,2026-07-07 22:12:00,2026-07-07 22:42:32.363083556,clean intake / adjust cooling
+M0442,Model-Y1,F,fan_fault,2026-07-08 02:05:00,2026-07-08 06:44:38.751694767,replace fan
+M0662,Model-X2,D,zero_hashrate,2026-07-08 02:19:00,2026-07-08 04:46:22.124353447,check pool config / reboot
+M0245,Model-X2,C,zero_hashrate,2026-07-08 06:27:00,2026-07-08 09:24:07.408437642,check pool config / reboot
+M0729,Model-X2,F,fan_fault,2026-07-08 07:37:00,2026-07-08 14:16:23.549043189,replace fan
+M0297,Model-X1,F,high_temp,2026-07-08 08:27:00,2026-07-08 12:39:25.748987631,clean intake / adjust cooling
+M0639,Model-X2,B,high_temp,2026-07-08 09:56:00,2026-07-08 12:56:41.236268082,clean intake / adjust cooling
+M0125,Model-Y1,B,fan_fault,2026-07-08 10:30:00,2026-07-08 13:00:59.426188729,replace fan
+M0124,Model-X1,F,high_reject_rate,2026-07-08 14:47:00,2026-07-08 20:27:50.256802279,check firmware / reboot
+M0489,Model-X2,C,high_temp,2026-07-08 14:48:00,2026-07-08 15:23:20.357591065,clean intake / adjust cooling
+M0225,Model-X1,C,offline,2026-07-08 16:54:00,2026-07-08 19:09:13.370984768,check network / power cycle
+M0561,Model-X1,E,zero_hashrate,2026-07-08 21:57:00,2026-07-09 00:02:26.243666799,check pool config / reboot
+M0534,Model-X1,C,offline,2026-07-08 22:51:00,2026-07-08 23:29:55.741445568,check network / power cycle
+M0268,Model-Y1,F,high_reject_rate,2026-07-08 23:45:00,2026-07-09 05:38:23.520057606,check firmware / reboot
+M0001,Model-Y1,E,offline,2026-07-09 00:08:00,2026-07-09 00:17:38.096258576,check network / power cycle
+M0506,Model-X2,B,offline,2026-07-09 01:13:00,2026-07-09 02:05:26.308025851,check network / power cycle
+M0623,Model-Y1,B,offline,2026-07-09 04:50:00,2026-07-09 09:21:45.876258082,check network / power cycle
+M0666,Model-Y1,F,zero_hashrate,2026-07-09 05:53:00,2026-07-09 10:34:05.682035165,check pool config / reboot
+M0154,Model-X2,E,zero_hashrate,2026-07-09 09:49:00,2026-07-09 20:18:06.690978991,check pool config / reboot
+M0231,Model-X2,E,offline,2026-07-09 10:15:00,2026-07-09 10:35:12.509427804,check network / power cycle
+M0607,Model-X2,C,zero_hashrate,2026-07-09 10:33:00,2026-07-09 12:12:52.874999043,check pool config / reboot
+M0206,Model-X2,D,high_temp,2026-07-09 11:38:00,2026-07-09 13:40:39.564107771,clean intake / adjust cooling
+M0602,Model-Y1,B,offline,2026-07-09 16:59:00,2026-07-09 19:01:38.436393226,check network / power cycle
+M0437,Model-X1,F,hashboard_fault,2026-07-09 17:35:00,2026-07-10 04:43:55.470514059,replace hashboard
+M0259,Model-X2,A,zero_hashrate,2026-07-09 18:40:00,2026-07-09 20:20:25.771939462,check pool config / reboot
+M0765,Model-Y1,D,zero_hashrate,2026-07-09 20:27:00,2026-07-09 21:33:42.396796547,check pool config / reboot
+M0713,Model-X1,E,zero_hashrate,2026-07-10 00:12:00,2026-07-10 01:28:46.189057818,check pool config / reboot
+M0110,Model-X2,E,offline,2026-07-10 00:34:00,2026-07-10 02:38:27.001762871,check network / power cycle
+M0319,Model-X1,B,zero_hashrate,2026-07-10 00:35:00,2026-07-10 10:25:37.626195315,check pool config / reboot
+M0289,Model-X1,E,zero_hashrate,2026-07-10 00:55:00,2026-07-10 01:01:16.257157759,check pool config / reboot
+M0656,Model-X1,D,offline,2026-07-10 02:34:00,2026-07-10 05:04:34.830651728,check network / power cycle
+M0430,Model-X2,B,high_temp,2026-07-10 03:23:00,2026-07-10 05:30:52.353838033,clean intake / adjust cooling
+M0649,Model-X2,E,high_reject_rate,2026-07-10 03:25:00,2026-07-10 04:49:02.605543169,check firmware / reboot
+M0179,Model-Y1,F,hashboard_fault,2026-07-10 04:42:00,2026-07-11 01:10:49.066761665,replace hashboard
+M0145,Model-X1,B,zero_hashrate,2026-07-10 07:20:00,2026-07-10 08:52:20.777437810,check pool config / reboot
+M0585,Model-Y1,E,zero_hashrate,2026-07-10 09:46:00,2026-07-10 16:16:23.754555051,check pool config / reboot
+M0766,Model-X2,D,high_reject_rate,2026-07-10 09:48:00,2026-07-10 11:53:47.446465283,check firmware / reboot
+M0120,Model-X1,C,hashboard_fault,2026-07-10 11:12:00,2026-07-11 02:16:08.405995678,replace hashboard
+M0696,Model-X1,B,offline,2026-07-10 12:56:00,2026-07-10 14:58:24.867002384,check network / power cycle
+M0731,Model-X1,A,hashboard_fault,2026-07-10 13:04:00,2026-07-11 07:43:23.715872061,replace hashboard
+M0625,Model-X2,E,offline,2026-07-10 13:45:00,2026-07-10 15:16:19.058577715,check network / power cycle
+M0053,Model-X1,C,high_temp,2026-07-10 15:01:00,2026-07-10 15:18:34.724991200,clean intake / adjust cooling
+M0708,Model-X2,A,high_reject_rate,2026-07-10 15:21:00,2026-07-10 21:03:19.788880446,check firmware / reboot
+M0417,Model-X2,E,high_reject_rate,2026-07-10 15:56:00,2026-07-10 19:00:11.677009574,check firmware / reboot
+M0771,Model-X1,E,offline,2026-07-10 18:06:00,2026-07-10 20:21:19.931854754,check network / power cycle
+M0022,Model-X1,D,hashboard_fault,2026-07-10 22:19:00,2026-07-11 06:30:03.329704258,replace hashboard
+M0264,Model-X2,E,zero_hashrate,2026-07-10 23:20:00,2026-07-11 02:34:05.333340344,check pool config / reboot
+M0496,Model-Y1,E,high_temp,2026-07-11 05:50:00,2026-07-11 07:03:35.837189038,clean intake / adjust cooling
+M0602,Model-X2,F,high_temp,2026-07-11 07:21:00,2026-07-11 09:25:27.684725765,clean intake / adjust cooling
+M0650,Model-X2,B,zero_hashrate,2026-07-11 09:11:00,2026-07-11 12:28:55.729574845,check pool config / reboot
+M0480,Model-Y1,E,fan_fault,2026-07-11 10:37:00,2026-07-11 13:11:43.570132801,replace fan
+M0738,Model-X2,F,zero_hashrate,2026-07-11 10:58:00,2026-07-11 12:06:27.233729891,check pool config / reboot
+M0054,Model-Y1,A,fan_fault,2026-07-11 11:53:00,2026-07-11 13:24:05.539928738,replace fan
+M0454,Model-X1,F,offline,2026-07-11 12:17:00,2026-07-11 13:03:20.079064931,check network / power cycle
+M0506,Model-X1,D,zero_hashrate,2026-07-11 13:46:00,2026-07-11 15:15:01.568091978,check pool config / reboot
+M0179,Model-X1,F,offline,2026-07-11 14:29:00,2026-07-11 17:04:20.980726084,check network / power cycle
+M0495,Model-X1,A,zero_hashrate,2026-07-11 14:56:00,2026-07-11 18:20:22.359841112,check pool config / reboot
+M0140,Model-X1,B,hashboard_fault,2026-07-11 16:09:00,2026-07-12 07:57:20.344730088,replace hashboard
+M0351,Model-Y1,E,hashboard_fault,2026-07-11 16:45:00,2026-07-11 23:11:51.479773273,replace hashboard
+M0406,Model-X2,E,high_reject_rate,2026-07-11 19:51:00,2026-07-11 20:43:42.256379968,check firmware / reboot
+M0056,Model-X1,F,offline,2026-07-11 21:52:00,2026-07-11 23:38:04.010744379,check network / power cycle
+M0175,Model-X1,C,high_reject_rate,2026-07-11 22:03:00,2026-07-12 00:36:34.360884864,check firmware / reboot
+M0642,Model-X1,C,high_temp,2026-07-11 22:09:00,2026-07-11 23:53:17.772709894,clean intake / adjust cooling
+M0365,Model-X2,E,high_temp,2026-07-11 23:38:00,2026-07-12 00:58:23.768663338,clean intake / adjust cooling
+M0227,Model-X1,A,fan_fault,2026-07-11 23:49:00,2026-07-12 01:58:46.735556544,replace fan
+M0615,Model-X2,B,offline,2026-07-12 02:08:00,2026-07-12 02:27:39.668324630,check network / power cycle
+M0326,Model-X1,B,high_temp,2026-07-12 05:46:00,2026-07-12 09:08:05.098449854,clean intake / adjust cooling
+M0019,Model-X2,F,high_temp,2026-07-12 07:52:00,2026-07-12 09:15:57.206378350,clean intake / adjust cooling
+M0375,Model-X1,A,zero_hashrate,2026-07-12 11:29:00,2026-07-12 15:40:51.697142626,check pool config / reboot
+M0599,Model-X2,C,high_temp,2026-07-12 12:20:00,2026-07-12 12:27:06.474944357,clean intake / adjust cooling
+M0673,Model-X2,F,high_temp,2026-07-12 14:12:00,2026-07-12 17:29:39.769322716,clean intake / adjust cooling
+M0796,Model-X1,D,zero_hashrate,2026-07-12 15:56:00,2026-07-12 16:27:31.830060921,check pool config / reboot
+M0314,Model-X1,C,zero_hashrate,2026-07-12 16:18:00,2026-07-12 16:40:42.721574528,check pool config / reboot
+M0450,Model-X1,C,high_temp,2026-07-12 17:15:00,2026-07-12 17:30:25.206732732,clean intake / adjust cooling
+M0193,Model-X1,E,hashboard_fault,2026-07-12 18:34:00,2026-07-13 08:23:32.691306874,replace hashboard
+M0034,Model-X1,B,zero_hashrate,2026-07-12 22:45:00,2026-07-12 23:38:36.150638520,check pool config / reboot
+M0323,Model-Y1,B,zero_hashrate,2026-07-12 22:54:00,2026-07-13 02:36:28.173903474,check pool config / reboot
+M0180,Model-X2,B,offline,2026-07-13 03:12:00,2026-07-13 05:07:39.459427014,check network / power cycle
+M0079,Model-X1,D,zero_hashrate,2026-07-13 05:54:00,2026-07-13 08:20:14.358699861,check pool config / reboot
+M0434,Model-X1,C,high_temp,2026-07-13 09:18:00,2026-07-13 10:41:48.103871138,clean intake / adjust cooling
+M0419,Model-Y1,E,high_reject_rate,2026-07-13 09:21:00,2026-07-13 13:11:38.513434983,check firmware / reboot
+M0411,Model-X1,C,zero_hashrate,2026-07-13 09:55:00,2026-07-13 10:26:42.024669006,check pool config / reboot
+M0405,Model-X1,F,high_temp,2026-07-13 12:15:00,2026-07-13 12:35:34.489546556,clean intake / adjust cooling
+M0247,Model-X1,C,fan_fault,2026-07-13 12:40:00,2026-07-13 18:11:03.185342345,replace fan
+M0046,Model-X2,F,high_temp,2026-07-13 12:52:00,2026-07-13 13:15:15.296312467,clean intake / adjust cooling
+M0317,Model-Y1,D,zero_hashrate,2026-07-13 17:41:00,2026-07-13 22:05:27.323615506,check pool config / reboot
+M0070,Model-X1,F,zero_hashrate,2026-07-13 18:58:00,2026-07-14 05:04:52.381704704,check pool config / reboot
+M0601,Model-X1,A,hashboard_fault,2026-07-14 00:50:00,2026-07-14 16:10:05.015212180,replace hashboard
+M0249,Model-X2,D,hashboard_fault,2026-07-14 04:01:00,2026-07-14 09:08:03.537000630,replace hashboard
+M0613,Model-X1,F,fan_fault,2026-07-14 05:17:00,2026-07-14 10:23:13.913654081,replace fan
+M0060,Model-X2,F,fan_fault,2026-07-14 07:38:00,2026-07-14 10:22:22.719832750,replace fan
+M0329,Model-Y1,E,fan_fault,2026-07-14 10:13:00,2026-07-14 11:12:37.093729821,replace fan
+M0173,Model-X1,C,zero_hashrate,2026-07-14 10:42:00,2026-07-14 14:24:43.099572100,check pool config / reboot
+M0209,Model-X2,C,high_temp,2026-07-14 11:52:00,2026-07-14 12:41:54.346465554,clean intake / adjust cooling
+M0318,Model-Y1,C,high_temp,2026-07-14 14:17:00,2026-07-14 15:58:26.663266590,clean intake / adjust cooling
+M0494,Model-X1,E,fan_fault,2026-07-14 16:33:00,2026-07-14 17:30:38.790111923,replace fan
+M0711,Model-Y1,B,fan_fault,2026-07-14 16:55:00,2026-07-14 18:31:35.908361151,replace fan
+M0337,Model-X2,C,zero_hashrate,2026-07-14 19:46:00,2026-07-14 22:11:37.953683049,check pool config / reboot
+M0385,Model-X2,F,zero_hashrate,2026-07-14 21:46:00,2026-07-15 01:22:50.136910274,check pool config / reboot
+M0666,Model-X1,A,zero_hashrate,2026-07-14 23:05:00,2026-07-15 02:40:30.300488844,check pool config / reboot
+M0297,Model-X1,B,zero_hashrate,2026-07-15 00:38:00,2026-07-15 03:14:55.827610999,check pool config / reboot
+M0423,Model-X2,D,offline,2026-07-15 08:29:00,2026-07-15 12:15:26.555522584,check network / power cycle
+M0744,Model-X2,D,zero_hashrate,2026-07-15 11:57:00,2026-07-15 13:08:43.062694901,check pool config / reboot
+M0221,Model-Y1,A,hashboard_fault,2026-07-15 12:36:00,2026-07-16 01:55:19.722074778,replace hashboard
+M0461,Model-X2,E,zero_hashrate,2026-07-15 15:24:00,2026-07-16 00:11:32.868266214,check pool config / reboot
+M0205,Model-X1,A,hashboard_fault,2026-07-15 15:53:00,2026-07-16 05:21:05.739564553,replace hashboard
+M0401,Model-X1,C,high_reject_rate,2026-07-15 16:15:00,2026-07-15 19:05:45.770603632,check firmware / reboot
+M0547,Model-X2,D,zero_hashrate,2026-07-15 20:49:00,2026-07-15 23:06:54.307345548,check pool config / reboot
+M0200,Model-X2,D,fan_fault,2026-07-15 21:56:00,2026-07-16 00:30:39.563987014,replace fan
+M0322,Model-X2,E,high_reject_rate,2026-07-15 22:19:00,2026-07-16 04:55:44.600509714,check firmware / reboot
+M0164,Model-Y1,D,zero_hashrate,2026-07-15 22:54:00,2026-07-16 04:33:32.405248848,check pool config / reboot
+M0346,Model-X1,E,offline,2026-07-15 23:10:00,2026-07-16 00:46:57.347316955,check network / power cycle
+M0327,Model-X1,B,zero_hashrate,2026-07-15 23:26:00,2026-07-15 23:47:16.831212611,check pool config / reboot
+M0540,Model-X1,F,zero_hashrate,2026-07-16 00:50:00,2026-07-16 05:55:48.962420245,check pool config / reboot
+M0361,Model-Y1,E,zero_hashrate,2026-07-16 02:40:00,2026-07-16 04:09:38.069461737,check pool config / reboot
+M0785,Model-X1,B,hashboard_fault,2026-07-16 04:00:00,2026-07-16 07:01:21.281265461,replace hashboard
+M0718,Model-X2,F,offline,2026-07-16 04:48:00,2026-07-16 06:05:17.962407940,check network / power cycle
+M0392,Model-X1,A,fan_fault,2026-07-16 05:26:00,2026-07-16 09:48:53.366655136,replace fan
+M0302,Model-X2,E,high_reject_rate,2026-07-16 05:43:00,2026-07-16 07:40:19.896616909,check firmware / reboot
+M0754,Model-X2,C,high_temp,2026-07-16 11:58:00,2026-07-16 12:49:41.324245404,clean intake / adjust cooling
+M0334,Model-X2,A,fan_fault,2026-07-16 12:28:00,2026-07-16 14:51:41.302194385,replace fan
+M0751,Model-Y1,A,hashboard_fault,2026-07-16 14:28:00,2026-07-17 07:19:31.637300444,replace hashboard
+M0435,Model-X1,E,zero_hashrate,2026-07-16 15:14:00,2026-07-16 19:06:32.932818711,check pool config / reboot
+M0263,Model-X2,A,zero_hashrate,2026-07-16 15:45:00,2026-07-16 19:40:35.005743289,check pool config / reboot
+M0489,Model-X2,B,fan_fault,2026-07-16 16:14:00,2026-07-16 18:15:07.560411195,replace fan
+M0162,Model-X1,F,high_reject_rate,2026-07-16 17:58:00,2026-07-17 01:25:24.689143872,check firmware / reboot
+M0372,Model-X2,F,zero_hashrate,2026-07-16 18:14:00,2026-07-16 20:23:40.039335089,check pool config / reboot
+M0528,Model-X1,D,high_reject_rate,2026-07-16 18:21:00,2026-07-16 19:09:48.902675533,check firmware / reboot
+M0086,Model-X2,C,hashboard_fault,2026-07-16 18:50:00,2026-07-17 04:45:11.721697364,replace hashboard
+M0087,Model-Y1,D,zero_hashrate,2026-07-16 20:31:00,2026-07-16 22:12:16.550196546,check pool config / reboot
+M0142,Model-X2,F,zero_hashrate,2026-07-16 21:41:00,2026-07-17 01:10:10.218507298,check pool config / reboot
+M0454,Model-X1,D,zero_hashrate,2026-07-16 22:26:00,2026-07-17 03:34:42.149645434,check pool config / reboot
+M0269,Model-X1,A,zero_hashrate,2026-07-17 06:49:00,2026-07-17 08:52:38.644301226,check pool config / reboot
+M0027,Model-X1,D,zero_hashrate,2026-07-17 07:05:00,2026-07-17 11:31:09.305277179,check pool config / reboot
+M0523,Model-X2,C,zero_hashrate,2026-07-17 08:06:00,2026-07-17 13:26:45.266329344,check pool config / reboot
+M0640,Model-Y1,F,high_temp,2026-07-17 10:31:00,2026-07-17 12:48:16.244792195,clean intake / adjust cooling
+M0571,Model-X2,D,offline,2026-07-17 10:36:00,2026-07-17 12:13:30.961988135,check network / power cycle
+M0782,Model-X1,D,offline,2026-07-17 11:10:00,2026-07-17 11:51:05.292975652,check network / power cycle
+M0264,Model-Y1,C,zero_hashrate,2026-07-17 12:54:00,2026-07-17 15:06:52.738972250,check pool config / reboot
+M0683,Model-X1,C,high_reject_rate,2026-07-17 13:07:00,2026-07-18 10:58:59.297969824,check firmware / reboot
+M0121,Model-Y1,F,offline,2026-07-17 17:24:00,2026-07-17 17:55:56.984944096,check network / power cycle
+M0572,Model-X2,F,high_temp,2026-07-17 18:48:00,2026-07-17 19:36:29.236192921,clean intake / adjust cooling
+M0417,Model-X1,D,high_reject_rate,2026-07-17 22:59:00,2026-07-18 03:03:36.064412175,check firmware / reboot
+M0213,Model-X2,F,zero_hashrate,2026-07-17 23:15:00,2026-07-18 03:21:11.680774506,check pool config / reboot
+M0773,Model-X2,E,zero_hashrate,2026-07-18 06:40:00,2026-07-18 09:06:57.897411657,check pool config / reboot
+M0297,Model-X2,E,offline,2026-07-18 08:35:00,2026-07-18 11:46:30.222162367,check network / power cycle
+M0042,Model-X1,D,high_temp,2026-07-18 14:25:00,2026-07-18 15:38:23.043620137,clean intake / adjust cooling
+M0776,Model-X2,B,high_temp,2026-07-18 15:18:00,2026-07-18 16:27:37.031070183,clean intake / adjust cooling
+M0716,Model-X2,E,hashboard_fault,2026-07-18 17:06:00,2026-07-19 12:58:11.827320029,replace hashboard
+M0416,Model-X2,F,offline,2026-07-18 20:20:00,2026-07-18 22:52:28.141845864,check network / power cycle
+M0079,Model-X1,D,offline,2026-07-18 20:25:00,2026-07-18 22:09:56.138129305,check network / power cycle
+M0450,Model-X2,C,hashboard_fault,2026-07-18 22:15:00,2026-07-19 11:05:44.021958031,replace hashboard
+M0662,Model-Y1,E,zero_hashrate,2026-07-19 01:23:00,2026-07-19 04:14:17.340793994,check pool config / reboot
+M0558,Model-X1,E,zero_hashrate,2026-07-19 01:31:00,2026-07-19 03:51:55.381797171,check pool config / reboot
+M0282,Model-Y1,E,high_reject_rate,2026-07-19 01:42:00,2026-07-19 08:58:25.200299084,check firmware / reboot
+M0017,Model-X2,F,zero_hashrate,2026-07-19 04:53:00,2026-07-19 16:59:47.991988634,check pool config / reboot
+M0266,Model-X1,A,zero_hashrate,2026-07-19 05:07:00,2026-07-19 07:13:43.010942901,check pool config / reboot
+M0272,Model-X2,F,offline,2026-07-19 06:17:00,2026-07-19 11:14:14.903623459,check network / power cycle
+M0435,Model-X1,C,hashboard_fault,2026-07-19 06:39:00,2026-07-19 07:49:35.357056387,replace hashboard
+M0417,Model-Y1,F,offline,2026-07-19 07:01:00,2026-07-19 08:27:37.227580747,check network / power cycle
+M0261,Model-Y1,F,offline,2026-07-19 08:40:00,2026-07-19 10:22:06.002835898,check network / power cycle
+M0473,Model-X2,E,high_temp,2026-07-19 08:50:00,2026-07-19 10:19:27.092717012,clean intake / adjust cooling
+M0710,Model-X2,E,zero_hashrate,2026-07-19 11:01:00,2026-07-19 18:55:05.016310455,check pool config / reboot
+M0523,Model-X2,F,offline,2026-07-19 11:08:00,2026-07-19 12:36:18.339599465,check network / power cycle
+M0308,Model-X2,B,zero_hashrate,2026-07-19 14:55:00,2026-07-19 19:26:41.188385105,check pool config / reboot
+M0549,Model-X2,E,zero_hashrate,2026-07-19 16:18:00,2026-07-19 19:39:49.235768578,check pool config / reboot
+M0344,Model-X2,A,hashboard_fault,2026-07-19 16:45:00,2026-07-20 00:27:58.199638424,replace hashboard
+M0401,Model-X2,A,high_temp,2026-07-19 16:55:00,2026-07-19 17:54:28.069500267,clean intake / adjust cooling
+M0696,Model-X2,C,high_temp,2026-07-19 17:06:00,2026-07-19 21:44:02.202607033,clean intake / adjust cooling
+M0159,Model-Y1,D,fan_fault,2026-07-19 17:25:00,2026-07-19 20:41:15.278763419,replace fan
+M0666,Model-X1,C,fan_fault,2026-07-19 17:37:00,2026-07-19 20:00:43.996403151,replace fan
+M0035,Model-X2,F,high_reject_rate,2026-07-19 20:26:00,2026-07-19 22:14:57.513259911,check firmware / reboot
+M0309,Model-X1,D,fan_fault,2026-07-19 23:46:00,2026-07-20 02:26:47.956897182,replace fan
+M0457,Model-X1,F,fan_fault,2026-07-20 00:06:00,2026-07-20 03:34:04.160884036,replace fan
+M0404,Model-X1,F,hashboard_fault,2026-07-20 02:23:00,2026-07-20 19:39:19.381474488,replace hashboard
+M0079,Model-Y1,A,hashboard_fault,2026-07-20 04:45:00,2026-07-21 04:10:27.324954984,replace hashboard
+M0789,Model-Y1,D,zero_hashrate,2026-07-20 05:56:00,2026-07-20 12:41:09.871559383,check pool config / reboot
+M0475,Model-X2,F,zero_hashrate,2026-07-20 06:22:00,2026-07-20 09:23:44.915549396,check pool config / reboot
+M0613,Model-X2,A,fan_fault,2026-07-20 06:45:00,2026-07-20 08:45:23.576646245,replace fan
+M0532,Model-X1,B,high_reject_rate,2026-07-20 08:28:00,2026-07-20 09:53:56.712666857,check firmware / reboot
+M0038,Model-X1,F,offline,2026-07-20 08:45:00,2026-07-20 08:58:27.046329477,check network / power cycle
+M0048,Model-X2,C,hashboard_fault,2026-07-20 14:11:00,2026-07-21 08:04:17.942244945,replace hashboard
+M0445,Model-Y1,F,high_temp,2026-07-20 14:44:00,2026-07-20 18:24:18.632130648,clean intake / adjust cooling
+M0498,Model-X2,E,zero_hashrate,2026-07-20 17:11:00,2026-07-20 19:01:13.790043166,check pool config / reboot
+M0720,Model-X1,E,offline,2026-07-20 19:22:00,2026-07-20 20:14:40.929172891,check network / power cycle
+M0514,Model-X1,E,hashboard_fault,2026-07-20 20:31:00,2026-07-20 21:00:05.590034219,replace hashboard
+M0238,Model-X2,F,fan_fault,2026-07-20 22:29:00,2026-07-21 07:03:53.050563763,replace fan
+M0086,Model-Y1,F,zero_hashrate,2026-07-20 22:36:00,2026-07-21 00:24:00.787440117,check pool config / reboot
+M0159,Model-Y1,B,hashboard_fault,2026-07-21 00:37:00,2026-07-21 14:57:51.807194637,replace hashboard
+M0768,Model-X2,D,hashboard_fault,2026-07-21 01:17:00,2026-07-22 10:35:02.770416866,replace hashboard
+M0547,Model-Y1,A,zero_hashrate,2026-07-21 01:31:00,2026-07-21 05:05:12.192130585,check pool config / reboot
+M0086,Model-X2,D,fan_fault,2026-07-21 03:27:00,2026-07-21 03:52:14.025361816,replace fan
+M0512,Model-X2,E,high_reject_rate,2026-07-21 07:00:00,2026-07-21 10:48:30.519330592,check firmware / reboot
+M0492,Model-Y1,F,zero_hashrate,2026-07-21 07:46:00,2026-07-21 10:56:43.610236791,check pool config / reboot
+M0710,Model-X1,C,zero_hashrate,2026-07-21 09:02:00,2026-07-21 10:51:47.520712866,check pool config / reboot
+M0148,Model-X2,F,hashboard_fault,2026-07-21 10:14:00,2026-07-22 11:32:44.794345576,replace hashboard
+M0075,Model-X1,D,fan_fault,2026-07-21 11:39:00,2026-07-21 16:03:17.998428476,replace fan
+M0127,Model-Y1,F,hashboard_fault,2026-07-21 14:15:00,2026-07-22 23:58:39.767258885,replace hashboard
+M0418,Model-X2,C,offline,2026-07-21 14:36:00,2026-07-21 19:06:14.827939236,check network / power cycle
+M0431,Model-Y1,F,high_reject_rate,2026-07-21 14:36:00,2026-07-21 23:53:05.984525735,check firmware / reboot
+M0223,Model-Y1,A,high_reject_rate,2026-07-21 17:11:00,2026-07-21 21:07:41.140881556,check firmware / reboot
+M0117,Model-X2,B,zero_hashrate,2026-07-21 18:37:00,2026-07-21 20:53:44.554990986,check pool config / reboot
+M0684,Model-X2,B,zero_hashrate,2026-07-21 18:38:00,2026-07-21 21:32:06.010830478,check pool config / reboot
+M0776,Model-X2,E,zero_hashrate,2026-07-21 18:57:00,2026-07-21 21:03:32.489530114,check pool config / reboot
+M0254,Model-X1,B,zero_hashrate,2026-07-21 20:21:00,2026-07-21 21:27:34.311984384,check pool config / reboot
+M0281,Model-Y1,F,zero_hashrate,2026-07-21 21:54:00,2026-07-22 10:41:19.008048074,check pool config / reboot
+M0715,Model-X1,F,zero_hashrate,2026-07-21 22:56:00,2026-07-22 05:05:12.406059935,check pool config / reboot
+M0184,Model-X1,C,high_reject_rate,2026-07-22 00:51:00,2026-07-22 02:52:38.247621068,check firmware / reboot
+M0374,Model-X2,D,zero_hashrate,2026-07-22 02:28:00,2026-07-22 04:10:44.048765782,check pool config / reboot
+M0584,Model-X2,F,high_temp,2026-07-22 05:04:00,2026-07-22 08:48:03.202003806,clean intake / adjust cooling
+M0229,Model-X2,C,fan_fault,2026-07-22 09:22:00,2026-07-22 11:52:37.158652272,replace fan
+M0417,Model-Y1,F,hashboard_fault,2026-07-22 13:23:00,2026-07-23 08:42:11.638546178,replace hashboard
+M0070,Model-Y1,F,zero_hashrate,2026-07-22 13:39:00,2026-07-23 00:17:47.466914010,check pool config / reboot
+M0372,Model-Y1,E,high_temp,2026-07-22 14:20:00,2026-07-22 15:54:26.972886327,clean intake / adjust cooling
+M0363,Model-X1,B,hashboard_fault,2026-07-22 16:23:00,2026-07-23 02:06:32.812241265,replace hashboard
+M0196,Model-Y1,B,high_temp,2026-07-22 17:23:00,2026-07-22 18:08:52.895820713,clean intake / adjust cooling
+M0407,Model-X2,F,zero_hashrate,2026-07-22 21:18:00,2026-07-23 00:07:40.106965647,check pool config / reboot
+M0231,Model-X2,F,high_reject_rate,2026-07-23 05:13:00,2026-07-23 08:12:43.127119171,check firmware / reboot
+M0381,Model-X1,D,high_temp,2026-07-23 08:07:00,2026-07-23 09:32:40.640172102,clean intake / adjust cooling
+M0186,Model-X1,B,high_temp,2026-07-23 08:52:00,2026-07-23 10:32:07.222012301,clean intake / adjust cooling
+M0576,Model-X1,C,fan_fault,2026-07-23 09:37:00,2026-07-23 11:09:28.554126434,replace fan
+M0028,Model-X1,A,high_temp,2026-07-23 11:20:00,2026-07-23 13:06:51.971552909,clean intake / adjust cooling
+M0204,Model-X2,C,high_temp,2026-07-23 11:44:00,2026-07-23 13:06:06.918538140,clean intake / adjust cooling
+M0181,Model-X2,F,offline,2026-07-23 12:41:00,2026-07-23 15:47:31.338905374,check network / power cycle
+M0140,Model-X1,B,high_temp,2026-07-23 12:56:00,2026-07-23 13:05:46.114987241,clean intake / adjust cooling
+M0515,Model-X2,A,zero_hashrate,2026-07-23 13:26:00,2026-07-23 22:21:20.567336666,check pool config / reboot
+M0309,Model-Y1,F,high_temp,2026-07-23 13:51:00,2026-07-23 14:33:09.190630675,clean intake / adjust cooling
+M0283,Model-X1,D,high_reject_rate,2026-07-23 14:07:00,2026-07-23 14:46:39.637892144,check firmware / reboot
+M0607,Model-X2,D,zero_hashrate,2026-07-23 16:21:00,2026-07-23 19:16:41.244086496,check pool config / reboot
+M0176,Model-X1,F,high_temp,2026-07-23 17:53:00,2026-07-23 19:24:57.691485879,clean intake / adjust cooling
+M0022,Model-X1,F,high_temp,2026-07-23 19:04:00,2026-07-23 20:58:18.476724083,clean intake / adjust cooling
+M0329,Model-X2,E,fan_fault,2026-07-23 20:32:00,2026-07-23 22:37:41.874108925,replace fan
+M0305,Model-Y1,F,zero_hashrate,2026-07-23 22:25:00,2026-07-24 05:26:10.747044758,check pool config / reboot
+M0463,Model-X2,E,zero_hashrate,2026-07-23 22:27:00,2026-07-24 09:09:20.695828905,check pool config / reboot
+M0087,Model-X2,C,fan_fault,2026-07-23 22:45:00,2026-07-24 03:00:07.856827077,replace fan
+M0420,Model-X1,D,high_reject_rate,2026-07-24 00:19:00,2026-07-24 02:44:39.348129359,check firmware / reboot
+M0264,Model-X1,F,offline,2026-07-24 04:08:00,2026-07-24 11:05:43.225860744,check network / power cycle
+M0323,Model-X1,F,fan_fault,2026-07-24 04:52:00,2026-07-24 09:31:23.901843999,replace fan
+M0414,Model-X2,E,high_reject_rate,2026-07-24 12:09:00,2026-07-24 20:19:37.583917676,check firmware / reboot
+M0522,Model-X1,D,offline,2026-07-24 13:17:00,2026-07-24 15:05:39.513999263,check network / power cycle
+M0329,Model-X1,A,hashboard_fault,2026-07-24 13:18:00,2026-07-25 04:20:48.811897586,replace hashboard
+M0330,Model-X2,A,fan_fault,2026-07-24 14:28:00,2026-07-24 15:23:53.314926165,replace fan
+M0499,Model-Y1,B,high_reject_rate,2026-07-24 16:38:00,2026-07-25 01:25:59.173032383,check firmware / reboot
+M0293,Model-Y1,E,zero_hashrate,2026-07-24 18:28:00,2026-07-24 20:20:19.835944817,check pool config / reboot
+M0539,Model-X1,F,zero_hashrate,2026-07-24 18:59:00,2026-07-24 23:06:54.239267705,check pool config / reboot
+M0105,Model-Y1,A,zero_hashrate,2026-07-24 19:59:00,2026-07-25 00:26:54.682626788,check pool config / reboot
+M0196,Model-X1,A,zero_hashrate,2026-07-24 21:13:00,2026-07-24 23:41:41.321645034,check pool config / reboot
+M0135,Model-Y1,F,zero_hashrate,2026-07-24 22:09:00,2026-07-25 04:26:13.257051450,check pool config / reboot
+M0199,Model-X2,B,high_reject_rate,2026-07-24 22:32:00,2026-07-25 05:53:32.205042906,check firmware / reboot
+M0586,Model-X2,F,high_reject_rate,2026-07-25 00:54:00,2026-07-25 04:35:54.882954002,check firmware / reboot
+M0633,Model-X2,E,hashboard_fault,2026-07-25 03:12:00,2026-07-25 18:30:07.123290379,replace hashboard
+M0482,Model-X1,C,offline,2026-07-25 03:42:00,2026-07-25 09:36:18.765333606,check network / power cycle
+M0404,Model-X1,E,hashboard_fault,2026-07-25 06:13:00,2026-07-25 19:24:28.235558809,replace hashboard
+M0479,Model-X2,D,high_temp,2026-07-25 07:08:00,2026-07-25 09:21:23.303535584,clean intake / adjust cooling
+M0559,Model-X1,A,high_reject_rate,2026-07-25 09:23:00,2026-07-25 09:33:45.039811638,check firmware / reboot
+M0056,Model-X1,E,high_temp,2026-07-25 11:05:00,2026-07-25 11:44:17.666051818,clean intake / adjust cooling
+M0748,Model-X1,E,zero_hashrate,2026-07-25 12:24:00,2026-07-25 17:20:38.580292168,check pool config / reboot
+M0165,Model-X2,A,zero_hashrate,2026-07-25 14:36:00,2026-07-25 16:28:27.842504314,check pool config / reboot
+M0748,Model-X1,C,fan_fault,2026-07-25 15:18:00,2026-07-25 18:02:12.856828651,replace fan
+M0656,Model-X2,F,fan_fault,2026-07-25 17:05:00,2026-07-26 02:08:01.896161824,replace fan
+M0539,Model-X2,E,zero_hashrate,2026-07-25 18:26:00,2026-07-25 20:07:26.701706481,check pool config / reboot
+M0391,Model-X1,F,offline,2026-07-25 18:26:00,2026-07-25 21:23:21.036972120,check network / power cycle
+M0696,Model-Y1,C,high_reject_rate,2026-07-25 19:38:00,2026-07-26 00:41:38.841300538,check firmware / reboot
+M0680,Model-X1,C,hashboard_fault,2026-07-25 20:00:00,2026-07-26 04:09:27.011328657,replace hashboard
+M0451,Model-X2,E,offline,2026-07-26 01:04:00,2026-07-26 02:44:19.228406986,check network / power cycle
+M0364,Model-X2,B,hashboard_fault,2026-07-26 02:25:00,2026-07-26 08:02:49.117763042,replace hashboard
+M0625,Model-Y1,F,hashboard_fault,2026-07-26 04:51:00,2026-07-26 08:18:38.927993756,replace hashboard
+M0127,Model-X2,A,offline,2026-07-26 04:56:00,2026-07-26 05:23:22.416290799,check network / power cycle
+M0642,Model-X1,C,zero_hashrate,2026-07-26 07:47:00,2026-07-26 14:24:20.832718636,check pool config / reboot
+M0622,Model-X1,F,offline,2026-07-26 09:38:00,2026-07-26 10:05:17.604128168,check network / power cycle
+M0150,Model-X2,E,zero_hashrate,2026-07-26 11:37:00,2026-07-26 13:08:23.810677033,check pool config / reboot
+M0763,Model-X2,E,high_temp,2026-07-26 15:26:00,2026-07-26 17:12:59.125876981,clean intake / adjust cooling
+M0241,Model-X1,B,high_temp,2026-07-26 19:21:00,2026-07-26 20:12:02.149353051,clean intake / adjust cooling
+M0622,Model-Y1,A,offline,2026-07-26 23:07:00,2026-07-27 00:59:24.965657370,check network / power cycle
+M0186,Model-X2,F,fan_fault,2026-07-27 01:12:00,2026-07-27 02:21:39.504107402,replace fan
+M0191,Model-X2,E,zero_hashrate,2026-07-27 02:07:00,2026-07-27 02:55:32.956696626,check pool config / reboot
+M0385,Model-X1,A,fan_fault,2026-07-27 03:11:00,2026-07-27 05:45:50.329869622,replace fan
+M0011,Model-X2,F,zero_hashrate,2026-07-27 04:08:00,2026-07-27 09:26:22.046918832,check pool config / reboot
+M0058,Model-X2,B,zero_hashrate,2026-07-27 07:08:00,2026-07-27 14:00:53.708534384,check pool config / reboot
+M0772,Model-X1,B,offline,2026-07-27 07:59:00,2026-07-27 08:56:16.876375106,check network / power cycle
+M0238,Model-X1,C,high_reject_rate,2026-07-27 08:16:00,2026-07-27 12:33:41.428789393,check firmware / reboot
+M0591,Model-X1,E,high_reject_rate,2026-07-27 08:41:00,2026-07-27 12:59:44.888417928,check firmware / reboot
+M0144,Model-X2,E,fan_fault,2026-07-27 11:24:00,2026-07-27 16:42:24.415965466,replace fan
+M0560,Model-X1,A,fan_fault,2026-07-27 12:45:00,2026-07-27 16:08:16.186127939,replace fan
+M0748,Model-X1,C,offline,2026-07-27 13:29:00,2026-07-27 15:37:07.534251044,check network / power cycle
+M0642,Model-X1,E,high_reject_rate,2026-07-27 16:02:00,2026-07-27 17:45:25.988014462,check firmware / reboot
+M0736,Model-X1,E,zero_hashrate,2026-07-27 16:17:00,2026-07-27 18:46:35.770452625,check pool config / reboot
+M0415,Model-X1,F,offline,2026-07-27 17:19:00,2026-07-27 20:06:22.992611577,check network / power cycle
+M0712,Model-X1,D,zero_hashrate,2026-07-27 23:04:00,2026-07-28 08:33:19.847637701,check pool config / reboot
+M0088,Model-X2,F,high_temp,2026-07-27 23:36:00,2026-07-28 01:34:04.248905508,clean intake / adjust cooling
+M0273,Model-X2,D,offline,2026-07-28 03:35:00,2026-07-28 04:51:47.892061814,check network / power cycle
+M0196,Model-Y1,E,offline,2026-07-28 05:44:00,2026-07-28 09:20:14.016990129,check network / power cycle
+M0286,Model-X1,E,fan_fault,2026-07-28 06:35:00,2026-07-28 07:16:01.820741095,replace fan
+M0696,Model-X1,A,high_temp,2026-07-28 08:35:00,2026-07-28 10:52:43.515034534,clean intake / adjust cooling
+M0298,Model-X2,E,zero_hashrate,2026-07-28 10:00:00,2026-07-28 12:02:35.765546580,check pool config / reboot
+M0437,Model-X2,C,zero_hashrate,2026-07-28 11:14:00,2026-07-28 19:46:31.345849400,check pool config / reboot
+M0161,Model-X1,B,offline,2026-07-28 11:17:00,2026-07-28 12:29:07.404379387,check network / power cycle
+M0390,Model-X1,D,hashboard_fault,2026-07-28 11:19:00,2026-07-28 19:15:05.394133458,replace hashboard
+M0723,Model-Y1,E,zero_hashrate,2026-07-28 12:11:00,2026-07-28 14:24:14.032941644,check pool config / reboot
+M0082,Model-X2,D,offline,2026-07-28 13:36:00,2026-07-28 16:39:56.063145632,check network / power cycle
+M0773,Model-X1,E,high_reject_rate,2026-07-28 13:56:00,2026-07-28 20:33:32.935902357,check firmware / reboot
+M0387,Model-X1,D,high_temp,2026-07-28 15:16:00,2026-07-28 15:59:19.419813861,clean intake / adjust cooling
+M0082,Model-X2,D,offline,2026-07-28 15:54:00,2026-07-28 19:10:15.076545593,check network / power cycle
+M0616,Model-X1,E,hashboard_fault,2026-07-28 17:52:00,2026-07-28 21:49:07.559162768,replace hashboard
+M0573,Model-X2,C,zero_hashrate,2026-07-29 01:03:00,2026-07-29 06:50:16.973746715,check pool config / reboot
+M0610,Model-X2,A,zero_hashrate,2026-07-29 04:02:00,2026-07-29 05:01:53.461700019,check pool config / reboot
+M0403,Model-Y1,C,zero_hashrate,2026-07-29 10:47:00,2026-07-29 15:55:19.252957781,check pool config / reboot
+M0681,Model-X1,D,fan_fault,2026-07-29 16:05:00,2026-07-29 18:42:40.376415147,replace fan
+M0722,Model-X1,F,hashboard_fault,2026-07-29 17:45:00,2026-07-30 00:54:07.289476702,replace hashboard
+M0359,Model-X2,E,high_temp,2026-07-29 20:14:00,2026-07-29 21:02:28.393527865,clean intake / adjust cooling
+M0399,Model-Y1,A,fan_fault,2026-07-29 21:02:00,2026-07-29 22:26:32.265307501,replace fan
+M0237,Model-Y1,A,offline,2026-07-29 22:11:00,2026-07-30 00:09:32.106817681,check network / power cycle
+M0033,Model-X2,E,zero_hashrate,2026-07-29 22:49:00,2026-07-29 23:36:20.420587532,check pool config / reboot
+M0703,Model-X1,D,zero_hashrate,2026-07-29 23:08:00,2026-07-30 01:47:30.025401252,check pool config / reboot
+M0110,Model-Y1,E,high_temp,2026-07-30 07:19:00,2026-07-30 09:06:19.616348941,clean intake / adjust cooling
+M0226,Model-Y1,F,offline,2026-07-30 08:08:00,2026-07-30 12:42:27.781894714,check network / power cycle
+M0332,Model-X2,E,fan_fault,2026-07-30 10:48:00,2026-07-30 14:06:44.513800105,replace fan
+M0774,Model-X1,B,zero_hashrate,2026-07-30 11:29:00,2026-07-30 14:43:12.470858608,check pool config / reboot
+M0013,Model-Y1,F,zero_hashrate,2026-07-30 11:33:00,2026-07-30 16:50:13.574868624,check pool config / reboot
+M0416,Model-X2,F,hashboard_fault,2026-07-30 12:42:00,2026-07-30 23:41:18.319112407,replace hashboard
+M0671,Model-X2,E,high_temp,2026-07-30 13:57:00,2026-07-30 14:05:10.872207997,clean intake / adjust cooling
+M0670,Model-X2,C,offline,2026-07-30 14:23:00,2026-07-30 18:41:16.334442834,check network / power cycle
+M0039,Model-X2,E,zero_hashrate,2026-07-30 17:35:00,2026-07-30 21:33:53.436293056,check pool config / reboot
+M0685,Model-X2,E,high_temp,2026-07-30 18:54:00,2026-07-30 21:45:23.431678517,clean intake / adjust cooling
+M0357,Model-X2,D,zero_hashrate,2026-07-30 19:03:00,2026-07-30 23:53:00.600916625,check pool config / reboot
+M0442,Model-X2,F,high_temp,2026-07-30 19:04:00,2026-07-30 19:34:22.146787815,clean intake / adjust cooling
+M0605,Model-X2,F,fan_fault,2026-07-30 20:06:00,2026-07-30 23:28:06.621474589,replace fan
+M0502,Model-X2,A,high_temp,2026-07-30 20:24:00,2026-07-30 22:22:20.129179412,clean intake / adjust cooling
+M0357,Model-Y1,E,high_reject_rate,2026-07-30 22:53:00,2026-07-31 00:08:05.348100126,check firmware / reboot
+M0413,Model-X2,D,high_reject_rate,2026-07-31 05:04:00,2026-07-31 12:11:46.324764024,check firmware / reboot
+M0628,Model-X2,E,high_temp,2026-07-31 05:24:00,2026-07-31 07:44:22.582831136,clean intake / adjust cooling
+M0656,Model-X2,E,zero_hashrate,2026-07-31 05:54:00,2026-07-31 06:41:20.065667536,check pool config / reboot
+M0250,Model-X2,E,zero_hashrate,2026-07-31 06:47:00,2026-07-31 13:03:59.105642695,check pool config / reboot
+M0515,Model-X2,E,high_reject_rate,2026-07-31 07:03:00,2026-07-31 15:31:23.349106127,check firmware / reboot
+M0382,Model-X1,F,hashboard_fault,2026-07-31 07:24:00,2026-07-31 11:36:27.475658397,replace hashboard
+M0493,Model-X1,D,high_temp,2026-07-31 07:30:00,2026-07-31 08:27:10.583587205,clean intake / adjust cooling
+M0320,Model-X1,B,zero_hashrate,2026-07-31 07:31:00,2026-07-31 10:34:07.320899374,check pool config / reboot
+M0611,Model-X1,D,fan_fault,2026-07-31 07:56:00,2026-07-31 11:30:31.747403764,replace fan
+M0607,Model-X1,F,high_temp,2026-07-31 08:11:00,2026-07-31 09:44:44.250046172,clean intake / adjust cooling
+M0007,Model-X1,D,offline,2026-07-31 08:13:00,2026-07-31 08:57:56.313486465,check network / power cycle
+M0281,Model-Y1,C,offline,2026-07-31 09:41:00,2026-07-31 09:59:57.955158215,check network / power cycle
+M0086,Model-X1,E,high_temp,2026-07-31 09:48:00,2026-07-31 11:52:54.020986531,clean intake / adjust cooling
+M0227,Model-X2,D,fan_fault,2026-07-31 09:48:00,2026-07-31 14:33:38.505461094,replace fan
+M0297,Model-X1,D,high_temp,2026-07-31 10:04:00,2026-07-31 12:13:08.680580163,clean intake / adjust cooling
+M0793,Model-X2,A,high_temp,2026-07-31 10:25:00,2026-07-31 12:28:34.114580624,clean intake / adjust cooling
+M0385,Model-X2,E,high_temp,2026-07-31 10:43:00,2026-07-31 11:33:41.528485647,clean intake / adjust cooling
+M0263,Model-X2,B,hashboard_fault,2026-07-31 10:56:00,2026-07-31 19:31:47.129405775,replace hashboard
+M0002,Model-X1,C,high_temp,2026-07-31 11:10:00,2026-07-31 11:21:55.347566885,clean intake / adjust cooling
+M0030,Model-X2,C,high_temp,2026-07-31 11:20:00,2026-07-31 12:32:09.347639474,clean intake / adjust cooling
+M0032,Model-X2,F,high_temp,2026-07-31 11:29:00,2026-07-31 11:42:50.305396969,clean intake / adjust cooling
+M0286,Model-X2,A,high_temp,2026-07-31 12:40:00,2026-07-31 13:29:41.142611413,clean intake / adjust cooling
+M0585,Model-X2,E,high_temp,2026-07-31 12:43:00,2026-07-31 14:12:39.017875622,clean intake / adjust cooling
+M0662,Model-X1,C,high_temp,2026-07-31 13:06:00,2026-07-31 14:13:02.830416828,clean intake / adjust cooling
+M0071,Model-X1,D,high_temp,2026-07-31 14:39:00,2026-07-31 15:08:02.292764858,clean intake / adjust cooling
+M0353,Model-X1,D,high_temp,2026-07-31 14:51:00,2026-07-31 16:31:53.593128257,clean intake / adjust cooling
+M0702,Model-X2,D,offline,2026-07-31 15:27:00,2026-07-31 15:43:50.186539245,check network / power cycle
+M0020,Model-X1,A,high_temp,2026-07-31 15:48:00,2026-07-31 16:22:29.648812468,clean intake / adjust cooling
+M0169,Model-X1,A,hashboard_fault,2026-07-31 16:52:00,2026-07-31 21:51:27.209044610,replace hashboard
+M0498,Model-X2,E,high_temp,2026-07-31 16:54:00,2026-07-31 17:37:15.552672983,clean intake / adjust cooling
+M0752,Model-X2,F,high_temp,2026-07-31 17:48:00,2026-07-31 18:00:08.691673040,clean intake / adjust cooling
+M0768,Model-X1,F,zero_hashrate,2026-07-31 19:47:00,2026-08-01 03:00:22.495055687,check pool config / reboot
+M0760,Model-X2,E,zero_hashrate,2026-07-31 20:12:00,2026-08-01 04:22:59.110871659,check pool config / reboot
+M0352,Model-X2,F,high_temp,2026-07-31 20:22:00,2026-07-31 23:05:20.579263599,clean intake / adjust cooling
+M0201,Model-X2,F,high_temp,2026-07-31 23:25:00,2026-08-01 01:08:32.737471769,clean intake / adjust cooling
+M0353,Model-X1,A,zero_hashrate,2026-08-01 01:59:00,2026-08-01 06:12:58.378449113,check pool config / reboot
+M0298,Model-X2,B,offline,2026-08-01 02:35:00,2026-08-01 03:07:18.316152906,check network / power cycle
+M0341,Model-X2,A,fan_fault,2026-08-01 03:56:00,2026-08-01 11:14:21.478166022,replace fan
+M0196,Model-X1,D,fan_fault,2026-08-01 04:49:00,2026-08-01 05:30:16.743669841,replace fan
+M0746,Model-X2,B,zero_hashrate,2026-08-01 08:20:00,2026-08-01 12:48:55.079708270,check pool config / reboot
+M0039,Model-X1,C,zero_hashrate,2026-08-01 10:43:00,2026-08-01 12:00:37.637902321,check pool config / reboot
+M0153,Model-X1,B,high_temp,2026-08-01 11:06:00,2026-08-01 11:30:15.107100830,clean intake / adjust cooling
+M0189,Model-Y1,B,zero_hashrate,2026-08-01 12:06:00,2026-08-01 14:27:15.676047654,check pool config / reboot
+M0200,Model-X1,F,zero_hashrate,2026-08-01 12:44:00,2026-08-01 16:37:10.630840545,check pool config / reboot
+M0272,Model-X1,F,zero_hashrate,2026-08-01 13:11:00,2026-08-01 13:30:35.935972165,check pool config / reboot
+M0418,Model-X2,E,hashboard_fault,2026-08-01 14:29:00,2026-08-01 23:23:03.141161611,replace hashboard
+M0073,Model-X1,F,offline,2026-08-01 17:11:00,2026-08-01 19:56:23.895552955,check network / power cycle
+M0204,Model-Y1,E,hashboard_fault,2026-08-01 17:18:00,2026-08-02 02:42:11.011789257,replace hashboard
+M0693,Model-X2,D,zero_hashrate,2026-08-01 18:25:00,2026-08-01 19:36:25.294474231,check pool config / reboot
+M0300,Model-Y1,E,high_temp,2026-08-01 18:48:00,2026-08-01 19:59:21.410787184,clean intake / adjust cooling
+M0665,Model-Y1,A,high_reject_rate,2026-08-01 22:25:00,2026-08-02 01:38:09.421836677,check firmware / reboot
+M0208,Model-Y1,E,zero_hashrate,2026-08-02 04:32:00,2026-08-02 06:09:06.726124207,check pool config / reboot
+M0439,Model-X1,E,offline,2026-08-02 09:18:00,2026-08-02 12:08:39.072143522,check network / power cycle
+M0340,Model-Y1,C,high_temp,2026-08-02 09:48:00,2026-08-02 10:17:12.971965253,clean intake / adjust cooling
+M0601,Model-X1,F,zero_hashrate,2026-08-02 11:31:00,2026-08-02 14:37:13.581327349,check pool config / reboot
+M0179,Model-Y1,B,zero_hashrate,2026-08-02 13:15:00,2026-08-02 16:36:56.693627200,check pool config / reboot
+M0590,Model-X2,B,hashboard_fault,2026-08-02 16:48:00,2026-08-03 03:11:40.215361138,replace hashboard
+M0235,Model-X2,D,offline,2026-08-02 17:06:00,2026-08-02 19:09:36.075430938,check network / power cycle
+M0082,Model-X1,D,fan_fault,2026-08-02 19:24:00,2026-08-02 21:16:10.535153482,replace fan
+M0409,Model-X2,B,hashboard_fault,2026-08-02 19:50:00,2026-08-03 03:50:39.742679875,replace hashboard
+M0519,Model-X2,E,high_reject_rate,2026-08-02 21:23:00,2026-08-03 08:23:14.329375337,check firmware / reboot
+M0237,Model-X1,F,zero_hashrate,2026-08-03 01:43:00,2026-08-03 06:38:58.300488392,check pool config / reboot
+M0585,Model-X1,D,hashboard_fault,2026-08-03 01:51:00,2026-08-03 05:23:09.792166577,replace hashboard
+M0185,Model-X1,F,offline,2026-08-03 04:39:00,2026-08-03 07:35:27.708206383,check network / power cycle
+M0205,Model-X1,D,zero_hashrate,2026-08-03 07:26:00,2026-08-03 12:58:08.407202048,check pool config / reboot
+M0410,Model-X1,E,zero_hashrate,2026-08-03 11:25:00,2026-08-03 15:53:25.139313059,check pool config / reboot
+M0248,Model-X1,B,offline,2026-08-03 13:50:00,2026-08-03 14:20:56.770135476,check network / power cycle
+M0215,Model-Y1,D,zero_hashrate,2026-08-03 14:53:00,2026-08-03 18:44:59.654007852,check pool config / reboot
+M0196,Model-X1,B,high_temp,2026-08-03 16:29:00,2026-08-03 16:41:05.962916833,clean intake / adjust cooling
+M0572,Model-Y1,E,high_reject_rate,2026-08-03 18:07:00,2026-08-04 02:58:41.803670526,check firmware / reboot
+M0272,Model-X2,F,zero_hashrate,2026-08-03 18:19:00,2026-08-03 19:30:18.762627538,check pool config / reboot
+M0411,Model-X2,E,zero_hashrate,2026-08-03 21:26:00,2026-08-04 02:07:56.786291884,check pool config / reboot
+M0414,Model-X2,D,offline,2026-08-03 21:38:00,2026-08-03 23:16:38.583277356,check network / power cycle
+M0445,Model-X2,F,fan_fault,2026-08-03 21:41:00,2026-08-03 22:14:40.408242963,replace fan
+M0385,Model-X1,E,zero_hashrate,2026-08-03 23:24:00,2026-08-04 02:20:10.865908877,check pool config / reboot
+M0798,Model-X1,E,offline,2026-08-04 00:37:00,2026-08-04 02:42:08.380210071,check network / power cycle
+M0227,Model-Y1,D,fan_fault,2026-08-04 00:45:00,2026-08-04 02:03:55.885321146,replace fan
+M0360,Model-X1,D,zero_hashrate,2026-08-04 02:11:00,2026-08-04 04:06:43.802981385,check pool config / reboot
+M0716,Model-Y1,B,fan_fault,2026-08-04 02:40:00,2026-08-04 06:59:23.604004063,replace fan
+M0337,Model-X2,D,high_temp,2026-08-04 05:15:00,2026-08-04 06:09:16.223427152,clean intake / adjust cooling
+M0718,Model-X2,A,zero_hashrate,2026-08-04 06:35:00,2026-08-04 10:07:31.479278952,check pool config / reboot
+M0417,Model-X1,E,high_reject_rate,2026-08-04 08:29:00,2026-08-04 11:59:49.899791733,check firmware / reboot
+M0086,Model-X1,D,offline,2026-08-04 09:30:00,2026-08-04 10:00:18.876167206,check network / power cycle
+M0441,Model-X1,F,high_temp,2026-08-04 09:52:00,2026-08-04 13:34:55.778302186,clean intake / adjust cooling
+M0006,Model-X2,E,high_temp,2026-08-04 10:53:00,2026-08-04 12:33:31.503476608,clean intake / adjust cooling
+M0147,Model-X2,F,offline,2026-08-04 12:18:00,2026-08-04 12:39:47.657207527,check network / power cycle
+M0174,Model-X1,A,offline,2026-08-04 12:48:00,2026-08-04 14:51:35.247728196,check network / power cycle
+M0646,Model-X1,A,high_temp,2026-08-04 12:52:00,2026-08-04 14:24:48.813406655,clean intake / adjust cooling
+M0561,Model-Y1,B,high_temp,2026-08-04 12:59:00,2026-08-04 17:37:06.641328140,clean intake / adjust cooling
+M0165,Model-X2,F,high_temp,2026-08-04 16:32:00,2026-08-04 18:56:55.947880209,clean intake / adjust cooling
+M0201,Model-X2,E,fan_fault,2026-08-04 17:11:00,2026-08-04 23:27:18.378175684,replace fan
+M0796,Model-X2,E,zero_hashrate,2026-08-04 17:35:00,2026-08-04 23:41:48.373888091,check pool config / reboot
+M0123,Model-X2,B,fan_fault,2026-08-04 17:58:00,2026-08-04 19:27:46.519679682,replace fan
+M0356,Model-Y1,F,high_reject_rate,2026-08-04 19:33:00,2026-08-05 09:44:12.896511511,check firmware / reboot
+M0367,Model-X1,C,high_temp,2026-08-04 20:31:00,2026-08-04 23:05:15.541350845,clean intake / adjust cooling
+M0380,Model-X2,A,offline,2026-08-04 21:07:00,2026-08-04 21:54:37.308909278,check network / power cycle
+M0584,Model-X1,F,hashboard_fault,2026-08-04 21:26:00,2026-08-05 01:14:59.950684325,replace hashboard
+M0356,Model-X1,F,zero_hashrate,2026-08-04 22:48:00,2026-08-05 11:50:38.123092794,check pool config / reboot
+M0794,Model-X1,E,zero_hashrate,2026-08-05 02:39:00,2026-08-05 03:49:33.666483662,check pool config / reboot
+M0450,Model-Y1,C,offline,2026-08-05 02:54:00,2026-08-05 04:27:50.886940011,check network / power cycle
+M0736,Model-X1,D,zero_hashrate,2026-08-05 05:09:00,2026-08-05 08:34:55.555583576,check pool config / reboot
+M0622,Model-X1,F,zero_hashrate,2026-08-05 07:17:00,2026-08-05 18:16:18.774973734,check pool config / reboot
+M0695,Model-X2,F,high_temp,2026-08-05 07:47:00,2026-08-05 13:17:28.193707813,clean intake / adjust cooling
+M0181,Model-X1,C,high_temp,2026-08-05 10:32:00,2026-08-05 11:39:40.617415744,clean intake / adjust cooling
+M0126,Model-X1,A,high_temp,2026-08-05 10:33:00,2026-08-05 11:48:35.811291310,clean intake / adjust cooling
+M0115,Model-X1,D,high_temp,2026-08-05 11:14:00,2026-08-05 13:47:34.121140483,clean intake / adjust cooling
+M0231,Model-X1,A,high_temp,2026-08-05 11:18:00,2026-08-05 11:50:19.034459579,clean intake / adjust cooling
+M0161,Model-X2,C,high_temp,2026-08-05 14:20:00,2026-08-05 15:20:48.891080398,clean intake / adjust cooling
+M0289,Model-X1,B,high_reject_rate,2026-08-05 15:59:00,2026-08-06 00:07:25.856919007,check firmware / reboot
+M0367,Model-Y1,A,high_temp,2026-08-05 16:53:00,2026-08-05 17:56:59.397658384,clean intake / adjust cooling
+M0529,Model-X1,E,zero_hashrate,2026-08-05 17:25:00,2026-08-05 19:53:55.192837757,check pool config / reboot
+M0799,Model-X1,B,high_temp,2026-08-05 17:31:00,2026-08-05 17:45:35.257674251,clean intake / adjust cooling
+M0644,Model-X2,D,high_temp,2026-08-05 19:49:00,2026-08-05 21:42:47.287632224,clean intake / adjust cooling
+M0357,Model-Y1,D,hashboard_fault,2026-08-06 00:40:00,2026-08-06 04:01:06.677623854,replace hashboard
+M0562,Model-X2,A,hashboard_fault,2026-08-06 03:06:00,2026-08-06 18:11:30.887796493,replace hashboard
+M0186,Model-X1,F,hashboard_fault,2026-08-06 07:38:00,2026-08-06 13:18:07.512992398,replace hashboard
+M0540,Model-X1,E,high_temp,2026-08-06 07:46:00,2026-08-06 08:50:33.638235152,clean intake / adjust cooling
+M0365,Model-X2,D,offline,2026-08-06 09:45:00,2026-08-06 13:39:09.814566326,check network / power cycle
+M0201,Model-X2,A,high_temp,2026-08-06 10:00:00,2026-08-06 10:46:16.651068245,clean intake / adjust cooling
+M0696,Model-X2,A,zero_hashrate,2026-08-06 16:20:00,2026-08-06 18:02:59.487062337,check pool config / reboot
+M0064,Model-Y1,F,fan_fault,2026-08-06 16:40:00,2026-08-06 20:29:25.722018591,replace fan
+M0293,Model-X2,D,high_reject_rate,2026-08-06 16:58:00,2026-08-06 21:00:52.360218477,check firmware / reboot
+M0247,Model-Y1,D,offline,2026-08-06 19:55:00,2026-08-06 23:00:37.382214685,check network / power cycle
+M0220,Model-X1,F,fan_fault,2026-08-06 22:34:00,2026-08-07 03:22:10.289758585,replace fan
+M0345,Model-X2,A,zero_hashrate,2026-08-06 22:51:00,2026-08-07 06:08:56.854011310,check pool config / reboot
+M0131,Model-Y1,E,offline,2026-08-07 01:26:00,2026-08-07 03:46:15.744984173,check network / power cycle
+M0563,Model-X1,B,fan_fault,2026-08-07 01:47:00,2026-08-07 02:54:57.872719697,replace fan
+M0519,Model-X1,B,fan_fault,2026-08-07 02:00:00,2026-08-07 05:16:43.051925286,replace fan
+M0662,Model-X1,F,zero_hashrate,2026-08-07 02:58:00,2026-08-07 15:12:18.947049984,check pool config / reboot
+M0466,Model-X1,D,fan_fault,2026-08-07 03:28:00,2026-08-07 04:46:44.561454156,replace fan
+M0427,Model-X2,C,zero_hashrate,2026-08-07 06:42:00,2026-08-07 08:31:32.619187303,check pool config / reboot
+M0601,Model-Y1,F,zero_hashrate,2026-08-07 07:50:00,2026-08-07 09:39:51.126448643,check pool config / reboot
+M0100,Model-X1,D,fan_fault,2026-08-07 08:38:00,2026-08-07 09:39:03.217284585,replace fan
+M0371,Model-X2,B,offline,2026-08-07 09:52:00,2026-08-07 10:41:01.592447398,check network / power cycle
+M0464,Model-X1,F,zero_hashrate,2026-08-07 10:18:00,2026-08-07 15:47:33.526344295,check pool config / reboot
+M0363,Model-X2,C,zero_hashrate,2026-08-07 10:23:00,2026-08-07 16:14:33.835754489,check pool config / reboot
+M0785,Model-X2,E,zero_hashrate,2026-08-07 10:45:00,2026-08-07 13:02:03.455633261,check pool config / reboot
+M0274,Model-X1,D,offline,2026-08-07 11:47:00,2026-08-07 14:37:51.465562965,check network / power cycle
+M0440,Model-X2,F,zero_hashrate,2026-08-07 12:06:00,2026-08-07 13:46:01.049812175,check pool config / reboot
+M0028,Model-X2,C,high_temp,2026-08-07 12:12:00,2026-08-07 16:02:41.600432073,clean intake / adjust cooling
+M0337,Model-X1,E,high_reject_rate,2026-08-07 14:03:00,2026-08-07 18:02:40.434778208,check firmware / reboot
+M0190,Model-X1,A,fan_fault,2026-08-07 14:12:00,2026-08-07 22:13:18.918064154,replace fan
+M0700,Model-Y1,E,high_temp,2026-08-07 15:16:00,2026-08-07 17:49:30.902196675,clean intake / adjust cooling
+M0506,Model-X2,C,hashboard_fault,2026-08-07 18:20:00,2026-08-08 00:10:37.288410658,replace hashboard
+M0271,Model-X2,C,zero_hashrate,2026-08-07 22:38:00,2026-08-08 02:37:36.351326664,check pool config / reboot
+M0735,Model-X2,D,offline,2026-08-08 02:55:00,2026-08-08 05:01:16.706551326,check network / power cycle
+M0393,Model-X1,C,high_reject_rate,2026-08-08 10:28:00,2026-08-08 22:18:56.218009336,check firmware / reboot
+M0130,Model-Y1,D,hashboard_fault,2026-08-08 10:40:00,2026-08-08 17:33:58.128750621,replace hashboard
+M0247,Model-X2,C,high_temp,2026-08-08 11:27:00,2026-08-08 12:51:09.071529265,clean intake / adjust cooling
+M0723,Model-X2,C,offline,2026-08-08 13:21:00,2026-08-08 15:23:15.635735814,check network / power cycle
+M0218,Model-X2,E,zero_hashrate,2026-08-08 15:00:00,2026-08-08 16:33:27.224090450,check pool config / reboot
+M0617,Model-X1,D,offline,2026-08-08 15:33:00,2026-08-08 19:31:52.691292975,check network / power cycle
+M0158,Model-X2,F,hashboard_fault,2026-08-08 15:59:00,2026-08-08 22:26:26.469550287,replace hashboard
+M0379,Model-X1,B,zero_hashrate,2026-08-08 19:58:00,2026-08-08 22:49:17.135487358,check pool config / reboot
+M0584,Model-X2,E,zero_hashrate,2026-08-08 20:30:00,2026-08-09 00:51:18.053186479,check pool config / reboot
+M0572,Model-X2,D,fan_fault,2026-08-08 23:24:00,2026-08-09 02:49:12.280451444,replace fan
+M0465,Model-X2,A,zero_hashrate,2026-08-09 00:37:00,2026-08-09 04:00:49.644143434,check pool config / reboot
+M0497,Model-X2,F,zero_hashrate,2026-08-09 01:27:00,2026-08-09 02:29:25.119654357,check pool config / reboot
+M0259,Model-X2,E,offline,2026-08-09 05:59:00,2026-08-09 08:38:41.335216600,check network / power cycle
+M0495,Model-X1,E,high_temp,2026-08-09 08:14:00,2026-08-09 08:51:02.433369898,clean intake / adjust cooling
+M0221,Model-X2,B,zero_hashrate,2026-08-09 08:17:00,2026-08-09 11:26:58.680929422,check pool config / reboot
+M0178,Model-X2,B,hashboard_fault,2026-08-09 08:20:00,2026-08-09 11:46:24.377020654,replace hashboard
+M0219,Model-X1,D,high_temp,2026-08-09 08:23:00,2026-08-09 09:58:29.961702838,clean intake / adjust cooling
+M0634,Model-X2,F,zero_hashrate,2026-08-09 08:52:00,2026-08-09 23:49:54.923836613,check pool config / reboot
+M0234,Model-X2,E,zero_hashrate,2026-08-09 13:47:00,2026-08-09 15:53:44.474531337,check pool config / reboot
+M0709,Model-X1,F,high_temp,2026-08-09 14:04:00,2026-08-09 14:06:24.283875599,clean intake / adjust cooling
+M0179,Model-X2,C,high_temp,2026-08-09 14:09:00,2026-08-09 14:39:31.531025306,clean intake / adjust cooling
+M0225,Model-X1,D,high_temp,2026-08-09 14:42:00,2026-08-09 17:33:16.761450042,clean intake / adjust cooling
+M0640,Model-X1,F,high_temp,2026-08-09 16:09:00,2026-08-09 16:54:25.935748473,clean intake / adjust cooling
+M0260,Model-X2,F,high_temp,2026-08-09 16:43:00,2026-08-09 18:19:25.287123857,clean intake / adjust cooling
+M0748,Model-X2,A,high_temp,2026-08-09 17:31:00,2026-08-09 18:14:12.267597783,clean intake / adjust cooling
+M0319,Model-X1,E,high_temp,2026-08-09 18:14:00,2026-08-09 19:44:30.158735906,clean intake / adjust cooling
+M0060,Model-X1,F,zero_hashrate,2026-08-09 19:19:00,2026-08-09 21:31:16.684271503,check pool config / reboot
+M0101,Model-X1,E,fan_fault,2026-08-09 19:30:00,2026-08-09 21:51:04.614240764,replace fan
+M0142,Model-X1,F,zero_hashrate,2026-08-09 20:16:00,2026-08-09 21:27:43.314671770,check pool config / reboot
+M0728,Model-X2,B,zero_hashrate,2026-08-09 22:52:00,2026-08-10 03:11:18.510679717,check pool config / reboot
+M0625,Model-X2,C,high_temp,2026-08-09 23:21:00,2026-08-10 00:27:45.876292689,clean intake / adjust cooling
+M0480,Model-X1,D,zero_hashrate,2026-08-10 05:48:00,2026-08-10 10:02:18.696680125,check pool config / reboot
+M0780,Model-X2,E,high_temp,2026-08-10 10:51:00,2026-08-10 12:45:29.945944602,clean intake / adjust cooling
+M0236,Model-X1,F,fan_fault,2026-08-10 11:08:00,2026-08-10 11:25:55.606203246,replace fan
+M0580,Model-X1,E,high_temp,2026-08-10 11:09:00,2026-08-10 12:09:39.813156120,clean intake / adjust cooling
+M0193,Model-X2,E,fan_fault,2026-08-10 12:22:00,2026-08-10 17:45:19.256370272,replace fan
+M0564,Model-X2,C,fan_fault,2026-08-10 12:39:00,2026-08-10 15:42:52.510226860,replace fan
+M0665,Model-X2,D,zero_hashrate,2026-08-10 12:49:00,2026-08-10 15:14:58.993745649,check pool config / reboot
+M0658,Model-X2,F,high_temp,2026-08-10 15:17:00,2026-08-10 16:21:42.886318235,clean intake / adjust cooling
+M0375,Model-Y1,F,fan_fault,2026-08-10 15:19:00,2026-08-11 03:16:31.012185468,replace fan
+M0450,Model-Y1,B,high_temp,2026-08-10 15:53:00,2026-08-10 18:19:53.847877095,clean intake / adjust cooling
+M0673,Model-X2,D,offline,2026-08-10 16:48:00,2026-08-10 20:29:59.478133102,check network / power cycle
+M0712,Model-Y1,F,high_temp,2026-08-10 19:55:00,2026-08-10 21:08:48.356175840,clean intake / adjust cooling
+M0331,Model-X2,C,high_reject_rate,2026-08-10 20:20:00,2026-08-11 04:34:36.459568958,check firmware / reboot
+M0323,Model-X1,E,zero_hashrate,2026-08-10 20:30:00,2026-08-11 01:41:07.868323488,check pool config / reboot
+M0034,Model-X1,E,zero_hashrate,2026-08-10 20:51:00,2026-08-11 01:38:58.905147123,check pool config / reboot
+M0039,Model-X2,E,zero_hashrate,2026-08-10 22:04:00,2026-08-11 01:44:08.081166738,check pool config / reboot
+M0467,Model-X2,D,zero_hashrate,2026-08-11 01:38:00,2026-08-11 02:15:44.426855199,check pool config / reboot
+M0219,Model-X2,B,zero_hashrate,2026-08-11 03:58:00,2026-08-11 09:17:23.158226942,check pool config / reboot
+M0111,Model-Y1,F,zero_hashrate,2026-08-11 07:24:00,2026-08-11 10:59:29.508276513,check pool config / reboot
+M0355,Model-X1,C,fan_fault,2026-08-11 07:27:00,2026-08-11 08:54:21.911547491,replace fan
+M0352,Model-X1,C,high_reject_rate,2026-08-11 07:28:00,2026-08-11 19:42:38.453283845,check firmware / reboot
+M0748,Model-X2,D,hashboard_fault,2026-08-11 08:17:00,2026-08-12 01:40:02.778817690,replace hashboard
+M0082,Model-X1,F,offline,2026-08-11 10:52:00,2026-08-11 18:32:21.973894505,check network / power cycle
+M0640,Model-X1,A,fan_fault,2026-08-11 10:56:00,2026-08-11 13:30:17.284415056,replace fan
+M0778,Model-X1,B,offline,2026-08-11 12:26:00,2026-08-11 14:11:45.072662332,check network / power cycle
+M0075,Model-Y1,A,high_temp,2026-08-11 12:27:00,2026-08-11 12:33:57.902347884,clean intake / adjust cooling
+M0527,Model-X1,A,zero_hashrate,2026-08-11 12:35:00,2026-08-11 18:07:03.025487632,check pool config / reboot
+M0256,Model-X2,F,high_temp,2026-08-11 13:03:00,2026-08-11 13:16:09.590108954,clean intake / adjust cooling
+M0235,Model-X2,E,fan_fault,2026-08-11 13:06:00,2026-08-11 16:38:56.692988992,replace fan
+M0031,Model-Y1,C,offline,2026-08-11 13:33:00,2026-08-11 17:03:52.326367211,check network / power cycle
+M0490,Model-X1,F,high_reject_rate,2026-08-11 15:18:00,2026-08-11 15:47:46.262260882,check firmware / reboot
+M0587,Model-X2,C,offline,2026-08-11 16:50:00,2026-08-11 19:06:06.751517201,check network / power cycle
+M0482,Model-X2,E,zero_hashrate,2026-08-11 20:53:00,2026-08-11 20:56:28.650303417,check pool config / reboot
+M0470,Model-Y1,C,offline,2026-08-11 21:59:00,2026-08-11 23:02:45.590625748,check network / power cycle
+M0716,Model-X2,B,high_temp,2026-08-11 23:40:00,2026-08-12 02:32:26.790505667,clean intake / adjust cooling
+M0737,Model-X1,F,high_temp,2026-08-12 07:16:00,2026-08-12 10:00:46.160067135,clean intake / adjust cooling
+M0269,Model-X1,C,high_reject_rate,2026-08-12 09:25:00,2026-08-12 13:34:41.742371203,check firmware / reboot
+M0029,Model-X1,D,zero_hashrate,2026-08-12 09:45:00,2026-08-12 16:08:06.138159345,check pool config / reboot
+M0263,Model-X1,A,high_temp,2026-08-12 11:15:00,2026-08-12 11:39:59.008160022,clean intake / adjust cooling
+M0486,Model-X1,B,zero_hashrate,2026-08-12 13:51:00,2026-08-12 14:17:52.119762751,check pool config / reboot
+M0466,Model-X2,F,high_temp,2026-08-12 15:24:00,2026-08-12 16:42:09.045519563,clean intake / adjust cooling
+M0603,Model-X2,A,zero_hashrate,2026-08-12 17:31:00,2026-08-12 20:38:53.011178093,check pool config / reboot
+M0688,Model-X1,E,fan_fault,2026-08-12 18:57:00,2026-08-12 20:25:32.507192105,replace fan
+M0006,Model-X1,C,high_temp,2026-08-12 19:42:00,2026-08-12 21:37:39.351282676,clean intake / adjust cooling
+M0477,Model-Y1,D,high_reject_rate,2026-08-12 19:51:00,2026-08-12 23:45:12.445933651,check firmware / reboot
+M0603,Model-X2,F,high_temp,2026-08-12 23:17:00,2026-08-13 00:37:33.716382583,clean intake / adjust cooling
+M0246,Model-X2,F,zero_hashrate,2026-08-12 23:35:00,2026-08-13 01:26:01.439417123,check pool config / reboot
+M0656,Model-Y1,F,zero_hashrate,2026-08-13 03:37:00,2026-08-13 18:08:41.010787736,check pool config / reboot
+M0478,Model-X1,E,zero_hashrate,2026-08-13 04:13:00,2026-08-13 05:14:43.534476525,check pool config / reboot
+M0616,Model-X2,C,zero_hashrate,2026-08-13 04:24:00,2026-08-13 09:18:10.406388414,check pool config / reboot
+M0719,Model-X1,B,zero_hashrate,2026-08-13 06:06:00,2026-08-13 07:32:25.603188608,check pool config / reboot
+M0654,Model-X2,D,zero_hashrate,2026-08-13 08:43:00,2026-08-13 14:15:03.308518887,check pool config / reboot
+M0283,Model-Y1,A,high_temp,2026-08-13 10:17:00,2026-08-13 12:45:18.652565249,clean intake / adjust cooling
+M0500,Model-X2,A,high_temp,2026-08-13 11:23:00,2026-08-13 12:15:13.696506011,clean intake / adjust cooling
+M0662,Model-X2,B,zero_hashrate,2026-08-13 11:37:00,2026-08-13 14:11:50.983876247,check pool config / reboot
+M0656,Model-X1,C,high_temp,2026-08-13 12:35:00,2026-08-13 14:10:30.068032297,clean intake / adjust cooling
+M0365,Model-X2,F,hashboard_fault,2026-08-13 14:24:00,2026-08-14 10:19:41.205173586,replace hashboard
+M0330,Model-X1,C,high_temp,2026-08-13 14:54:00,2026-08-13 17:01:34.190965701,clean intake / adjust cooling
+M0620,Model-X1,D,high_temp,2026-08-13 15:02:00,2026-08-13 16:23:06.538272386,clean intake / adjust cooling
+M0142,Model-Y1,B,high_temp,2026-08-13 15:10:00,2026-08-13 16:44:03.954907800,clean intake / adjust cooling
+M0655,Model-X2,F,zero_hashrate,2026-08-13 15:26:00,2026-08-13 19:50:23.666036448,check pool config / reboot
+M0167,Model-X2,D,zero_hashrate,2026-08-13 18:01:00,2026-08-13 21:20:15.175435378,check pool config / reboot
+M0236,Model-X1,B,high_temp,2026-08-13 19:03:00,2026-08-13 20:29:27.916802942,clean intake / adjust cooling
+M0302,Model-X1,F,zero_hashrate,2026-08-13 19:09:00,2026-08-14 05:39:19.281766848,check pool config / reboot
+M0034,Model-X2,A,fan_fault,2026-08-13 22:47:00,2026-08-14 02:23:32.480490915,replace fan
+M0286,Model-X2,E,offline,2026-08-14 02:12:00,2026-08-14 03:32:54.467182421,check network / power cycle
+M0004,Model-Y1,D,offline,2026-08-14 03:06:00,2026-08-14 04:00:35.187574849,check network / power cycle
+M0465,Model-X2,F,zero_hashrate,2026-08-14 04:21:00,2026-08-14 11:22:57.381217275,check pool config / reboot
+M0785,Model-X2,E,zero_hashrate,2026-08-14 05:25:00,2026-08-14 07:02:08.569650257,check pool config / reboot
+M0707,Model-X1,C,high_temp,2026-08-14 05:48:00,2026-08-14 08:35:23.081437237,clean intake / adjust cooling
+M0142,Model-X1,D,high_temp,2026-08-14 08:21:00,2026-08-14 09:26:06.511942774,clean intake / adjust cooling
+M0786,Model-X2,E,high_temp,2026-08-14 09:44:00,2026-08-14 10:13:40.658685552,clean intake / adjust cooling
+M0479,Model-X1,E,offline,2026-08-14 10:37:00,2026-08-14 14:51:48.454537906,check network / power cycle
+M0222,Model-X1,E,high_temp,2026-08-14 12:18:00,2026-08-14 12:22:31.182897176,clean intake / adjust cooling
+M0666,Model-X2,E,zero_hashrate,2026-08-14 13:09:00,2026-08-14 14:14:27.115663637,check pool config / reboot
+M0296,Model-X2,E,fan_fault,2026-08-14 13:17:00,2026-08-14 19:27:11.512467986,replace fan
+M0145,Model-Y1,E,fan_fault,2026-08-14 13:30:00,2026-08-14 16:47:28.470040305,replace fan
+M0176,Model-X2,F,zero_hashrate,2026-08-14 14:28:00,2026-08-14 18:54:14.563271660,check pool config / reboot
+M0574,Model-X2,D,zero_hashrate,2026-08-14 14:47:00,2026-08-14 19:46:31.284371112,check pool config / reboot
+M0594,Model-X1,F,high_temp,2026-08-14 15:25:00,2026-08-14 16:46:17.764713271,clean intake / adjust cooling
+M0380,Model-X2,F,high_temp,2026-08-14 15:28:00,2026-08-14 16:12:55.399447188,clean intake / adjust cooling
+M0282,Model-X1,E,zero_hashrate,2026-08-14 15:41:00,2026-08-14 17:11:59.147084670,check pool config / reboot
+M0292,Model-X2,C,high_reject_rate,2026-08-14 17:11:00,2026-08-14 21:06:31.952937291,check firmware / reboot
+M0075,Model-X2,E,high_temp,2026-08-14 17:18:00,2026-08-14 17:56:37.524912898,clean intake / adjust cooling
+M0087,Model-X2,B,offline,2026-08-14 17:29:00,2026-08-14 18:00:56.890897203,check network / power cycle
+M0039,Model-X2,F,high_temp,2026-08-14 20:46:00,2026-08-14 21:43:46.434956349,clean intake / adjust cooling
+M0208,Model-X2,C,zero_hashrate,2026-08-14 22:15:00,2026-08-14 23:00:34.100012276,check pool config / reboot
+M0666,Model-X2,B,zero_hashrate,2026-08-15 00:45:00,2026-08-15 02:42:06.444829721,check pool config / reboot
+M0698,Model-X2,E,offline,2026-08-15 02:22:00,2026-08-15 05:57:29.816886398,check network / power cycle
+M0127,Model-X2,C,high_temp,2026-08-15 02:52:00,2026-08-15 04:36:01.109328527,clean intake / adjust cooling
+M0717,Model-Y1,E,high_temp,2026-08-15 07:01:00,2026-08-15 08:22:02.783105523,clean intake / adjust cooling
+M0056,Model-X1,E,high_temp,2026-08-15 07:09:00,2026-08-15 08:50:33.675731263,clean intake / adjust cooling
+M0798,Model-X1,A,high_temp,2026-08-15 09:46:00,2026-08-15 11:11:20.243906430,clean intake / adjust cooling
+M0706,Model-X1,C,high_temp,2026-08-15 10:45:00,2026-08-15 11:42:15.843400518,clean intake / adjust cooling
+M0653,Model-X1,F,high_temp,2026-08-15 12:30:00,2026-08-15 13:33:56.373543169,clean intake / adjust cooling
+M0666,Model-Y1,F,hashboard_fault,2026-08-15 14:36:00,2026-08-16 00:45:17.800540520,replace hashboard
+M0650,Model-X1,B,high_temp,2026-08-15 14:39:00,2026-08-15 16:18:14.051308784,clean intake / adjust cooling
+M0774,Model-X1,F,high_temp,2026-08-15 14:44:00,2026-08-15 15:01:32.619422465,clean intake / adjust cooling
+M0797,Model-X2,C,high_temp,2026-08-15 15:47:00,2026-08-15 17:56:48.714956521,clean intake / adjust cooling
+M0416,Model-X2,D,hashboard_fault,2026-08-15 17:33:00,2026-08-16 00:44:18.401313937,replace hashboard
+M0412,Model-X1,E,high_reject_rate,2026-08-15 19:13:00,2026-08-15 20:49:18.864760858,check firmware / reboot
+M0395,Model-X2,F,offline,2026-08-15 19:28:00,2026-08-15 22:58:22.182439230,check network / power cycle
+M0600,Model-X1,F,high_temp,2026-08-15 20:50:00,2026-08-15 22:18:24.492513296,clean intake / adjust cooling
+M0513,Model-X1,A,high_temp,2026-08-15 21:02:00,2026-08-15 21:56:30.705187622,clean intake / adjust cooling
+M0037,Model-X1,C,hashboard_fault,2026-08-16 00:14:00,2026-08-16 11:30:22.208495364,replace hashboard
+M0185,Model-X2,C,zero_hashrate,2026-08-16 02:54:00,2026-08-16 05:33:52.218652902,check pool config / reboot
+M0110,Model-X1,E,hashboard_fault,2026-08-16 06:20:00,2026-08-16 16:05:14.278620144,replace hashboard
+M0464,Model-X2,E,offline,2026-08-16 07:22:00,2026-08-16 07:30:41.351295440,check network / power cycle
+M0677,Model-X2,B,hashboard_fault,2026-08-16 08:31:00,2026-08-16 15:13:52.599367906,replace hashboard
+M0301,Model-X2,E,high_temp,2026-08-16 09:48:00,2026-08-16 10:54:37.343250800,clean intake / adjust cooling
+M0691,Model-X2,F,offline,2026-08-16 10:33:00,2026-08-16 12:44:41.643684541,check network / power cycle
+M0418,Model-X1,E,zero_hashrate,2026-08-16 11:09:00,2026-08-16 16:29:55.871184418,check pool config / reboot
+M0219,Model-Y1,F,high_temp,2026-08-16 11:42:00,2026-08-16 16:43:25.629060822,clean intake / adjust cooling
+M0385,Model-Y1,B,zero_hashrate,2026-08-16 12:33:00,2026-08-16 16:20:36.904788468,check pool config / reboot
+M0660,Model-X1,A,high_temp,2026-08-16 13:27:00,2026-08-16 14:51:01.424174403,clean intake / adjust cooling
+M0008,Model-Y1,B,high_temp,2026-08-16 14:14:00,2026-08-16 16:55:10.357520985,clean intake / adjust cooling
+M0251,Model-X1,E,high_temp,2026-08-16 14:18:00,2026-08-16 15:21:44.874113188,clean intake / adjust cooling
+M0700,Model-X1,D,zero_hashrate,2026-08-16 15:34:00,2026-08-16 20:08:25.355648662,check pool config / reboot
+M0497,Model-Y1,E,offline,2026-08-16 16:13:00,2026-08-16 17:50:20.368810041,check network / power cycle
+M0164,Model-X2,B,high_temp,2026-08-16 16:18:00,2026-08-16 18:35:36.779904718,clean intake / adjust cooling
+M0404,Model-X2,B,zero_hashrate,2026-08-16 16:18:00,2026-08-16 16:51:41.686595368,check pool config / reboot
+M0192,Model-X2,D,high_temp,2026-08-16 17:27:00,2026-08-16 18:20:28.161673863,clean intake / adjust cooling
+M0202,Model-X2,E,zero_hashrate,2026-08-16 19:36:00,2026-08-17 02:05:09.288094621,check pool config / reboot
+M0594,Model-X1,A,high_temp,2026-08-16 19:50:00,2026-08-16 22:33:27.774802950,clean intake / adjust cooling
+M0239,Model-X1,F,high_temp,2026-08-16 23:06:00,2026-08-17 01:32:50.275105225,clean intake / adjust cooling
+M0545,Model-X1,B,high_reject_rate,2026-08-16 23:50:00,2026-08-17 03:16:06.687214561,check firmware / reboot
+M0211,Model-Y1,E,hashboard_fault,2026-08-17 00:21:00,2026-08-17 07:43:51.409617464,replace hashboard
+M0365,Model-Y1,E,fan_fault,2026-08-17 02:51:00,2026-08-17 05:42:32.938284999,replace fan
+M0662,Model-X1,E,offline,2026-08-17 03:26:00,2026-08-17 07:21:41.701883296,check network / power cycle
+M0659,Model-X1,F,high_reject_rate,2026-08-17 03:50:00,2026-08-17 18:43:57.517955817,check firmware / reboot
+M0039,Model-X1,F,offline,2026-08-17 10:15:00,2026-08-17 12:01:18.540423606,check network / power cycle
+M0363,Model-X2,E,high_reject_rate,2026-08-17 13:05:00,2026-08-17 16:31:23.609084135,check firmware / reboot
+M0100,Model-X1,F,high_temp,2026-08-17 16:24:00,2026-08-17 18:05:26.008257367,clean intake / adjust cooling
+M0270,Model-X1,D,high_reject_rate,2026-08-17 16:57:00,2026-08-17 20:17:27.757044719,check firmware / reboot
+M0286,Model-Y1,E,hashboard_fault,2026-08-17 19:30:00,2026-08-18 07:21:11.112999550,replace hashboard
+M0748,Model-X2,A,fan_fault,2026-08-18 00:18:00,2026-08-18 01:20:33.388451625,replace fan
+M0777,Model-X1,A,hashboard_fault,2026-08-18 00:56:00,2026-08-18 01:19:19.537927075,replace hashboard
+M0428,Model-X1,E,high_temp,2026-08-18 03:16:00,2026-08-18 04:46:01.346155301,clean intake / adjust cooling
+M0485,Model-X2,A,fan_fault,2026-08-18 03:58:00,2026-08-18 12:38:11.833009850,replace fan
+M0649,Model-Y1,A,hashboard_fault,2026-08-18 04:01:00,2026-08-18 16:56:57.979132955,replace hashboard
+M0712,Model-X1,F,zero_hashrate,2026-08-18 04:06:00,2026-08-18 07:39:52.124271867,check pool config / reboot
+M0199,Model-X2,B,high_temp,2026-08-18 07:16:00,2026-08-18 08:49:08.629550159,clean intake / adjust cooling
+M0031,Model-X1,D,zero_hashrate,2026-08-18 07:29:00,2026-08-18 08:30:27.380237058,check pool config / reboot
+M0681,Model-X2,F,offline,2026-08-18 08:02:00,2026-08-18 09:01:28.849631014,check network / power cycle
+M0368,Model-X1,E,high_temp,2026-08-18 08:23:00,2026-08-18 11:01:53.207299668,clean intake / adjust cooling
+M0614,Model-Y1,C,high_temp,2026-08-18 08:48:00,2026-08-18 09:07:00.882432200,clean intake / adjust cooling
+M0793,Model-X1,D,hashboard_fault,2026-08-18 09:48:00,2026-08-18 22:09:34.342544653,replace hashboard
+M0584,Model-Y1,E,high_temp,2026-08-18 10:03:00,2026-08-18 11:06:37.051842332,clean intake / adjust cooling
+M0627,Model-X2,D,high_reject_rate,2026-08-18 10:13:00,2026-08-18 15:36:19.387221113,check firmware / reboot
+M0774,Model-X1,E,hashboard_fault,2026-08-18 11:15:00,2026-08-19 09:49:41.834305264,replace hashboard
+M0453,Model-X1,D,offline,2026-08-18 11:26:00,2026-08-18 12:15:20.918823121,check network / power cycle
+M0196,Model-X1,B,fan_fault,2026-08-18 11:38:00,2026-08-18 12:17:52.322262125,replace fan
+M0431,Model-Y1,B,high_temp,2026-08-18 11:52:00,2026-08-18 15:23:03.160785767,clean intake / adjust cooling
+M0372,Model-X1,D,high_temp,2026-08-18 12:00:00,2026-08-18 12:46:45.173076944,clean intake / adjust cooling
+M0746,Model-Y1,E,hashboard_fault,2026-08-18 15:36:00,2026-08-18 23:01:18.137345277,replace hashboard
+M0317,Model-X2,A,high_temp,2026-08-18 16:54:00,2026-08-18 18:31:29.117195217,clean intake / adjust cooling
+M0034,Model-X2,C,high_temp,2026-08-18 17:25:00,2026-08-18 21:22:12.165413041,clean intake / adjust cooling
+M0626,Model-X1,E,high_temp,2026-08-18 17:36:00,2026-08-18 18:47:34.939764960,clean intake / adjust cooling
+M0224,Model-X2,E,zero_hashrate,2026-08-19 01:18:00,2026-08-19 07:54:51.844960320,check pool config / reboot
+M0568,Model-X2,B,high_reject_rate,2026-08-19 01:31:00,2026-08-19 13:21:59.300549412,check firmware / reboot
+M0608,Model-X1,F,fan_fault,2026-08-19 02:00:00,2026-08-19 04:10:34.469552693,replace fan
+M0223,Model-X2,C,high_temp,2026-08-19 04:06:00,2026-08-19 05:04:13.523496196,clean intake / adjust cooling
+M0600,Model-X1,D,zero_hashrate,2026-08-19 04:33:00,2026-08-19 07:49:50.496854668,check pool config / reboot
+M0552,Model-X1,D,high_temp,2026-08-19 09:25:00,2026-08-19 10:48:13.506236198,clean intake / adjust cooling
+M0402,Model-Y1,E,zero_hashrate,2026-08-19 11:44:00,2026-08-19 14:31:41.723747840,check pool config / reboot
+M0416,Model-X1,F,high_temp,2026-08-19 13:16:00,2026-08-19 16:17:46.872444465,clean intake / adjust cooling
+M0302,Model-X1,E,offline,2026-08-19 14:03:00,2026-08-19 15:25:41.751691649,check network / power cycle
+M0736,Model-Y1,C,fan_fault,2026-08-19 15:03:00,2026-08-19 16:25:23.169324604,replace fan
+M0526,Model-X2,A,offline,2026-08-19 15:11:00,2026-08-19 17:26:14.345784998,check network / power cycle
+M0771,Model-X2,B,high_temp,2026-08-19 15:34:00,2026-08-19 16:34:46.389096696,clean intake / adjust cooling
+M0779,Model-Y1,C,zero_hashrate,2026-08-19 19:27:00,2026-08-19 21:17:39.716487393,check pool config / reboot
+M0793,Model-X1,E,high_temp,2026-08-19 20:56:00,2026-08-19 21:54:56.303403949,clean intake / adjust cooling
+M0686,Model-X2,F,zero_hashrate,2026-08-19 21:56:00,2026-08-20 02:07:26.844310705,check pool config / reboot
+M0065,Model-X1,D,fan_fault,2026-08-19 22:16:00,2026-08-20 00:50:16.460857524,replace fan
+M0748,Model-X1,F,offline,2026-08-19 22:37:00,2026-08-20 02:55:41.468102262,check network / power cycle
+M0755,Model-X2,E,zero_hashrate,2026-08-19 22:52:00,2026-08-20 07:19:49.842061277,check pool config / reboot
+M0616,Model-Y1,A,high_temp,2026-08-19 23:01:00,2026-08-20 01:30:32.579572520,clean intake / adjust cooling
+M0400,Model-X2,A,high_temp,2026-08-19 23:02:00,2026-08-19 23:58:14.126658974,clean intake / adjust cooling
+M0408,Model-X2,B,zero_hashrate,2026-08-19 23:54:00,2026-08-20 03:24:23.749204594,check pool config / reboot
+M0472,Model-X2,B,zero_hashrate,2026-08-20 00:28:00,2026-08-20 12:30:45.592205289,check pool config / reboot
+M0286,Model-Y1,C,zero_hashrate,2026-08-20 01:54:00,2026-08-20 06:12:49.197672696,check pool config / reboot
+M0461,Model-Y1,E,hashboard_fault,2026-08-20 02:00:00,2026-08-20 12:23:47.185793078,replace hashboard
+M0110,Model-X2,F,offline,2026-08-20 02:30:00,2026-08-20 06:10:10.575315111,check network / power cycle
+M0044,Model-X2,E,fan_fault,2026-08-20 06:55:00,2026-08-20 09:37:20.675819628,replace fan
+M0176,Model-X1,A,fan_fault,2026-08-20 07:42:00,2026-08-20 08:47:00.253662657,replace fan
+M0641,Model-Y1,D,high_temp,2026-08-20 08:48:00,2026-08-20 10:20:35.588387067,clean intake / adjust cooling
+M0300,Model-X1,F,high_temp,2026-08-20 09:40:00,2026-08-20 13:17:36.109429823,clean intake / adjust cooling
+M0203,Model-X1,F,zero_hashrate,2026-08-20 11:11:00,2026-08-20 12:21:50.008040918,check pool config / reboot
+M0104,Model-X1,A,offline,2026-08-20 11:55:00,2026-08-20 13:20:06.593022342,check network / power cycle
+M0748,Model-X2,C,high_temp,2026-08-20 13:59:00,2026-08-20 14:51:26.539604138,clean intake / adjust cooling
+M0428,Model-X2,F,zero_hashrate,2026-08-20 14:31:00,2026-08-20 20:39:24.785015095,check pool config / reboot
+M0393,Model-X2,D,high_temp,2026-08-20 18:55:00,2026-08-20 22:23:14.438870885,clean intake / adjust cooling
+M0180,Model-Y1,E,zero_hashrate,2026-08-20 20:44:00,2026-08-21 08:56:41.767745239,check pool config / reboot
+M0391,Model-X2,A,zero_hashrate,2026-08-20 22:31:00,2026-08-21 02:26:57.481568769,check pool config / reboot
+M0037,Model-X2,C,zero_hashrate,2026-08-20 23:52:00,2026-08-21 06:24:44.350230566,check pool config / reboot
+M0560,Model-X2,B,offline,2026-08-21 03:35:00,2026-08-21 09:08:39.089445273,check network / power cycle
+M0304,Model-X1,A,fan_fault,2026-08-21 03:49:00,2026-08-21 09:05:10.890368310,replace fan
+M0753,Model-X2,B,high_reject_rate,2026-08-21 05:00:00,2026-08-21 08:12:42.373113057,check firmware / reboot
+M0223,Model-X2,F,high_temp,2026-08-21 05:49:00,2026-08-21 06:34:19.987902607,clean intake / adjust cooling
+M0139,Model-X1,A,offline,2026-08-21 07:44:00,2026-08-21 12:45:47.216343864,check network / power cycle
+M0719,Model-X2,F,high_temp,2026-08-21 08:38:00,2026-08-21 09:34:16.421058648,clean intake / adjust cooling
+M0586,Model-X1,B,zero_hashrate,2026-08-21 09:15:00,2026-08-21 12:40:11.692074648,check pool config / reboot
+M0529,Model-X2,E,high_temp,2026-08-21 10:32:00,2026-08-21 11:25:09.630920820,clean intake / adjust cooling
+M0149,Model-X2,D,high_temp,2026-08-21 17:14:00,2026-08-21 18:49:24.322465921,clean intake / adjust cooling
+M0520,Model-X1,E,high_temp,2026-08-21 17:34:00,2026-08-21 18:57:48.829599117,clean intake / adjust cooling
+M0631,Model-Y1,B,high_temp,2026-08-21 18:47:00,2026-08-21 23:40:25.908465647,clean intake / adjust cooling
+M0282,Model-Y1,F,fan_fault,2026-08-21 19:56:00,2026-08-22 03:57:05.668174608,replace fan
+M0618,Model-Y1,D,high_temp,2026-08-21 20:20:00,2026-08-21 21:20:46.184094961,clean intake / adjust cooling
+M0482,Model-X1,C,fan_fault,2026-08-21 20:51:00,2026-08-21 23:46:05.641549650,replace fan
+M0701,Model-Y1,B,hashboard_fault,2026-08-21 22:41:00,2026-08-22 02:14:18.645182139,replace hashboard
+M0757,Model-X2,A,high_temp,2026-08-21 23:16:00,2026-08-22 02:34:38.085751998,clean intake / adjust cooling
+M0214,Model-X1,D,offline,2026-08-21 23:38:00,2026-08-22 02:45:37.138272093,check network / power cycle
+M0150,Model-X2,E,fan_fault,2026-08-22 00:26:00,2026-08-22 02:40:07.741008395,replace fan
+M0645,Model-X2,D,zero_hashrate,2026-08-22 01:08:00,2026-08-22 03:03:30.057100820,check pool config / reboot
+M0134,Model-Y1,B,offline,2026-08-22 01:37:00,2026-08-22 03:14:39.695381939,check network / power cycle
+M0304,Model-X1,D,zero_hashrate,2026-08-22 03:45:00,2026-08-22 04:18:23.602373851,check pool config / reboot
+M0217,Model-X2,A,zero_hashrate,2026-08-22 06:24:00,2026-08-22 16:25:44.741280266,check pool config / reboot
+M0673,Model-X2,F,fan_fault,2026-08-22 09:01:00,2026-08-22 10:52:34.410740114,replace fan
+M0223,Model-X2,E,zero_hashrate,2026-08-22 09:04:00,2026-08-22 18:54:40.724140508,check pool config / reboot
+M0713,Model-X1,F,fan_fault,2026-08-22 11:26:00,2026-08-22 13:56:46.612987055,replace fan
+M0385,Model-X1,D,high_temp,2026-08-22 12:07:00,2026-08-22 13:05:36.052919239,clean intake / adjust cooling
+M0159,Model-X2,E,zero_hashrate,2026-08-22 13:30:00,2026-08-22 15:38:06.054595694,check pool config / reboot
+M0395,Model-X2,D,offline,2026-08-22 14:02:00,2026-08-22 14:36:51.493796867,check network / power cycle
+M0660,Model-X2,F,high_reject_rate,2026-08-22 14:27:00,2026-08-22 22:50:28.760301853,check firmware / reboot
+M0645,Model-X2,F,hashboard_fault,2026-08-22 15:01:00,2026-08-23 16:19:25.064840121,replace hashboard
+M0308,Model-X2,D,fan_fault,2026-08-22 17:45:00,2026-08-22 18:40:41.832789604,replace fan
+M0712,Model-X2,E,zero_hashrate,2026-08-22 18:00:00,2026-08-22 23:05:07.821718900,check pool config / reboot
+M0619,Model-X2,D,offline,2026-08-22 20:22:00,2026-08-22 21:48:36.545197399,check network / power cycle
+M0666,Model-X2,C,zero_hashrate,2026-08-22 21:58:00,2026-08-23 00:56:16.339796611,check pool config / reboot
+M0034,Model-X2,F,hashboard_fault,2026-08-22 23:08:00,2026-08-23 02:31:39.542586635,replace hashboard
+M0506,Model-X1,D,high_reject_rate,2026-08-23 05:38:00,2026-08-23 07:29:50.316744497,check firmware / reboot
+M0154,Model-X2,F,offline,2026-08-23 07:29:00,2026-08-23 10:26:25.262908785,check network / power cycle
+M0372,Model-X2,F,high_reject_rate,2026-08-23 09:19:00,2026-08-23 10:14:40.706968356,check firmware / reboot
+M0523,Model-X2,F,high_temp,2026-08-23 10:13:00,2026-08-23 11:45:44.819799494,clean intake / adjust cooling
+M0750,Model-X2,E,zero_hashrate,2026-08-23 11:19:00,2026-08-23 13:21:21.084810296,check pool config / reboot
+M0417,Model-X1,C,zero_hashrate,2026-08-23 12:23:00,2026-08-23 15:58:15.194294542,check pool config / reboot
+M0205,Model-X2,F,high_temp,2026-08-23 13:36:00,2026-08-23 14:46:26.237185618,clean intake / adjust cooling
+M0039,Model-Y1,B,zero_hashrate,2026-08-23 14:31:00,2026-08-23 20:49:37.372837205,check pool config / reboot
+M0696,Model-X2,C,fan_fault,2026-08-23 15:40:00,2026-08-23 16:56:00.376333448,replace fan
+M0647,Model-X2,E,high_temp,2026-08-23 16:02:00,2026-08-23 17:00:32.866698102,clean intake / adjust cooling
+M0073,Model-Y1,A,fan_fault,2026-08-23 17:45:00,2026-08-23 17:49:05.992975265,replace fan
+M0075,Model-X2,A,offline,2026-08-23 19:43:00,2026-08-23 20:17:53.717320634,check network / power cycle
+M0112,Model-X1,B,zero_hashrate,2026-08-23 19:54:00,2026-08-23 20:57:25.111454199,check pool config / reboot
+M0451,Model-X1,C,hashboard_fault,2026-08-23 22:01:00,2026-08-24 04:19:20.392271116,replace hashboard
+M0039,Model-X2,F,high_temp,2026-08-23 22:16:00,2026-08-23 22:41:25.912019837,clean intake / adjust cooling
+M0136,Model-X1,F,zero_hashrate,2026-08-23 22:34:00,2026-08-24 01:43:27.385948568,check pool config / reboot
+M0758,Model-X2,C,high_temp,2026-08-23 22:49:00,2026-08-23 23:34:31.082677560,clean intake / adjust cooling
+M0666,Model-X2,E,zero_hashrate,2026-08-24 00:34:00,2026-08-24 03:45:35.739212508,check pool config / reboot
+M0449,Model-X2,F,zero_hashrate,2026-08-24 01:57:00,2026-08-24 05:06:03.970973312,check pool config / reboot
+M0144,Model-X1,B,zero_hashrate,2026-08-24 02:48:00,2026-08-24 06:20:03.350345892,check pool config / reboot
+M0591,Model-X1,B,high_temp,2026-08-24 06:58:00,2026-08-24 08:07:05.779329034,clean intake / adjust cooling
+M0670,Model-X2,E,high_temp,2026-08-24 07:53:00,2026-08-24 11:19:40.689342735,clean intake / adjust cooling
+M0200,Model-X1,B,high_temp,2026-08-24 08:47:00,2026-08-24 11:51:43.084351892,clean intake / adjust cooling
+M0246,Model-X1,F,zero_hashrate,2026-08-24 09:26:00,2026-08-24 14:20:05.909820956,check pool config / reboot
+M0770,Model-Y1,C,fan_fault,2026-08-24 12:22:00,2026-08-24 14:02:17.031963340,replace fan
+M0137,Model-Y1,D,offline,2026-08-24 12:56:00,2026-08-24 13:22:37.054187426,check network / power cycle
+M0776,Model-X2,E,fan_fault,2026-08-24 13:08:00,2026-08-24 14:34:46.068414154,replace fan
+M0712,Model-X1,D,high_reject_rate,2026-08-24 13:30:00,2026-08-24 23:01:55.695916773,check firmware / reboot
+M0364,Model-X1,E,offline,2026-08-24 14:00:00,2026-08-24 19:09:59.699379251,check network / power cycle
+M0751,Model-X2,F,high_temp,2026-08-24 14:37:00,2026-08-24 21:17:08.209445854,clean intake / adjust cooling
+M0314,Model-X2,F,high_temp,2026-08-24 15:44:00,2026-08-24 16:18:19.478554195,clean intake / adjust cooling
+M0047,Model-X2,D,high_temp,2026-08-24 19:31:00,2026-08-24 22:16:46.814060406,clean intake / adjust cooling
+M0676,Model-X2,F,fan_fault,2026-08-24 22:17:00,2026-08-25 01:13:58.773253818,replace fan
+M0450,Model-X2,E,zero_hashrate,2026-08-24 22:33:00,2026-08-25 02:03:16.006888312,check pool config / reboot
+M0790,Model-X1,E,fan_fault,2026-08-24 23:53:00,2026-08-25 02:24:19.879690115,replace fan
+M0352,Model-X2,E,offline,2026-08-25 03:55:00,2026-08-25 08:13:18.645801151,check network / power cycle
+M0175,Model-Y1,A,zero_hashrate,2026-08-25 06:58:00,2026-08-25 12:41:51.473373122,check pool config / reboot
+M0767,Model-Y1,F,fan_fault,2026-08-25 10:41:00,2026-08-25 11:02:14.947751503,replace fan
+M0685,Model-X2,E,zero_hashrate,2026-08-25 10:47:00,2026-08-25 16:25:00.110727879,check pool config / reboot
+M0799,Model-X2,C,high_temp,2026-08-25 13:59:00,2026-08-25 15:56:11.418471510,clean intake / adjust cooling
+M0338,Model-X2,C,offline,2026-08-25 14:25:00,2026-08-25 18:45:45.311222590,check network / power cycle
+M0729,Model-Y1,E,hashboard_fault,2026-08-25 16:02:00,2026-08-25 18:27:52.869065523,replace hashboard
+M0616,Model-X2,B,high_temp,2026-08-25 17:30:00,2026-08-25 20:07:05.687480603,clean intake / adjust cooling
+M0280,Model-X2,F,offline,2026-08-25 18:21:00,2026-08-25 19:05:15.496085974,check network / power cycle
+M0211,Model-X1,A,zero_hashrate,2026-08-25 19:34:00,2026-08-25 20:29:22.547728701,check pool config / reboot
+M0785,Model-X1,A,zero_hashrate,2026-08-25 22:35:00,2026-08-26 01:24:30.061602698,check pool config / reboot
+M0583,Model-X2,F,high_temp,2026-08-25 23:22:00,2026-08-26 03:58:35.184514967,clean intake / adjust cooling
+M0417,Model-X2,B,fan_fault,2026-08-26 00:14:00,2026-08-26 03:52:45.282259236,replace fan
+M0398,Model-Y1,B,fan_fault,2026-08-26 06:37:00,2026-08-26 10:56:02.918905872,replace fan
+M0261,Model-X1,D,offline,2026-08-26 07:09:00,2026-08-26 08:21:02.458367902,check network / power cycle
+M0086,Model-X2,F,high_reject_rate,2026-08-26 07:34:00,2026-08-26 18:17:28.014471635,check firmware / reboot
+M0570,Model-X1,E,high_temp,2026-08-26 10:58:00,2026-08-26 12:10:34.682402447,clean intake / adjust cooling
+M0426,Model-X2,B,high_temp,2026-08-26 11:07:00,2026-08-26 16:42:22.515172870,clean intake / adjust cooling
+M0344,Model-X2,F,zero_hashrate,2026-08-26 13:23:00,2026-08-26 18:37:00.486722644,check pool config / reboot
+M0779,Model-X1,F,high_reject_rate,2026-08-26 14:36:00,2026-08-26 20:13:26.233102413,check firmware / reboot
+M0428,Model-X1,E,high_temp,2026-08-26 15:53:00,2026-08-26 18:26:00.882568067,clean intake / adjust cooling
+M0323,Model-Y1,F,zero_hashrate,2026-08-26 16:19:00,2026-08-26 18:15:24.868603343,check pool config / reboot
+M0550,Model-X2,D,high_temp,2026-08-26 16:20:00,2026-08-26 16:57:24.547795713,clean intake / adjust cooling
+M0129,Model-X2,E,hashboard_fault,2026-08-26 17:03:00,2026-08-27 00:14:14.063675471,replace hashboard
+M0256,Model-X1,C,zero_hashrate,2026-08-26 18:36:00,2026-08-26 20:39:33.935773484,check pool config / reboot
+M0742,Model-X2,A,high_temp,2026-08-26 19:16:00,2026-08-26 19:22:34.655875475,clean intake / adjust cooling
+M0142,Model-Y1,F,zero_hashrate,2026-08-26 21:14:00,2026-08-26 22:29:26.595487310,check pool config / reboot
+M0083,Model-Y1,D,high_temp,2026-08-26 21:17:00,2026-08-26 23:00:28.784429418,clean intake / adjust cooling
+M0736,Model-X1,D,high_temp,2026-08-26 21:52:00,2026-08-26 23:19:02.120592831,clean intake / adjust cooling
+M0246,Model-X2,E,zero_hashrate,2026-08-26 22:36:00,2026-08-27 02:15:50.047727455,check pool config / reboot
+M0134,Model-X2,F,hashboard_fault,2026-08-26 23:23:00,2026-08-27 06:53:55.460662274,replace hashboard
+M0503,Model-X1,F,zero_hashrate,2026-08-26 23:38:00,2026-08-27 00:44:55.186089585,check pool config / reboot
+M0486,Model-X2,B,offline,2026-08-26 23:47:00,2026-08-27 00:55:27.369739690,check network / power cycle
+M0075,Model-X1,E,fan_fault,2026-08-27 00:18:00,2026-08-27 02:02:24.396748489,replace fan
+M0519,Model-X1,D,offline,2026-08-27 02:13:00,2026-08-27 02:52:05.181066544,check network / power cycle
+M0103,Model-X1,A,high_temp,2026-08-27 02:16:00,2026-08-27 02:42:53.367091292,clean intake / adjust cooling
+M0096,Model-X1,A,zero_hashrate,2026-08-27 04:00:00,2026-08-27 05:25:45.080830177,check pool config / reboot
+M0006,Model-X2,A,zero_hashrate,2026-08-27 06:20:00,2026-08-27 14:36:23.636496915,check pool config / reboot
+M0458,Model-X2,A,high_temp,2026-08-27 09:11:00,2026-08-27 10:11:00.662427346,clean intake / adjust cooling
+M0064,Model-X2,C,high_temp,2026-08-27 09:31:00,2026-08-27 11:39:46.951662525,clean intake / adjust cooling
+M0712,Model-X2,F,high_temp,2026-08-27 09:53:00,2026-08-27 14:32:33.499557472,clean intake / adjust cooling
+M0384,Model-X1,B,high_temp,2026-08-27 11:26:00,2026-08-27 11:54:22.092362106,clean intake / adjust cooling
+M0039,Model-X1,C,high_temp,2026-08-27 11:34:00,2026-08-27 14:41:46.577068953,clean intake / adjust cooling
+M0417,Model-X2,D,high_temp,2026-08-27 11:34:00,2026-08-27 12:51:30.726478808,clean intake / adjust cooling
+M0417,Model-X1,E,high_temp,2026-08-27 11:39:00,2026-08-27 13:35:46.563744095,clean intake / adjust cooling
+M0521,Model-X1,B,high_temp,2026-08-27 12:23:00,2026-08-27 12:43:54.744546393,clean intake / adjust cooling
+M0285,Model-X2,E,high_temp,2026-08-27 12:25:00,2026-08-27 13:42:52.748370328,clean intake / adjust cooling
+M0227,Model-X2,D,fan_fault,2026-08-27 12:30:00,2026-08-27 14:01:22.220859226,replace fan
+M0732,Model-Y1,E,high_temp,2026-08-27 13:03:00,2026-08-27 15:17:32.597041783,clean intake / adjust cooling
+M0318,Model-X1,F,high_temp,2026-08-27 13:15:00,2026-08-27 14:22:58.220392073,clean intake / adjust cooling
+M0708,Model-Y1,E,hashboard_fault,2026-08-27 13:19:00,2026-08-27 17:10:39.068462908,replace hashboard
+M0104,Model-X2,F,high_reject_rate,2026-08-27 14:42:00,2026-08-27 18:25:48.259377888,check firmware / reboot
+M0483,Model-X2,F,high_temp,2026-08-27 14:59:00,2026-08-27 17:34:21.953332402,clean intake / adjust cooling
+M0763,Model-X1,E,high_temp,2026-08-27 15:34:00,2026-08-27 17:04:37.830788502,clean intake / adjust cooling
+M0712,Model-X2,D,high_temp,2026-08-27 16:57:00,2026-08-27 17:29:40.063649212,clean intake / adjust cooling
+M0016,Model-X1,B,high_temp,2026-08-27 17:41:00,2026-08-27 18:59:05.011639734,clean intake / adjust cooling
+M0747,Model-X2,B,high_reject_rate,2026-08-27 19:34:00,2026-08-27 21:19:44.042968887,check firmware / reboot
+M0499,Model-X1,E,high_temp,2026-08-27 19:39:00,2026-08-27 23:18:27.672707366,clean intake / adjust cooling
+M0437,Model-Y1,D,high_temp,2026-08-27 23:37:00,2026-08-28 02:39:28.299949299,clean intake / adjust cooling
+M0763,Model-X2,F,zero_hashrate,2026-08-27 23:48:00,2026-08-28 13:14:38.170498583,check pool config / reboot
+M0508,Model-X1,F,fan_fault,2026-08-28 00:00:00,2026-08-28 01:01:34.509999921,replace fan
+M0749,Model-X2,D,high_temp,2026-08-28 00:15:00,2026-08-28 01:51:25.094005036,clean intake / adjust cooling
+M0750,Model-X1,D,offline,2026-08-28 00:39:00,2026-08-28 01:49:01.144356426,check network / power cycle
+M0269,Model-Y1,A,high_temp,2026-08-28 03:40:00,2026-08-28 04:27:09.955708901,clean intake / adjust cooling
+M0254,Model-X1,E,zero_hashrate,2026-08-28 04:45:00,2026-08-28 10:33:47.309225665,check pool config / reboot
+M0140,Model-X1,E,hashboard_fault,2026-08-28 04:54:00,2026-08-28 08:00:28.479375276,replace hashboard
+M0497,Model-X2,E,offline,2026-08-28 05:04:00,2026-08-28 06:27:31.922005227,check network / power cycle
+M0761,Model-X2,A,high_temp,2026-08-28 07:23:00,2026-08-28 08:27:11.099859575,clean intake / adjust cooling
+M0129,Model-Y1,B,zero_hashrate,2026-08-28 07:26:00,2026-08-28 07:52:48.231000923,check pool config / reboot
+M0390,Model-Y1,D,offline,2026-08-28 08:05:00,2026-08-28 10:13:34.603808914,check network / power cycle
+M0718,Model-X2,D,fan_fault,2026-08-28 08:17:00,2026-08-28 14:25:08.027972189,replace fan
+M0412,Model-X1,F,fan_fault,2026-08-28 09:24:00,2026-08-28 12:06:32.016927534,replace fan
+M0075,Model-X2,C,high_temp,2026-08-28 10:08:00,2026-08-28 12:53:55.389446731,clean intake / adjust cooling
+M0007,Model-X2,D,zero_hashrate,2026-08-28 10:22:00,2026-08-28 12:31:12.119993972,check pool config / reboot
+M0712,Model-X1,E,high_temp,2026-08-28 13:58:00,2026-08-28 14:35:29.671944047,clean intake / adjust cooling
+M0240,Model-X1,D,zero_hashrate,2026-08-28 14:18:00,2026-08-28 16:00:32.946574963,check pool config / reboot
+M0724,Model-X2,E,offline,2026-08-28 15:41:00,2026-08-28 17:35:40.442167742,check network / power cycle
+M0457,Model-Y1,A,high_temp,2026-08-28 15:42:00,2026-08-28 18:35:18.956362214,clean intake / adjust cooling
+M0297,Model-X2,F,high_temp,2026-08-28 16:46:00,2026-08-28 18:39:57.465909493,clean intake / adjust cooling
+M0624,Model-X2,A,zero_hashrate,2026-08-28 18:46:00,2026-08-28 20:40:54.887384530,check pool config / reboot
+M0547,Model-X2,A,offline,2026-08-28 20:34:00,2026-08-28 23:42:03.811875203,check network / power cycle
+M0255,Model-X2,B,fan_fault,2026-08-28 22:38:00,2026-08-29 02:59:58.575268705,replace fan
+M0282,Model-X1,E,hashboard_fault,2026-08-29 02:22:00,2026-08-29 19:51:16.479895327,replace hashboard
+M0429,Model-X2,D,zero_hashrate,2026-08-29 04:04:00,2026-08-29 06:08:46.743866871,check pool config / reboot
+M0788,Model-Y1,E,high_reject_rate,2026-08-29 05:21:00,2026-08-29 09:29:37.659348546,check firmware / reboot
+M0149,Model-X2,E,offline,2026-08-29 06:15:00,2026-08-29 06:28:32.811249567,check network / power cycle
+M0593,Model-X2,D,zero_hashrate,2026-08-29 07:01:00,2026-08-29 08:58:49.816655012,check pool config / reboot
+M0364,Model-Y1,F,high_temp,2026-08-29 08:01:00,2026-08-29 10:45:57.137570816,clean intake / adjust cooling
+M0343,Model-X2,E,zero_hashrate,2026-08-29 09:30:00,2026-08-29 10:28:33.993422244,check pool config / reboot
+M0677,Model-X1,A,high_temp,2026-08-29 10:05:00,2026-08-29 10:21:49.868278745,clean intake / adjust cooling
+M0567,Model-Y1,E,high_temp,2026-08-29 11:38:00,2026-08-29 14:03:44.614153857,clean intake / adjust cooling
+M0630,Model-Y1,C,high_temp,2026-08-29 12:11:00,2026-08-29 12:29:10.806220370,clean intake / adjust cooling
+M0571,Model-X2,E,high_temp,2026-08-29 13:02:00,2026-08-29 13:55:50.480489809,clean intake / adjust cooling
+M0659,Model-X2,D,high_temp,2026-08-29 14:13:00,2026-08-29 17:36:40.034578114,clean intake / adjust cooling
+M0625,Model-X2,B,offline,2026-08-29 14:15:00,2026-08-29 16:20:51.089891132,check network / power cycle
+M0696,Model-X1,F,fan_fault,2026-08-29 14:40:00,2026-08-29 16:59:01.390788914,replace fan
+M0377,Model-X1,C,fan_fault,2026-08-29 15:04:00,2026-08-29 17:09:27.099087178,replace fan
+M0151,Model-Y1,D,high_temp,2026-08-29 16:25:00,2026-08-29 17:22:50.361417259,clean intake / adjust cooling
+M0086,Model-X2,B,hashboard_fault,2026-08-29 16:50:00,2026-08-29 22:07:58.692393986,replace hashboard
+M0247,Model-X1,A,offline,2026-08-29 16:52:00,2026-08-29 17:25:25.664062996,check network / power cycle
+M0723,Model-X1,B,high_temp,2026-08-29 17:50:00,2026-08-29 19:34:31.252268814,clean intake / adjust cooling
+M0304,Model-X2,C,high_temp,2026-08-29 18:31:00,2026-08-29 21:37:24.580839865,clean intake / adjust cooling
+M0323,Model-X2,B,high_reject_rate,2026-08-29 19:34:00,2026-08-29 20:44:35.049057912,check firmware / reboot
+M0593,Model-X1,F,hashboard_fault,2026-08-29 20:02:00,2026-08-30 18:05:38.756578881,replace hashboard
+M0401,Model-Y1,E,fan_fault,2026-08-29 22:21:00,2026-08-30 04:19:43.403989498,replace fan
+M0437,Model-X2,F,hashboard_fault,2026-08-30 02:21:00,2026-08-30 13:19:28.576404612,replace hashboard
+M0201,Model-X2,F,zero_hashrate,2026-08-30 06:53:00,2026-08-30 08:44:24.904467403,check pool config / reboot
+M0449,Model-X1,A,high_temp,2026-08-30 07:11:00,2026-08-30 09:27:51.369683996,clean intake / adjust cooling
+M0186,Model-X1,C,high_temp,2026-08-30 09:24:00,2026-08-30 11:28:40.324379168,clean intake / adjust cooling
+M0720,Model-X2,D,high_reject_rate,2026-08-30 10:55:00,2026-08-30 11:48:57.271686013,check firmware / reboot
+M0525,Model-X1,E,high_temp,2026-08-30 13:11:00,2026-08-30 15:54:49.609973732,clean intake / adjust cooling
+M0114,Model-Y1,B,fan_fault,2026-08-30 13:50:00,2026-08-31 01:14:41.592590488,replace fan
+M0728,Model-X1,E,hashboard_fault,2026-08-30 13:52:00,2026-08-30 21:10:36.336960824,replace hashboard
+M0406,Model-X2,D,offline,2026-08-30 14:08:00,2026-08-30 16:14:06.898397841,check network / power cycle
+M0186,Model-X2,B,zero_hashrate,2026-08-30 16:47:00,2026-08-30 21:48:30.631138235,check pool config / reboot
+M0708,Model-X2,B,high_temp,2026-08-30 17:27:00,2026-08-30 20:20:05.353246785,clean intake / adjust cooling
+M0237,Model-X1,E,offline,2026-08-30 18:13:00,2026-08-30 18:42:22.503247491,check network / power cycle
+M0474,Model-X1,C,hashboard_fault,2026-08-30 18:25:00,2026-08-30 22:46:22.730363047,replace hashboard
+M0748,Model-X2,B,fan_fault,2026-08-30 18:40:00,2026-08-30 19:34:06.678652593,replace fan
+M0308,Model-X2,E,high_reject_rate,2026-08-30 18:57:00,2026-08-31 03:23:27.772715800,check firmware / reboot
+M0382,Model-Y1,F,zero_hashrate,2026-08-30 20:11:00,2026-08-30 22:08:47.216752259,check pool config / reboot
+M0699,Model-X2,D,high_reject_rate,2026-08-30 20:48:00,2026-08-30 22:33:17.528862878,check firmware / reboot
+M0329,Model-X1,C,fan_fault,2026-08-30 22:42:00,2026-08-31 01:05:08.799934887,replace fan
+M0267,Model-X2,D,zero_hashrate,2026-08-30 23:51:00,2026-08-31 00:48:49.481794701,check pool config / reboot
+M0684,Model-X1,B,high_reject_rate,2026-08-31 03:15:00,2026-08-31 06:13:30.346036354,check firmware / reboot
+M0082,Model-X1,D,zero_hashrate,2026-08-31 03:58:00,2026-08-31 07:33:44.852980079,check pool config / reboot
+M0779,Model-X2,C,zero_hashrate,2026-08-31 04:13:00,2026-08-31 13:34:58.028589396,check pool config / reboot
+M0252,Model-X1,E,hashboard_fault,2026-08-31 07:09:00,2026-08-31 15:45:30.738667450,replace hashboard
+M0432,Model-X1,D,high_temp,2026-08-31 10:58:00,2026-08-31 12:32:56.163282633,clean intake / adjust cooling
+M0155,Model-X1,A,high_temp,2026-08-31 11:36:00,2026-08-31 12:18:19.763834351,clean intake / adjust cooling
+M0431,Model-X2,A,high_temp,2026-08-31 12:49:00,2026-08-31 13:34:22.739906869,clean intake / adjust cooling
+M0192,Model-Y1,A,fan_fault,2026-08-31 13:44:00,2026-08-31 16:31:38.844696984,replace fan
+M0181,Model-X1,E,high_reject_rate,2026-08-31 13:47:00,2026-08-31 16:54:47.684003543,check firmware / reboot
+M0181,Model-X2,E,fan_fault,2026-08-31 14:18:00,2026-08-31 23:15:03.398189957,replace fan
+M0675,Model-X2,D,zero_hashrate,2026-08-31 15:17:00,2026-08-31 16:52:08.293874434,check pool config / reboot
+M0450,Model-Y1,E,high_temp,2026-08-31 16:50:00,2026-08-31 18:26:05.869828118,clean intake / adjust cooling
+M0740,Model-X2,E,high_temp,2026-08-31 16:54:00,2026-08-31 19:03:05.357172327,clean intake / adjust cooling
+M0036,Model-Y1,D,fan_fault,2026-08-31 17:10:00,2026-08-31 18:03:22.712649645,replace fan
+M0785,Model-Y1,D,zero_hashrate,2026-08-31 18:00:00,2026-08-31 18:47:24.089889719,check pool config / reboot
+M0129,Model-Y1,E,high_temp,2026-08-31 22:23:00,2026-08-31 23:07:47.093926450,clean intake / adjust cooling
+M0267,Model-X2,E,zero_hashrate,2026-08-31 22:56:00,2026-08-31 23:34:27.220702843,check pool config / reboot
+M0227,Model-X2,E,zero_hashrate,2026-08-31 23:12:00,2026-09-01 01:36:49.810904060,check pool config / reboot
+M0699,Model-X1,C,offline,2026-08-31 23:26:00,2026-09-01 02:26:53.138068638,check network / power cycle
+M0796,Model-X1,B,zero_hashrate,2026-09-01 00:03:00,2026-09-01 02:37:58.581231188,check pool config / reboot
+M0259,Model-Y1,F,hashboard_fault,2026-09-01 00:10:00,2026-09-01 18:19:09.825665894,replace hashboard
+M0769,Model-Y1,A,zero_hashrate,2026-09-01 02:24:00,2026-09-01 04:36:53.662571477,check pool config / reboot
+M0462,Model-X2,D,hashboard_fault,2026-09-01 06:06:00,2026-09-01 17:26:04.674636066,replace hashboard
+M0717,Model-Y1,B,fan_fault,2026-09-01 06:39:00,2026-09-01 10:32:44.218569599,replace fan
+M0037,Model-X2,E,offline,2026-09-01 06:56:00,2026-09-01 12:06:37.607037656,check network / power cycle
+M0739,Model-X2,B,high_temp,2026-09-01 07:21:00,2026-09-01 08:29:08.836939180,clean intake / adjust cooling
+M0616,Model-Y1,E,hashboard_fault,2026-09-01 07:45:00,2026-09-01 10:41:50.110089328,replace hashboard
+M0381,Model-X1,E,offline,2026-09-01 07:49:00,2026-09-01 10:31:02.821792126,check network / power cycle
+M0430,Model-X2,F,high_temp,2026-09-01 09:46:00,2026-09-01 13:35:14.024318805,clean intake / adjust cooling
+M0469,Model-X2,F,hashboard_fault,2026-09-01 13:04:00,2026-09-02 05:45:51.232975255,replace hashboard
+M0298,Model-X2,C,high_temp,2026-09-01 13:06:00,2026-09-01 15:38:43.207212276,clean intake / adjust cooling
+M0247,Model-X1,F,high_temp,2026-09-01 15:01:00,2026-09-01 16:03:33.277167240,clean intake / adjust cooling
+M0204,Model-X1,E,fan_fault,2026-09-01 15:32:00,2026-09-01 16:19:14.914737087,replace fan
+M0245,Model-X1,C,high_temp,2026-09-01 15:36:00,2026-09-01 19:12:32.470682199,clean intake / adjust cooling
+M0331,Model-Y1,C,high_temp,2026-09-01 16:08:00,2026-09-01 17:42:04.042362455,clean intake / adjust cooling
+M0647,Model-X1,E,high_temp,2026-09-01 16:48:00,2026-09-01 17:34:19.915318386,clean intake / adjust cooling
+M0436,Model-X2,B,high_temp,2026-09-01 18:46:00,2026-09-01 19:22:51.727234343,clean intake / adjust cooling
+M0002,Model-X2,B,hashboard_fault,2026-09-01 19:07:00,2026-09-02 08:56:47.448693694,replace hashboard
+M0488,Model-X2,F,high_temp,2026-09-01 20:56:00,2026-09-02 01:35:50.401909480,clean intake / adjust cooling
+M0328,Model-X1,A,zero_hashrate,2026-09-01 21:43:00,2026-09-02 04:45:40.507280172,check pool config / reboot
+M0712,Model-X2,E,fan_fault,2026-09-01 22:10:00,2026-09-01 23:12:43.396319568,replace fan
+M0404,Model-X1,F,hashboard_fault,2026-09-01 23:44:00,2026-09-02 17:20:18.845988252,replace hashboard
+M0085,Model-X1,D,high_reject_rate,2026-09-02 00:49:00,2026-09-02 03:24:44.805249564,check firmware / reboot
+M0378,Model-X2,B,high_temp,2026-09-02 02:17:00,2026-09-02 06:49:50.687182965,clean intake / adjust cooling
+M0385,Model-X2,D,high_temp,2026-09-02 04:50:00,2026-09-02 05:59:32.904448426,clean intake / adjust cooling
+M0082,Model-X1,E,high_temp,2026-09-02 07:39:00,2026-09-02 08:06:32.236140327,clean intake / adjust cooling
+M0223,Model-X1,F,zero_hashrate,2026-09-02 07:57:00,2026-09-02 11:38:21.579883736,check pool config / reboot
+M0536,Model-X2,E,high_temp,2026-09-02 08:25:00,2026-09-02 10:03:28.836377370,clean intake / adjust cooling
+M0404,Model-Y1,F,high_temp,2026-09-02 08:51:00,2026-09-02 09:34:22.927457865,clean intake / adjust cooling
+M0692,Model-X2,E,high_temp,2026-09-02 10:32:00,2026-09-02 12:19:51.565060800,clean intake / adjust cooling
+M0736,Model-Y1,D,hashboard_fault,2026-09-02 10:37:00,2026-09-02 13:33:18.150730194,replace hashboard
+M0640,Model-Y1,D,high_temp,2026-09-02 11:00:00,2026-09-02 12:56:02.841341572,clean intake / adjust cooling
+M0265,Model-Y1,C,high_temp,2026-09-02 11:17:00,2026-09-02 12:32:29.228664474,clean intake / adjust cooling
+M0592,Model-X1,B,high_reject_rate,2026-09-02 13:00:00,2026-09-02 21:58:29.881950770,check firmware / reboot
+M0800,Model-Y1,E,fan_fault,2026-09-02 13:01:00,2026-09-02 13:08:41.435043451,replace fan
+M0034,Model-X2,F,fan_fault,2026-09-02 15:15:00,2026-09-02 23:22:38.327658919,replace fan
+M0269,Model-X2,E,high_temp,2026-09-02 15:36:00,2026-09-02 16:11:53.268455092,clean intake / adjust cooling
+M0284,Model-X2,F,high_temp,2026-09-02 15:50:00,2026-09-02 17:24:05.074737685,clean intake / adjust cooling
+M0755,Model-Y1,C,offline,2026-09-02 15:58:00,2026-09-02 21:08:20.823598645,check network / power cycle
+M0141,Model-Y1,C,high_temp,2026-09-02 16:00:00,2026-09-02 17:09:28.764936024,clean intake / adjust cooling
+M0450,Model-X2,E,high_temp,2026-09-02 16:52:00,2026-09-02 19:53:36.201404142,clean intake / adjust cooling
+M0328,Model-X2,F,high_temp,2026-09-02 16:56:00,2026-09-02 18:49:15.664005112,clean intake / adjust cooling
+M0016,Model-Y1,F,high_temp,2026-09-02 17:17:00,2026-09-02 17:56:32.382256852,clean intake / adjust cooling
+M0184,Model-X2,E,high_temp,2026-09-02 17:48:00,2026-09-02 19:34:33.132896282,clean intake / adjust cooling
+M0646,Model-X2,F,zero_hashrate,2026-09-02 19:06:00,2026-09-03 02:17:21.514101298,check pool config / reboot
+M0158,Model-X2,F,fan_fault,2026-09-02 19:21:00,2026-09-02 21:22:05.012919868,replace fan
+M0128,Model-X2,A,offline,2026-09-02 21:35:00,2026-09-02 22:35:25.956024996,check network / power cycle
+M0779,Model-X1,E,zero_hashrate,2026-09-02 22:01:00,2026-09-03 11:09:34.089580186,check pool config / reboot
+M0046,Model-X1,E,fan_fault,2026-09-03 00:38:00,2026-09-03 04:46:20.726708411,replace fan
+M0736,Model-X1,A,offline,2026-09-03 02:31:00,2026-09-03 03:30:26.203131314,check network / power cycle
+M0201,Model-X1,F,zero_hashrate,2026-09-03 03:11:00,2026-09-03 07:53:46.638592016,check pool config / reboot
+M0121,Model-X1,B,high_reject_rate,2026-09-03 04:39:00,2026-09-03 06:17:55.388188453,check firmware / reboot
+M0341,Model-X2,C,high_temp,2026-09-03 08:19:00,2026-09-03 09:27:35.954201611,clean intake / adjust cooling
+M0481,Model-X1,C,zero_hashrate,2026-09-03 09:46:00,2026-09-03 12:25:06.209541400,check pool config / reboot
+M0712,Model-Y1,E,high_temp,2026-09-03 10:20:00,2026-09-03 10:45:32.646753504,clean intake / adjust cooling
+M0467,Model-X1,A,hashboard_fault,2026-09-03 11:13:00,2026-09-04 17:04:59.082664499,replace hashboard
+M0671,Model-X1,B,high_temp,2026-09-03 11:23:00,2026-09-03 13:53:15.902067843,clean intake / adjust cooling
+M0381,Model-X2,F,hashboard_fault,2026-09-03 11:35:00,2026-09-03 23:05:14.179671531,replace hashboard
+M0353,Model-X2,E,high_temp,2026-09-03 11:55:00,2026-09-03 12:28:18.822975204,clean intake / adjust cooling
+M0596,Model-X2,C,fan_fault,2026-09-03 11:57:00,2026-09-03 15:41:20.584143238,replace fan
+M0617,Model-X1,C,high_temp,2026-09-03 14:15:00,2026-09-03 16:57:37.917226335,clean intake / adjust cooling
+M0445,Model-X1,A,high_temp,2026-09-03 14:40:00,2026-09-03 15:11:41.124422318,clean intake / adjust cooling
+M0657,Model-X2,B,high_temp,2026-09-03 15:02:00,2026-09-03 15:57:18.158149582,clean intake / adjust cooling
+M0163,Model-X1,F,high_temp,2026-09-03 15:16:00,2026-09-03 16:32:12.020496146,clean intake / adjust cooling
+M0536,Model-X2,F,high_temp,2026-09-03 15:41:00,2026-09-03 15:59:51.533187931,clean intake / adjust cooling
+M0120,Model-X2,C,zero_hashrate,2026-09-03 16:20:00,2026-09-04 01:10:24.755699205,check pool config / reboot
+M0238,Model-Y1,F,high_temp,2026-09-03 16:35:00,2026-09-03 16:49:53.484924434,clean intake / adjust cooling
+M0492,Model-X1,A,zero_hashrate,2026-09-03 17:28:00,2026-09-03 20:06:05.365644496,check pool config / reboot
+M0006,Model-X2,F,hashboard_fault,2026-09-03 17:39:00,2026-09-04 07:27:03.348463211,replace hashboard
+M0003,Model-X2,D,high_temp,2026-09-03 18:46:00,2026-09-03 22:04:49.069977671,clean intake / adjust cooling
+M0393,Model-Y1,C,zero_hashrate,2026-09-03 20:04:00,2026-09-04 00:29:55.361507057,check pool config / reboot
+M0584,Model-X2,E,zero_hashrate,2026-09-03 20:10:00,2026-09-03 21:39:07.141101411,check pool config / reboot
+M0196,Model-X2,D,high_temp,2026-09-03 22:38:00,2026-09-04 01:26:43.021970334,clean intake / adjust cooling
+M0412,Model-X1,E,fan_fault,2026-09-03 23:13:00,2026-09-04 00:07:30.316364282,replace fan
+M0096,Model-Y1,E,high_temp,2026-09-04 00:01:00,2026-09-04 00:58:35.163414878,clean intake / adjust cooling
+M0691,Model-X2,D,high_temp,2026-09-04 00:59:00,2026-09-04 02:15:02.354079155,clean intake / adjust cooling
+M0068,Model-X1,C,zero_hashrate,2026-09-04 04:25:00,2026-09-04 06:43:18.006926859,check pool config / reboot
+M0569,Model-X2,F,high_reject_rate,2026-09-04 04:31:00,2026-09-04 09:34:14.535420697,check firmware / reboot
+M0751,Model-X2,A,fan_fault,2026-09-04 04:34:00,2026-09-04 06:00:16.143673022,replace fan
+M0082,Model-X2,E,high_temp,2026-09-04 05:12:00,2026-09-04 05:37:40.946092142,clean intake / adjust cooling
+M0668,Model-X2,D,high_reject_rate,2026-09-04 06:00:00,2026-09-04 14:04:37.429068629,check firmware / reboot
+M0283,Model-Y1,E,high_reject_rate,2026-09-04 07:31:00,2026-09-04 10:15:38.756969754,check firmware / reboot
+M0662,Model-Y1,A,offline,2026-09-04 07:37:00,2026-09-04 08:46:29.135740422,check network / power cycle
+M0114,Model-X1,B,high_reject_rate,2026-09-04 07:56:00,2026-09-04 12:01:34.975247472,check firmware / reboot
+M0403,Model-X2,F,high_temp,2026-09-04 08:16:00,2026-09-04 10:17:57.887228665,clean intake / adjust cooling
+M0370,Model-X1,A,offline,2026-09-04 09:05:00,2026-09-04 11:56:20.373602230,check network / power cycle
+M0377,Model-X1,D,offline,2026-09-04 09:29:00,2026-09-04 12:03:32.332906293,check network / power cycle
+M0073,Model-Y1,F,hashboard_fault,2026-09-04 09:37:00,2026-09-05 01:04:04.020135074,replace hashboard
+M0686,Model-X2,F,hashboard_fault,2026-09-04 09:57:00,2026-09-04 15:59:25.736803660,replace hashboard
+M0030,Model-Y1,E,high_reject_rate,2026-09-04 11:29:00,2026-09-04 16:12:33.793507564,check firmware / reboot
+M0082,Model-X2,F,high_temp,2026-09-04 11:43:00,2026-09-04 14:08:33.883677007,clean intake / adjust cooling
+M0587,Model-X1,D,high_reject_rate,2026-09-04 14:23:00,2026-09-04 17:44:28.048947654,check firmware / reboot
+M0039,Model-Y1,B,high_reject_rate,2026-09-04 15:33:00,2026-09-04 18:07:43.175500480,check firmware / reboot
+M0777,Model-X2,E,high_temp,2026-09-04 16:15:00,2026-09-04 17:05:32.022070401,clean intake / adjust cooling
+M0033,Model-X1,B,high_temp,2026-09-04 16:25:00,2026-09-04 20:01:20.831179665,clean intake / adjust cooling
+M0712,Model-X2,E,zero_hashrate,2026-09-04 16:26:00,2026-09-04 22:20:55.707448783,check pool config / reboot
+M0556,Model-X2,E,zero_hashrate,2026-09-04 16:48:00,2026-09-05 02:54:05.328049371,check pool config / reboot
+M0438,Model-X1,C,high_reject_rate,2026-09-04 18:23:00,2026-09-04 19:51:52.066378731,check firmware / reboot
+M0386,Model-X2,C,high_temp,2026-09-04 18:33:00,2026-09-04 19:23:25.925863904,clean intake / adjust cooling
+M0666,Model-X2,D,high_temp,2026-09-04 20:20:00,2026-09-04 21:05:52.832889653,clean intake / adjust cooling
+M0722,Model-X2,C,high_reject_rate,2026-09-04 20:26:00,2026-09-04 21:32:00.256472692,check firmware / reboot
+M0579,Model-Y1,C,high_temp,2026-09-04 21:22:00,2026-09-04 23:00:27.233683620,clean intake / adjust cooling
+M0564,Model-X2,A,high_temp,2026-09-04 23:45:00,2026-09-05 01:14:19.855734821,clean intake / adjust cooling
+M0519,Model-X1,F,offline,2026-09-04 23:52:00,2026-09-05 03:33:11.559547683,check network / power cycle
+M0028,Model-X2,E,offline,2026-09-05 00:24:00,2026-09-05 03:07:34.273050919,check network / power cycle
+M0130,Model-Y1,D,high_reject_rate,2026-09-05 02:17:00,2026-09-05 05:14:35.893472350,check firmware / reboot
+M0174,Model-X2,C,high_temp,2026-09-05 08:06:00,2026-09-05 08:09:11.226443814,clean intake / adjust cooling
+M0488,Model-Y1,F,zero_hashrate,2026-09-05 08:36:00,2026-09-05 15:00:02.595327459,check pool config / reboot
+M0296,Model-X2,D,high_temp,2026-09-05 08:36:00,2026-09-05 11:00:09.862992095,clean intake / adjust cooling
+M0010,Model-X2,F,hashboard_fault,2026-09-05 08:44:00,2026-09-05 11:27:49.864798179,replace hashboard
+M0112,Model-Y1,D,zero_hashrate,2026-09-05 11:05:00,2026-09-05 12:23:35.242634697,check pool config / reboot
+M0656,Model-X1,C,offline,2026-09-05 11:07:00,2026-09-05 12:10:13.789272598,check network / power cycle
+M0399,Model-X2,B,high_temp,2026-09-05 11:36:00,2026-09-05 13:46:05.220688823,clean intake / adjust cooling
+M0311,Model-X2,E,zero_hashrate,2026-09-05 13:43:00,2026-09-05 18:47:40.013375807,check pool config / reboot
+M0164,Model-Y1,F,high_temp,2026-09-05 15:59:00,2026-09-05 20:15:04.213643210,clean intake / adjust cooling
+M0104,Model-X1,B,zero_hashrate,2026-09-05 16:11:00,2026-09-05 19:27:14.148351362,check pool config / reboot
+M0557,Model-X2,B,zero_hashrate,2026-09-05 16:13:00,2026-09-05 17:35:11.674842970,check pool config / reboot
+M0185,Model-X2,E,high_temp,2026-09-05 16:56:00,2026-09-05 17:03:36.254196710,clean intake / adjust cooling
+M0094,Model-Y1,C,offline,2026-09-05 17:25:00,2026-09-05 18:31:04.035895457,check network / power cycle
+M0594,Model-X1,A,high_temp,2026-09-05 21:51:00,2026-09-05 23:42:41.265228979,clean intake / adjust cooling
+M0603,Model-X2,F,fan_fault,2026-09-06 02:17:00,2026-09-06 06:50:17.379696945,replace fan
+M0490,Model-Y1,B,offline,2026-09-06 02:29:00,2026-09-06 05:48:41.919804870,check network / power cycle
+M0631,Model-X1,A,fan_fault,2026-09-06 04:35:00,2026-09-06 10:07:34.403611848,replace fan
+M0707,Model-X1,F,high_reject_rate,2026-09-06 07:04:00,2026-09-06 09:12:39.532136082,check firmware / reboot
+M0216,Model-X2,B,hashboard_fault,2026-09-06 07:44:00,2026-09-06 11:08:47.041272188,replace hashboard
+M0053,Model-X1,B,high_temp,2026-09-06 08:06:00,2026-09-06 08:46:21.074277579,clean intake / adjust cooling
+M0091,Model-X2,E,zero_hashrate,2026-09-06 11:54:00,2026-09-06 23:26:02.046456443,check pool config / reboot
+M0346,Model-X2,F,high_temp,2026-09-06 14:06:00,2026-09-06 14:40:02.190551393,clean intake / adjust cooling
+M0267,Model-X2,F,high_temp,2026-09-06 14:55:00,2026-09-06 15:55:16.019367890,clean intake / adjust cooling
+M0467,Model-X1,F,high_temp,2026-09-06 16:42:00,2026-09-06 20:25:26.435941144,clean intake / adjust cooling
+M0592,Model-X1,D,offline,2026-09-06 23:13:00,2026-09-06 23:47:02.832933580,check network / power cycle
+M0324,Model-X2,F,fan_fault,2026-09-06 23:26:00,2026-09-07 01:09:41.846796907,replace fan
+M0400,Model-X1,C,hashboard_fault,2026-09-06 23:37:00,2026-09-07 15:10:40.674660863,replace hashboard
+M0760,Model-X1,D,zero_hashrate,2026-09-07 01:33:00,2026-09-07 03:53:29.022677319,check pool config / reboot
+M0186,Model-X2,F,fan_fault,2026-09-07 03:31:00,2026-09-07 14:08:09.506461032,replace fan
+M0470,Model-X1,C,offline,2026-09-07 04:14:00,2026-09-07 08:01:22.629466978,check network / power cycle
+M0364,Model-X2,F,hashboard_fault,2026-09-07 04:33:00,2026-09-07 10:07:03.959496355,replace hashboard
+M0163,Model-X2,F,high_temp,2026-09-07 06:38:00,2026-09-07 08:27:15.531053444,clean intake / adjust cooling
+M0314,Model-X2,A,high_temp,2026-09-07 06:50:00,2026-09-07 08:16:11.159532093,clean intake / adjust cooling
+M0417,Model-X1,E,high_temp,2026-09-07 09:22:00,2026-09-07 09:30:52.770264757,clean intake / adjust cooling
+M0297,Model-X1,F,high_temp,2026-09-07 09:24:00,2026-09-07 10:58:04.525933747,clean intake / adjust cooling
+M0009,Model-X2,E,high_temp,2026-09-07 09:47:00,2026-09-07 11:40:01.888479595,clean intake / adjust cooling
+M0459,Model-X2,D,zero_hashrate,2026-09-07 11:55:00,2026-09-07 13:11:47.370609073,check pool config / reboot
+M0544,Model-X1,E,hashboard_fault,2026-09-07 12:15:00,2026-09-07 20:37:29.440314736,replace hashboard
+M0598,Model-X2,B,hashboard_fault,2026-09-07 12:27:00,2026-09-08 04:22:35.105381352,replace hashboard
+M0669,Model-Y1,D,high_temp,2026-09-07 13:03:00,2026-09-07 14:12:09.243136226,clean intake / adjust cooling
+M0485,Model-X2,E,high_temp,2026-09-07 13:23:00,2026-09-07 15:05:20.006830197,clean intake / adjust cooling
+M0075,Model-X1,E,high_temp,2026-09-07 13:35:00,2026-09-07 16:00:05.190561210,clean intake / adjust cooling
+M0606,Model-X2,D,high_temp,2026-09-07 14:29:00,2026-09-07 14:39:28.606237526,clean intake / adjust cooling
+M0622,Model-X1,E,high_temp,2026-09-07 15:34:00,2026-09-07 17:29:13.148728675,clean intake / adjust cooling
+M0198,Model-X1,E,high_temp,2026-09-07 17:46:00,2026-09-07 19:55:47.197444758,clean intake / adjust cooling
+M0736,Model-X2,C,high_temp,2026-09-07 18:01:00,2026-09-07 19:54:25.766585492,clean intake / adjust cooling
+M0142,Model-X1,F,high_temp,2026-09-07 19:37:00,2026-09-07 20:49:26.225303519,clean intake / adjust cooling
+M0456,Model-X1,F,high_temp,2026-09-07 19:40:00,2026-09-07 21:13:57.312938647,clean intake / adjust cooling
+M0562,Model-X1,F,high_temp,2026-09-07 20:32:00,2026-09-07 21:49:00.014745330,clean intake / adjust cooling
+M0397,Model-X1,C,fan_fault,2026-09-07 20:46:00,2026-09-07 23:47:51.247092643,replace fan
+M0787,Model-X1,F,offline,2026-09-07 22:33:00,2026-09-07 22:56:58.520350003,check network / power cycle
+M0449,Model-Y1,F,zero_hashrate,2026-09-07 22:46:00,2026-09-08 05:04:12.566485448,check pool config / reboot
+M0758,Model-Y1,E,hashboard_fault,2026-09-07 23:07:00,2026-09-08 02:03:45.574989375,replace hashboard
+M0566,Model-X2,D,high_reject_rate,2026-09-08 00:16:00,2026-09-08 02:54:00.779756978,check firmware / reboot
+M0685,Model-Y1,B,zero_hashrate,2026-09-08 00:49:00,2026-09-08 03:11:38.932006351,check pool config / reboot
+M0511,Model-X2,F,high_reject_rate,2026-09-08 03:53:00,2026-09-08 06:10:37.173798319,check firmware / reboot
+M0237,Model-X2,F,fan_fault,2026-09-08 05:14:00,2026-09-08 07:21:10.788389479,replace fan
+M0332,Model-X1,A,zero_hashrate,2026-09-08 05:26:00,2026-09-08 09:11:46.653303667,check pool config / reboot
+M0423,Model-X2,E,high_reject_rate,2026-09-08 06:03:00,2026-09-08 08:17:23.398983952,check firmware / reboot
+M0409,Model-Y1,A,fan_fault,2026-09-08 09:32:00,2026-09-08 12:24:36.985399228,replace fan
+M0648,Model-X1,F,fan_fault,2026-09-08 10:05:00,2026-09-08 11:54:35.679566753,replace fan
+M0086,Model-X2,D,high_temp,2026-09-08 12:33:00,2026-09-08 13:19:34.471207165,clean intake / adjust cooling
+M0539,Model-X2,E,high_temp,2026-09-08 12:48:00,2026-09-08 14:11:47.811630599,clean intake / adjust cooling
+M0433,Model-X1,D,high_temp,2026-09-08 13:09:00,2026-09-08 19:12:04.592019870,clean intake / adjust cooling
+M0083,Model-X2,E,zero_hashrate,2026-09-08 14:40:00,2026-09-08 17:36:59.979979056,check pool config / reboot
+M0616,Model-Y1,B,fan_fault,2026-09-08 15:01:00,2026-09-08 16:48:15.671014568,replace fan
+M0374,Model-X1,D,high_temp,2026-09-08 16:10:00,2026-09-08 17:18:34.638605270,clean intake / adjust cooling
+M0553,Model-X2,E,zero_hashrate,2026-09-08 16:11:00,2026-09-08 16:47:10.173353173,check pool config / reboot
+M0632,Model-X1,E,zero_hashrate,2026-09-08 16:48:00,2026-09-08 22:19:27.357451230,check pool config / reboot
+M0760,Model-X2,C,high_temp,2026-09-08 16:58:00,2026-09-08 17:14:51.170720803,clean intake / adjust cooling
+M0593,Model-X2,E,offline,2026-09-08 17:23:00,2026-09-08 17:38:10.963691178,check network / power cycle
+M0548,Model-X1,D,fan_fault,2026-09-08 17:32:00,2026-09-08 20:14:59.247031680,replace fan
+M0412,Model-X1,E,offline,2026-09-08 19:59:00,2026-09-08 23:54:22.935809564,check network / power cycle
+M0082,Model-Y1,B,high_temp,2026-09-08 23:51:00,2026-09-09 00:29:58.555874483,clean intake / adjust cooling
+M0651,Model-X2,A,high_temp,2026-09-09 05:36:00,2026-09-09 06:37:27.541395702,clean intake / adjust cooling
+M0473,Model-X2,D,high_reject_rate,2026-09-09 06:24:00,2026-09-09 07:51:35.009356056,check firmware / reboot
+M0047,Model-X1,D,hashboard_fault,2026-09-09 08:03:00,2026-09-09 14:47:19.133475911,replace hashboard
+M0017,Model-X1,F,high_temp,2026-09-09 09:51:00,2026-09-09 12:31:01.742739259,clean intake / adjust cooling
+M0668,Model-Y1,F,high_reject_rate,2026-09-09 13:16:00,2026-09-09 15:54:21.921716788,check firmware / reboot
+M0346,Model-Y1,F,offline,2026-09-09 14:34:00,2026-09-09 17:24:57.268234344,check network / power cycle
+M0199,Model-X1,D,hashboard_fault,2026-09-09 16:27:00,2026-09-09 22:20:31.144738421,replace hashboard
+M0336,Model-X2,B,offline,2026-09-09 17:40:00,2026-09-09 18:19:12.508810877,check network / power cycle
+M0324,Model-X1,F,offline,2026-09-09 21:00:00,2026-09-10 03:35:46.566089369,check network / power cycle
+M0677,Model-X2,D,high_reject_rate,2026-09-09 21:48:00,2026-09-10 11:04:24.456965409,check firmware / reboot
+M0515,Model-X1,B,high_reject_rate,2026-09-10 00:26:00,2026-09-10 04:56:04.537596076,check firmware / reboot
+M0645,Model-Y1,F,offline,2026-09-10 00:53:00,2026-09-10 01:44:32.587060831,check network / power cycle
+M0667,Model-Y1,B,zero_hashrate,2026-09-10 02:17:00,2026-09-10 05:01:04.630958582,check pool config / reboot
+M0526,Model-X2,D,zero_hashrate,2026-09-10 02:31:00,2026-09-10 05:24:03.486267163,check pool config / reboot
+M0712,Model-X1,A,fan_fault,2026-09-10 04:24:00,2026-09-10 08:21:40.896884764,replace fan
+M0145,Model-Y1,E,fan_fault,2026-09-10 05:39:00,2026-09-10 07:43:43.559001307,replace fan
+M0666,Model-X2,D,zero_hashrate,2026-09-10 08:58:00,2026-09-10 10:47:19.893966111,check pool config / reboot
+M0484,Model-X1,A,hashboard_fault,2026-09-10 11:02:00,2026-09-11 21:38:24.681020015,replace hashboard
+M0402,Model-X1,E,fan_fault,2026-09-10 16:12:00,2026-09-10 19:58:52.579584688,replace fan
+M0317,Model-X1,E,hashboard_fault,2026-09-10 16:24:00,2026-09-11 09:16:01.685430124,replace hashboard
+M0750,Model-Y1,D,offline,2026-09-10 21:42:00,2026-09-10 21:59:28.847780338,check network / power cycle
+M0086,Model-X2,E,high_temp,2026-09-10 23:14:00,2026-09-11 00:07:20.882459783,clean intake / adjust cooling
+M0532,Model-X2,A,hashboard_fault,2026-09-11 01:12:00,2026-09-11 09:19:31.977582854,replace hashboard
+M0295,Model-X1,F,fan_fault,2026-09-11 02:34:00,2026-09-11 05:35:37.271043837,replace fan
+M0508,Model-X2,C,zero_hashrate,2026-09-11 08:06:00,2026-09-11 10:42:53.147126072,check pool config / reboot
+M0170,Model-Y1,E,zero_hashrate,2026-09-11 09:22:00,2026-09-11 14:04:20.601157885,check pool config / reboot
+M0372,Model-Y1,D,zero_hashrate,2026-09-11 14:48:00,2026-09-11 20:00:12.961485270,check pool config / reboot
+M0666,Model-Y1,B,high_temp,2026-09-11 16:21:00,2026-09-11 16:47:37.721107764,clean intake / adjust cooling
+M0385,Model-X1,D,high_temp,2026-09-11 17:05:00,2026-09-11 20:46:38.416381791,clean intake / adjust cooling
+M0099,Model-X2,F,zero_hashrate,2026-09-11 18:02:00,2026-09-11 21:19:48.957809504,check pool config / reboot
+M0748,Model-Y1,A,hashboard_fault,2026-09-11 19:32:00,2026-09-11 23:48:00.471506183,replace hashboard
+M0525,Model-X1,C,high_reject_rate,2026-09-11 21:30:00,2026-09-12 19:46:19.557212761,check firmware / reboot
+M0495,Model-X2,C,zero_hashrate,2026-09-11 21:48:00,2026-09-12 03:48:50.631562412,check pool config / reboot
+M0526,Model-X1,F,high_temp,2026-09-11 22:41:00,2026-09-12 00:38:23.704731198,clean intake / adjust cooling
+M0179,Model-X2,B,hashboard_fault,2026-09-11 22:42:00,2026-09-12 10:55:49.643935376,replace hashboard
+M0428,Model-X1,F,hashboard_fault,2026-09-11 22:42:00,2026-09-13 04:46:11.398521308,replace hashboard
+M0736,Model-X1,E,hashboard_fault,2026-09-11 23:43:00,2026-09-12 05:31:47.270034393,replace hashboard
+M0034,Model-X2,F,fan_fault,2026-09-12 00:19:00,2026-09-12 02:34:47.677410027,replace fan
+M0018,Model-X2,C,zero_hashrate,2026-09-12 01:05:00,2026-09-12 03:00:18.590440716,check pool config / reboot
+M0142,Model-X1,F,zero_hashrate,2026-09-12 01:22:00,2026-09-12 23:47:19.925232554,check pool config / reboot
+M0423,Model-X1,F,high_temp,2026-09-12 05:10:00,2026-09-12 07:34:12.417357364,clean intake / adjust cooling
+M0289,Model-X2,A,high_temp,2026-09-12 06:39:00,2026-09-12 06:52:20.541311091,clean intake / adjust cooling
+M0447,Model-Y1,F,high_reject_rate,2026-09-12 08:23:00,2026-09-12 19:23:10.818206117,check firmware / reboot
+M0528,Model-X1,F,high_temp,2026-09-12 10:40:00,2026-09-12 12:34:36.006965907,clean intake / adjust cooling
+M0075,Model-X2,A,high_temp,2026-09-12 11:23:00,2026-09-12 11:42:29.997609519,clean intake / adjust cooling
+M0553,Model-X2,A,zero_hashrate,2026-09-12 11:58:00,2026-09-12 14:59:14.342233716,check pool config / reboot
+M0223,Model-X1,E,high_temp,2026-09-12 12:18:00,2026-09-12 13:47:56.980721116,clean intake / adjust cooling
+M0184,Model-X2,C,high_temp,2026-09-12 14:34:00,2026-09-12 15:10:40.278193930,clean intake / adjust cooling
+M0523,Model-X2,E,high_temp,2026-09-12 15:07:00,2026-09-12 16:05:07.361165307,clean intake / adjust cooling
+M0466,Model-X1,E,high_temp,2026-09-12 15:20:00,2026-09-12 15:30:11.912161886,clean intake / adjust cooling
+M0429,Model-X1,E,high_temp,2026-09-12 15:56:00,2026-09-12 16:13:56.143842109,clean intake / adjust cooling
+M0130,Model-X1,F,high_temp,2026-09-12 16:56:00,2026-09-12 19:40:18.932673393,clean intake / adjust cooling
+M0234,Model-X2,C,zero_hashrate,2026-09-12 17:09:00,2026-09-12 17:17:13.248892352,check pool config / reboot
+M0796,Model-X2,D,high_temp,2026-09-12 20:07:00,2026-09-13 01:16:01.132653968,clean intake / adjust cooling
+M0228,Model-Y1,B,zero_hashrate,2026-09-12 20:52:00,2026-09-13 01:56:21.780182806,check pool config / reboot
+M0551,Model-X1,B,high_temp,2026-09-12 21:00:00,2026-09-12 23:05:21.056996839,clean intake / adjust cooling
+M0613,Model-X2,B,zero_hashrate,2026-09-13 00:05:00,2026-09-13 04:39:49.558187985,check pool config / reboot
+M0554,Model-Y1,D,hashboard_fault,2026-09-13 02:57:00,2026-09-13 09:32:11.346081130,replace hashboard
+M0666,Model-X1,A,zero_hashrate,2026-09-13 03:22:00,2026-09-13 05:19:57.569059165,check pool config / reboot
+M0120,Model-Y1,F,high_reject_rate,2026-09-13 03:24:00,2026-09-13 12:49:57.749613412,check firmware / reboot
+M0338,Model-X2,E,fan_fault,2026-09-13 04:59:00,2026-09-13 06:17:02.536465232,replace fan
+M0617,Model-X1,C,high_temp,2026-09-13 05:17:00,2026-09-13 05:24:38.265469506,clean intake / adjust cooling
+M0553,Model-X2,B,high_temp,2026-09-13 06:21:00,2026-09-13 07:32:39.594064744,clean intake / adjust cooling
+M0207,Model-X2,A,hashboard_fault,2026-09-13 06:33:00,2026-09-13 10:03:37.805182734,replace hashboard
+M0611,Model-Y1,C,high_temp,2026-09-13 06:42:00,2026-09-13 08:56:13.067905857,clean intake / adjust cooling
+M0034,Model-Y1,B,zero_hashrate,2026-09-13 07:10:00,2026-09-13 10:31:07.221842810,check pool config / reboot
+M0719,Model-Y1,F,high_reject_rate,2026-09-13 07:24:00,2026-09-13 12:01:40.284547541,check firmware / reboot
+M0376,Model-X2,F,high_temp,2026-09-13 10:19:00,2026-09-13 11:48:58.225369778,clean intake / adjust cooling
+M0045,Model-X1,F,fan_fault,2026-09-13 10:21:00,2026-09-13 21:37:43.010301823,replace fan
+M0506,Model-X2,B,zero_hashrate,2026-09-13 12:43:00,2026-09-13 16:50:10.983393363,check pool config / reboot
+M0149,Model-X1,B,fan_fault,2026-09-13 13:50:00,2026-09-13 14:36:43.588942024,replace fan
+M0566,Model-X1,A,high_temp,2026-09-13 13:54:00,2026-09-13 16:35:09.262594773,clean intake / adjust cooling
+M0002,Model-X2,C,high_temp,2026-09-13 14:33:00,2026-09-13 15:55:41.470509980,clean intake / adjust cooling
+M0493,Model-Y1,E,offline,2026-09-13 15:49:00,2026-09-13 18:05:40.029144644,check network / power cycle
+M0288,Model-X1,F,zero_hashrate,2026-09-13 15:56:00,2026-09-13 22:03:27.216918505,check pool config / reboot
+M0131,Model-X2,B,high_reject_rate,2026-09-13 18:06:00,2026-09-13 20:44:01.256065042,check firmware / reboot
+M0414,Model-X2,D,zero_hashrate,2026-09-13 18:35:00,2026-09-13 20:20:04.437391564,check pool config / reboot
+M0378,Model-X2,E,offline,2026-09-13 18:39:00,2026-09-13 20:00:25.797852028,check network / power cycle
+M0450,Model-X1,E,high_temp,2026-09-13 19:02:00,2026-09-13 21:13:21.340103948,clean intake / adjust cooling
+M0179,Model-X1,C,high_temp,2026-09-13 20:07:00,2026-09-13 21:55:16.689867380,clean intake / adjust cooling
+M0321,Model-X1,C,zero_hashrate,2026-09-13 23:02:00,2026-09-14 01:53:31.848873408,check pool config / reboot
+M0361,Model-X1,F,offline,2026-09-13 23:45:00,2026-09-14 00:27:34.627234035,check network / power cycle
+M0643,Model-Y1,D,fan_fault,2026-09-14 00:32:00,2026-09-14 01:24:26.800771850,replace fan
+M0022,Model-Y1,E,high_reject_rate,2026-09-14 03:30:00,2026-09-14 04:23:49.985516642,check firmware / reboot
+M0044,Model-X1,F,high_temp,2026-09-14 05:00:00,2026-09-14 05:41:21.584355536,clean intake / adjust cooling
+M0176,Model-X1,D,zero_hashrate,2026-09-14 05:14:00,2026-09-14 10:07:24.306668035,check pool config / reboot
+M0624,Model-X2,F,high_temp,2026-09-14 05:40:00,2026-09-14 06:07:14.656591214,clean intake / adjust cooling
+M0776,Model-X1,A,high_temp,2026-09-14 06:10:00,2026-09-14 06:59:33.042582434,clean intake / adjust cooling
+M0337,Model-X1,D,high_temp,2026-09-14 07:25:00,2026-09-14 08:35:31.399604293,clean intake / adjust cooling
+M0388,Model-X1,F,high_temp,2026-09-14 11:48:00,2026-09-14 13:16:48.324185964,clean intake / adjust cooling
+M0779,Model-Y1,C,high_temp,2026-09-14 12:19:00,2026-09-14 13:35:34.389627598,clean intake / adjust cooling
+M0007,Model-X1,F,high_temp,2026-09-14 12:28:00,2026-09-14 14:29:28.870651354,clean intake / adjust cooling
+M0280,Model-X1,E,high_temp,2026-09-14 13:13:00,2026-09-14 13:25:14.135501522,clean intake / adjust cooling
+M0165,Model-Y1,E,fan_fault,2026-09-14 13:24:00,2026-09-14 17:29:09.047520982,replace fan
+M0558,Model-X2,F,fan_fault,2026-09-14 13:36:00,2026-09-14 20:19:29.650372497,replace fan
+M0489,Model-X1,D,high_temp,2026-09-14 14:03:00,2026-09-14 14:15:19.997748740,clean intake / adjust cooling
+M0633,Model-X1,E,high_temp,2026-09-14 14:55:00,2026-09-14 16:40:02.123434869,clean intake / adjust cooling
+M0781,Model-X2,F,fan_fault,2026-09-14 15:21:00,2026-09-14 16:34:17.303119704,replace fan
+M0090,Model-X1,E,high_temp,2026-09-14 15:27:00,2026-09-14 17:41:28.089689647,clean intake / adjust cooling
+M0210,Model-X2,F,offline,2026-09-14 16:27:00,2026-09-14 19:57:03.404367908,check network / power cycle
+M0168,Model-X1,D,zero_hashrate,2026-09-14 16:31:00,2026-09-14 18:49:25.931152528,check pool config / reboot
+M0375,Model-Y1,F,high_temp,2026-09-14 18:29:00,2026-09-14 20:28:04.128384252,clean intake / adjust cooling
+M0115,Model-X2,E,high_temp,2026-09-14 19:11:00,2026-09-14 20:43:40.681637762,clean intake / adjust cooling
+M0552,Model-X1,A,offline,2026-09-14 21:19:00,2026-09-14 21:50:50.723941077,check network / power cycle
+M0731,Model-Y1,D,hashboard_fault,2026-09-14 22:32:00,2026-09-15 03:46:39.879344900,replace hashboard
+M0435,Model-X2,E,high_temp,2026-09-14 23:40:00,2026-09-15 01:21:51.283112240,clean intake / adjust cooling
+M0546,Model-X1,F,high_temp,2026-09-14 23:42:00,2026-09-15 01:57:36.610135409,clean intake / adjust cooling
+M0112,Model-X2,E,high_temp,2026-09-15 04:51:00,2026-09-15 05:38:57.112881903,clean intake / adjust cooling
+M0082,Model-X2,F,high_temp,2026-09-15 06:10:00,2026-09-15 08:36:52.831423894,clean intake / adjust cooling
+M0627,Model-X1,B,high_reject_rate,2026-09-15 06:35:00,2026-09-15 19:33:49.423588274,check firmware / reboot
+M0126,Model-Y1,D,high_temp,2026-09-15 08:48:00,2026-09-15 09:49:51.029925011,clean intake / adjust cooling
+M0591,Model-X2,F,high_temp,2026-09-15 10:05:00,2026-09-15 12:16:52.788766892,clean intake / adjust cooling
+M0262,Model-X2,A,high_temp,2026-09-15 11:26:00,2026-09-15 12:19:23.424280001,clean intake / adjust cooling
+M0183,Model-X2,E,high_temp,2026-09-15 11:49:00,2026-09-15 15:23:18.023488613,clean intake / adjust cooling
+M0740,Model-Y1,F,offline,2026-09-15 13:04:00,2026-09-15 13:56:47.662946082,check network / power cycle
+M0031,Model-X1,A,fan_fault,2026-09-15 13:24:00,2026-09-15 17:20:11.945752548,replace fan
+M0345,Model-X2,F,zero_hashrate,2026-09-15 14:25:00,2026-09-15 18:12:22.046097950,check pool config / reboot
+M0542,Model-Y1,D,zero_hashrate,2026-09-15 15:16:00,2026-09-15 21:14:27.812058651,check pool config / reboot
+M0319,Model-X1,E,fan_fault,2026-09-15 17:14:00,2026-09-15 21:40:56.618065332,replace fan
+M0129,Model-X2,E,high_temp,2026-09-15 17:40:00,2026-09-15 18:32:42.144240644,clean intake / adjust cooling
+M0346,Model-X2,F,high_reject_rate,2026-09-15 19:11:00,2026-09-16 00:47:04.806124770,check firmware / reboot
+M0104,Model-X2,D,hashboard_fault,2026-09-15 23:38:00,2026-09-16 04:12:56.693565918,replace hashboard
+M0641,Model-X2,D,zero_hashrate,2026-09-16 01:20:00,2026-09-16 04:55:56.618688628,check pool config / reboot
+M0353,Model-X2,F,zero_hashrate,2026-09-16 01:40:00,2026-09-16 05:22:13.948269659,check pool config / reboot
+M0696,Model-X1,E,fan_fault,2026-09-16 07:51:00,2026-09-16 16:07:13.590107965,replace fan
+M0652,Model-Y1,F,fan_fault,2026-09-16 07:59:00,2026-09-16 09:37:13.199864021,replace fan
+M0318,Model-X2,B,high_temp,2026-09-16 09:52:00,2026-09-16 11:23:49.384755987,clean intake / adjust cooling
+M0760,Model-X2,A,high_temp,2026-09-16 10:31:00,2026-09-16 11:14:57.006623283,clean intake / adjust cooling
+M0728,Model-Y1,E,zero_hashrate,2026-09-16 11:41:00,2026-09-16 15:46:37.005771199,check pool config / reboot
+M0776,Model-Y1,E,zero_hashrate,2026-09-16 14:58:00,2026-09-16 18:28:50.969443737,check pool config / reboot
+M0761,Model-X2,F,high_temp,2026-09-16 16:37:00,2026-09-16 17:33:56.444689636,clean intake / adjust cooling
+M0237,Model-X1,E,offline,2026-09-16 17:02:00,2026-09-16 18:18:45.513724049,check network / power cycle
+M0410,Model-X1,F,fan_fault,2026-09-16 17:19:00,2026-09-17 01:06:15.539774425,replace fan
+M0356,Model-X2,C,zero_hashrate,2026-09-16 17:27:00,2026-09-17 00:54:42.030687489,check pool config / reboot
+M0441,Model-X2,D,high_temp,2026-09-16 17:41:00,2026-09-16 18:50:23.336617666,clean intake / adjust cooling
+M0060,Model-X2,B,offline,2026-09-16 18:26:00,2026-09-16 22:09:45.217688541,check network / power cycle
+M0676,Model-X1,F,high_reject_rate,2026-09-16 18:59:00,2026-09-17 14:58:02.263326442,check firmware / reboot
+M0149,Model-X1,E,high_temp,2026-09-16 19:34:00,2026-09-16 22:37:53.034976105,clean intake / adjust cooling
+M0416,Model-X2,C,high_reject_rate,2026-09-16 20:23:00,2026-09-17 02:04:18.376209449,check firmware / reboot
+M0100,Model-X2,E,high_reject_rate,2026-09-16 21:28:00,2026-09-16 23:34:22.244328924,check firmware / reboot
+M0261,Model-X2,F,fan_fault,2026-09-16 21:36:00,2026-09-16 23:11:55.529241013,replace fan
+M0414,Model-X1,B,hashboard_fault,2026-09-16 23:40:00,2026-09-17 13:36:22.413728748,replace hashboard
+M0465,Model-X1,E,zero_hashrate,2026-09-16 23:45:00,2026-09-17 04:24:51.864016800,check pool config / reboot
+M0569,Model-Y1,F,high_temp,2026-09-17 01:47:00,2026-09-17 03:26:14.522774302,clean intake / adjust cooling
+M0447,Model-X2,C,hashboard_fault,2026-09-17 02:30:00,2026-09-17 08:39:06.479822106,replace hashboard
+M0169,Model-Y1,F,hashboard_fault,2026-09-17 02:56:00,2026-09-17 07:32:47.302111255,replace hashboard
+M0553,Model-X1,F,fan_fault,2026-09-17 04:41:00,2026-09-17 06:43:27.103577708,replace fan
+M0680,Model-Y1,C,zero_hashrate,2026-09-17 04:41:00,2026-09-17 12:24:57.803555994,check pool config / reboot
+M0505,Model-X2,D,high_temp,2026-09-17 05:24:00,2026-09-17 06:21:48.636612926,clean intake / adjust cooling
+M0177,Model-X2,E,fan_fault,2026-09-17 06:14:00,2026-09-17 10:48:31.139390831,replace fan
+M0430,Model-X2,E,high_reject_rate,2026-09-17 06:53:00,2026-09-17 12:58:54.720860427,check firmware / reboot
+M0160,Model-X1,E,high_reject_rate,2026-09-17 08:07:00,2026-09-17 09:29:57.045340308,check firmware / reboot
+M0317,Model-X1,B,high_temp,2026-09-17 09:52:00,2026-09-17 11:43:20.798971016,clean intake / adjust cooling
+M0392,Model-Y1,F,high_reject_rate,2026-09-17 11:15:00,2026-09-17 16:33:06.413684745,check firmware / reboot
+M0643,Model-X2,E,high_temp,2026-09-17 11:22:00,2026-09-17 13:25:51.842240543,clean intake / adjust cooling
+M0624,Model-Y1,F,high_temp,2026-09-17 12:45:00,2026-09-17 14:23:45.094959877,clean intake / adjust cooling
+M0013,Model-X1,B,high_temp,2026-09-17 13:43:00,2026-09-17 17:31:36.597882359,clean intake / adjust cooling
+M0431,Model-X1,A,high_temp,2026-09-17 14:18:00,2026-09-17 14:31:40.938935800,clean intake / adjust cooling
+M0506,Model-X1,C,high_temp,2026-09-17 14:56:00,2026-09-17 15:12:11.082367835,clean intake / adjust cooling
+M0160,Model-X2,B,offline,2026-09-17 15:37:00,2026-09-17 16:45:43.678945985,check network / power cycle
+M0246,Model-X1,B,high_reject_rate,2026-09-17 16:47:00,2026-09-17 20:44:18.026415611,check firmware / reboot
+M0083,Model-X2,E,high_temp,2026-09-17 17:39:00,2026-09-17 17:57:14.199663222,clean intake / adjust cooling
+M0202,Model-X1,E,hashboard_fault,2026-09-17 18:25:00,2026-09-17 19:45:13.111051005,replace hashboard
+M0034,Model-X2,F,zero_hashrate,2026-09-17 18:47:00,2026-09-17 22:37:19.881504922,check pool config / reboot
+M0437,Model-Y1,E,offline,2026-09-17 21:08:00,2026-09-17 22:09:25.965139655,check network / power cycle
+M0757,Model-X1,E,offline,2026-09-17 22:15:00,2026-09-18 03:51:02.091213434,check network / power cycle
+M0745,Model-X1,E,fan_fault,2026-09-17 23:30:00,2026-09-18 00:38:30.788980072,replace fan
+M0696,Model-Y1,B,offline,2026-09-17 23:31:00,2026-09-18 01:56:31.813477313,check network / power cycle
+M0395,Model-X2,F,zero_hashrate,2026-09-18 06:54:00,2026-09-18 10:34:40.552490605,check pool config / reboot
+M0178,Model-X1,F,high_temp,2026-09-18 07:58:00,2026-09-18 08:20:27.308837147,clean intake / adjust cooling
+M0042,Model-X1,C,fan_fault,2026-09-18 08:19:00,2026-09-18 11:18:38.081510988,replace fan
+M0056,Model-X2,B,hashboard_fault,2026-09-18 08:53:00,2026-09-18 18:30:01.634875913,replace hashboard
+M0719,Model-X1,F,zero_hashrate,2026-09-18 09:19:00,2026-09-18 10:58:40.886301106,check pool config / reboot
+M0459,Model-Y1,C,high_temp,2026-09-18 11:51:00,2026-09-18 13:52:58.038545814,clean intake / adjust cooling
+M0076,Model-X2,D,high_temp,2026-09-18 12:23:00,2026-09-18 12:44:59.082416732,clean intake / adjust cooling
+M0550,Model-X2,F,zero_hashrate,2026-09-18 12:52:00,2026-09-18 14:46:44.779806797,check pool config / reboot
+M0717,Model-Y1,B,fan_fault,2026-09-18 13:20:00,2026-09-18 15:25:17.718225754,replace fan
+M0218,Model-X1,C,high_temp,2026-09-18 13:23:00,2026-09-18 18:29:40.254382406,clean intake / adjust cooling
+M0229,Model-X2,D,high_temp,2026-09-18 14:03:00,2026-09-18 14:26:40.776713679,clean intake / adjust cooling
+M0033,Model-X1,D,high_temp,2026-09-18 15:26:00,2026-09-18 16:49:22.238207244,clean intake / adjust cooling
+M0292,Model-X1,E,zero_hashrate,2026-09-18 15:56:00,2026-09-18 18:06:01.449568821,check pool config / reboot
+M0157,Model-X1,E,offline,2026-09-18 15:59:00,2026-09-18 17:00:00.392609919,check network / power cycle
+M0680,Model-X2,D,fan_fault,2026-09-18 16:34:00,2026-09-18 20:18:01.258860744,replace fan
+M0030,Model-Y1,F,fan_fault,2026-09-18 17:04:00,2026-09-19 03:30:02.587344240,replace fan
+M0179,Model-X2,C,high_temp,2026-09-18 17:21:00,2026-09-18 20:40:44.798527912,clean intake / adjust cooling
+M0196,Model-X2,E,zero_hashrate,2026-09-18 19:17:00,2026-09-18 21:06:11.004381808,check pool config / reboot
+M0042,Model-X1,F,hashboard_fault,2026-09-18 21:36:00,2026-09-19 00:08:55.629284243,replace hashboard
+M0073,Model-X1,C,zero_hashrate,2026-09-19 00:43:00,2026-09-19 02:50:41.828499288,check pool config / reboot
+M0658,Model-X2,C,fan_fault,2026-09-19 02:46:00,2026-09-19 10:27:24.703401458,replace fan
+M0147,Model-X2,C,high_reject_rate,2026-09-19 02:58:00,2026-09-19 04:10:11.648813526,check firmware / reboot
+M0402,Model-Y1,F,zero_hashrate,2026-09-19 03:13:00,2026-09-19 14:38:48.859168492,check pool config / reboot
+M0424,Model-Y1,A,zero_hashrate,2026-09-19 04:18:00,2026-09-19 10:29:31.961451907,check pool config / reboot
+M0714,Model-X2,A,high_temp,2026-09-19 07:57:00,2026-09-19 09:04:52.254275932,clean intake / adjust cooling
+M0455,Model-X2,F,hashboard_fault,2026-09-19 08:00:00,2026-09-20 02:14:15.917930317,replace hashboard
+M0547,Model-Y1,C,zero_hashrate,2026-09-19 08:03:00,2026-09-19 17:13:26.041941115,check pool config / reboot
+M0114,Model-X2,B,offline,2026-09-19 08:08:00,2026-09-19 14:37:00.321960964,check network / power cycle
+M0672,Model-X2,F,high_temp,2026-09-19 09:01:00,2026-09-19 14:03:26.241775176,clean intake / adjust cooling
+M0216,Model-X1,C,high_temp,2026-09-19 09:38:00,2026-09-19 10:29:30.576595659,clean intake / adjust cooling
+M0616,Model-X1,E,offline,2026-09-19 10:09:00,2026-09-19 11:52:14.818263756,check network / power cycle
+M0006,Model-X1,A,fan_fault,2026-09-19 11:03:00,2026-09-19 15:05:35.895053369,replace fan
+M0179,Model-X2,E,high_temp,2026-09-19 11:29:00,2026-09-19 15:48:11.972026409,clean intake / adjust cooling
+M0420,Model-X2,D,high_temp,2026-09-19 13:22:00,2026-09-19 13:42:23.479670221,clean intake / adjust cooling
+M0748,Model-X1,D,zero_hashrate,2026-09-19 14:28:00,2026-09-19 16:01:00.149303461,check pool config / reboot
+M0281,Model-X1,F,zero_hashrate,2026-09-19 15:54:00,2026-09-19 17:39:56.210704326,check pool config / reboot
+M0168,Model-X1,C,offline,2026-09-19 16:27:00,2026-09-19 17:22:23.668483253,check network / power cycle
+M0633,Model-X2,F,zero_hashrate,2026-09-19 16:51:00,2026-09-19 22:48:00.509918795,check pool config / reboot
+M0794,Model-X2,E,zero_hashrate,2026-09-19 17:41:00,2026-09-19 18:43:44.553537804,check pool config / reboot
+M0213,Model-Y1,F,zero_hashrate,2026-09-19 19:00:00,2026-09-19 22:48:08.566445643,check pool config / reboot
+M0583,Model-X2,B,high_temp,2026-09-19 19:18:00,2026-09-19 20:01:34.836367501,clean intake / adjust cooling
+M0598,Model-X2,F,offline,2026-09-19 21:26:00,2026-09-19 23:41:24.211007622,check network / power cycle
+M0004,Model-X1,B,zero_hashrate,2026-09-20 00:11:00,2026-09-20 00:59:42.095348531,check pool config / reboot
+M0104,Model-X1,F,offline,2026-09-20 01:17:00,2026-09-20 03:53:04.161593039,check network / power cycle
+M0264,Model-X1,E,hashboard_fault,2026-09-20 03:41:00,2026-09-20 10:32:47.988020010,replace hashboard
+M0061,Model-X2,E,zero_hashrate,2026-09-20 04:02:00,2026-09-20 05:31:40.353093324,check pool config / reboot
+M0554,Model-Y1,D,zero_hashrate,2026-09-20 04:20:00,2026-09-20 08:50:03.571751355,check pool config / reboot
+M0686,Model-X1,C,offline,2026-09-20 06:25:00,2026-09-20 07:27:22.865267547,check network / power cycle
+M0679,Model-X2,C,zero_hashrate,2026-09-20 07:19:00,2026-09-20 10:07:23.134366733,check pool config / reboot
+M0106,Model-X2,F,offline,2026-09-20 07:28:00,2026-09-20 10:46:19.868952191,check network / power cycle
+M0616,Model-X2,D,high_temp,2026-09-20 10:18:00,2026-09-20 11:09:26.948135062,clean intake / adjust cooling
+M0509,Model-X2,F,high_temp,2026-09-20 12:24:00,2026-09-20 16:50:32.865645491,clean intake / adjust cooling
+M0793,Model-Y1,B,high_temp,2026-09-20 13:34:00,2026-09-20 15:16:48.670642598,clean intake / adjust cooling
+M0380,Model-X2,D,zero_hashrate,2026-09-20 14:16:00,2026-09-20 19:55:27.598092086,check pool config / reboot
+M0125,Model-X2,F,fan_fault,2026-09-20 15:30:00,2026-09-20 16:33:52.625661926,replace fan
+M0506,Model-X1,F,offline,2026-09-20 17:09:00,2026-09-20 19:54:46.136811310,check network / power cycle
+M0503,Model-Y1,E,high_temp,2026-09-20 18:48:00,2026-09-20 19:24:14.329975086,clean intake / adjust cooling
+M0645,Model-X2,B,high_temp,2026-09-20 19:04:00,2026-09-20 19:20:32.876363343,clean intake / adjust cooling
+M0565,Model-X2,D,zero_hashrate,2026-09-20 19:52:00,2026-09-20 22:22:49.370164361,check pool config / reboot
+M0774,Model-X2,B,offline,2026-09-20 20:31:00,2026-09-20 22:29:18.467377813,check network / power cycle
+M0701,Model-X1,F,zero_hashrate,2026-09-20 23:24:00,2026-09-21 00:31:27.900227337,check pool config / reboot
+M0123,Model-X2,D,high_temp,2026-09-21 00:42:00,2026-09-21 02:27:22.671429573,clean intake / adjust cooling
+M0785,Model-X1,E,hashboard_fault,2026-09-21 03:54:00,2026-09-21 05:29:26.618421884,replace hashboard
+M0346,Model-X2,F,fan_fault,2026-09-21 04:24:00,2026-09-21 06:02:06.425740202,replace fan
+M0794,Model-X2,C,high_temp,2026-09-21 04:52:00,2026-09-21 09:36:32.370281687,clean intake / adjust cooling
+M0619,Model-X2,E,hashboard_fault,2026-09-21 05:12:00,2026-09-21 21:33:03.966414385,replace hashboard
+M0241,Model-X2,E,zero_hashrate,2026-09-21 05:13:00,2026-09-21 07:58:54.617842307,check pool config / reboot
+M0662,Model-Y1,A,hashboard_fault,2026-09-21 06:18:00,2026-09-21 19:51:47.474647380,replace hashboard
+M0748,Model-X2,E,offline,2026-09-21 08:00:00,2026-09-21 08:26:55.353398093,check network / power cycle
+M0726,Model-Y1,F,zero_hashrate,2026-09-21 08:19:00,2026-09-21 11:45:19.455881775,check pool config / reboot
+M0678,Model-X1,A,offline,2026-09-21 08:58:00,2026-09-21 09:05:04.694939183,check network / power cycle
+M0799,Model-Y1,C,zero_hashrate,2026-09-21 09:13:00,2026-09-21 16:24:06.753946564,check pool config / reboot
+M0040,Model-X2,E,zero_hashrate,2026-09-21 09:16:00,2026-09-21 11:41:20.598747692,check pool config / reboot
+M0583,Model-X1,E,fan_fault,2026-09-21 09:20:00,2026-09-21 10:30:51.463156821,replace fan
+M0553,Model-X1,F,offline,2026-09-21 13:03:00,2026-09-21 14:24:19.033704364,check network / power cycle
+M0259,Model-X1,C,offline,2026-09-21 13:33:00,2026-09-21 14:31:30.754755101,check network / power cycle
+M0066,Model-X2,F,offline,2026-09-21 13:37:00,2026-09-21 20:16:02.645271641,check network / power cycle
+M0174,Model-Y1,C,hashboard_fault,2026-09-21 15:25:00,2026-09-21 20:52:09.881527976,replace hashboard
+M0588,Model-X2,F,high_temp,2026-09-21 17:00:00,2026-09-21 20:11:11.462488553,clean intake / adjust cooling
+M0118,Model-X2,C,high_temp,2026-09-21 17:11:00,2026-09-21 17:35:10.499983910,clean intake / adjust cooling
+M0486,Model-Y1,D,zero_hashrate,2026-09-21 18:34:00,2026-09-21 19:04:38.081172516,check pool config / reboot
+M0013,Model-X2,D,zero_hashrate,2026-09-21 19:36:00,2026-09-21 23:19:16.357497181,check pool config / reboot
+M0666,Model-X1,E,fan_fault,2026-09-21 19:43:00,2026-09-21 20:12:45.802803179,replace fan
+M0019,Model-X1,F,offline,2026-09-21 19:50:00,2026-09-21 22:28:32.171982560,check network / power cycle
+M0546,Model-X2,D,hashboard_fault,2026-09-21 20:02:00,2026-09-22 01:53:30.419972303,replace hashboard
+M0732,Model-X2,B,hashboard_fault,2026-09-21 20:39:00,2026-09-22 04:13:34.106254781,replace hashboard
+M0513,Model-X1,E,high_temp,2026-09-21 21:25:00,2026-09-21 21:39:34.923949025,clean intake / adjust cooling
+M0227,Model-X2,F,hashboard_fault,2026-09-21 23:22:00,2026-09-22 22:03:45.334339328,replace hashboard
+M0233,Model-X1,B,zero_hashrate,2026-09-22 00:51:00,2026-09-22 07:07:57.656661298,check pool config / reboot
+M0034,Model-X1,F,zero_hashrate,2026-09-22 02:43:00,2026-09-22 06:38:09.394559627,check pool config / reboot
+M0242,Model-X2,E,fan_fault,2026-09-22 08:16:00,2026-09-22 13:14:20.577698817,replace fan
+M0355,Model-X2,C,offline,2026-09-22 08:52:00,2026-09-22 09:40:57.936631371,check network / power cycle
+M0425,Model-X2,C,high_temp,2026-09-22 09:59:00,2026-09-22 10:36:40.417931979,clean intake / adjust cooling
+M0758,Model-X2,D,high_reject_rate,2026-09-22 10:00:00,2026-09-22 11:27:22.522455369,check firmware / reboot
+M0240,Model-X1,A,hashboard_fault,2026-09-22 12:04:00,2026-09-23 04:55:14.213242393,replace hashboard
+M0328,Model-X2,D,high_temp,2026-09-22 13:46:00,2026-09-22 14:00:01.698590699,clean intake / adjust cooling
+M0509,Model-X1,E,high_temp,2026-09-22 16:19:00,2026-09-22 18:00:59.772321918,clean intake / adjust cooling
+M0800,Model-X1,A,zero_hashrate,2026-09-22 16:28:00,2026-09-22 17:32:01.374734609,check pool config / reboot
+M0695,Model-X1,B,high_temp,2026-09-22 16:40:00,2026-09-22 20:03:32.950405862,clean intake / adjust cooling
+M0781,Model-X1,E,fan_fault,2026-09-22 17:20:00,2026-09-22 23:08:38.200353514,replace fan
+M0520,Model-X2,C,offline,2026-09-22 18:02:00,2026-09-22 20:07:47.582439460,check network / power cycle
+M0480,Model-X2,D,zero_hashrate,2026-09-22 19:42:00,2026-09-22 23:31:39.892178355,check pool config / reboot
+M0163,Model-Y1,C,zero_hashrate,2026-09-22 21:31:00,2026-09-23 02:59:10.580319431,check pool config / reboot
+M0561,Model-X1,F,zero_hashrate,2026-09-22 21:54:00,2026-09-22 23:27:46.934268557,check pool config / reboot
+M0392,Model-X2,F,zero_hashrate,2026-09-22 22:44:00,2026-09-23 05:19:11.855983329,check pool config / reboot
+M0179,Model-X2,E,hashboard_fault,2026-09-22 23:05:00,2026-09-23 01:39:15.805052455,replace hashboard
+M0661,Model-X2,E,zero_hashrate,2026-09-22 23:24:00,2026-09-23 02:19:08.788238898,check pool config / reboot
+M0431,Model-X1,D,fan_fault,2026-09-22 23:51:00,2026-09-23 05:31:24.727462893,replace fan
+M0501,Model-X1,D,zero_hashrate,2026-09-23 02:02:00,2026-09-23 04:01:35.282430704,check pool config / reboot
+M0103,Model-X1,F,offline,2026-09-23 03:20:00,2026-09-23 06:15:32.586404869,check network / power cycle
+M0386,Model-X1,A,offline,2026-09-23 04:22:00,2026-09-23 06:39:57.925693836,check network / power cycle
+M0651,Model-Y1,F,high_temp,2026-09-23 04:44:00,2026-09-23 06:32:58.749883609,clean intake / adjust cooling
+M0374,Model-X2,D,offline,2026-09-23 05:47:00,2026-09-23 07:04:38.730340713,check network / power cycle
+M0328,Model-X2,F,high_reject_rate,2026-09-23 10:31:00,2026-09-23 14:49:38.978140755,check firmware / reboot
+M0640,Model-X2,C,zero_hashrate,2026-09-23 12:27:00,2026-09-24 18:05:41.914937604,check pool config / reboot
+M0177,Model-X1,C,zero_hashrate,2026-09-23 14:53:00,2026-09-23 17:22:42.686348507,check pool config / reboot
+M0032,Model-X2,F,hashboard_fault,2026-09-23 18:18:00,2026-09-24 02:49:47.774182007,replace hashboard
+M0713,Model-X2,A,fan_fault,2026-09-23 19:10:00,2026-09-23 20:38:50.653153096,replace fan
+M0480,Model-X1,C,offline,2026-09-23 19:57:00,2026-09-23 23:47:30.067298984,check network / power cycle
+M0762,Model-X2,C,hashboard_fault,2026-09-23 20:13:00,2026-09-23 22:55:25.483484875,replace hashboard
+M0064,Model-X2,D,zero_hashrate,2026-09-23 20:24:00,2026-09-23 22:08:01.599963787,check pool config / reboot
+M0631,Model-X2,F,fan_fault,2026-09-23 20:59:00,2026-09-23 21:55:23.565695424,replace fan
+M0102,Model-Y1,C,zero_hashrate,2026-09-23 21:55:00,2026-09-24 01:45:40.185774002,check pool config / reboot
+M0654,Model-X2,D,high_reject_rate,2026-09-23 22:43:00,2026-09-24 02:58:15.030760111,check firmware / reboot
+M0303,Model-X1,C,zero_hashrate,2026-09-24 03:48:00,2026-09-24 06:23:54.808116784,check pool config / reboot
+M0447,Model-X1,D,hashboard_fault,2026-09-24 05:42:00,2026-09-24 18:57:12.859157774,replace hashboard
+M0565,Model-Y1,E,offline,2026-09-24 06:59:00,2026-09-24 08:36:53.736133586,check network / power cycle
+M0485,Model-X2,E,offline,2026-09-24 07:15:00,2026-09-24 15:53:13.313078130,check network / power cycle
+M0444,Model-X1,D,zero_hashrate,2026-09-24 07:17:00,2026-09-24 08:53:55.792930605,check pool config / reboot
+M0346,Model-X1,D,high_temp,2026-09-24 12:45:00,2026-09-24 13:57:09.606142777,clean intake / adjust cooling
+M0617,Model-X2,D,high_temp,2026-09-24 13:20:00,2026-09-24 15:46:39.587995389,clean intake / adjust cooling
+M0529,Model-X2,B,high_temp,2026-09-24 13:46:00,2026-09-24 15:04:40.620435605,clean intake / adjust cooling
+M0116,Model-X2,F,hashboard_fault,2026-09-24 14:21:00,2026-09-24 22:07:40.016968233,replace hashboard
+M0333,Model-X2,C,fan_fault,2026-09-24 15:25:00,2026-09-24 18:17:17.369574671,replace fan
+M0082,Model-X1,D,zero_hashrate,2026-09-24 15:39:00,2026-09-24 16:08:43.614850461,check pool config / reboot
+M0687,Model-X1,F,high_temp,2026-09-24 15:53:00,2026-09-24 17:31:12.410390719,clean intake / adjust cooling
+M0196,Model-Y1,B,fan_fault,2026-09-24 15:55:00,2026-09-24 17:26:44.677563741,replace fan
+M0197,Model-X2,C,high_temp,2026-09-24 16:43:00,2026-09-24 18:42:04.481020119,clean intake / adjust cooling
+M0314,Model-Y1,B,hashboard_fault,2026-09-24 17:08:00,2026-09-24 22:46:06.256732173,replace hashboard
+M0056,Model-X2,B,offline,2026-09-24 17:22:00,2026-09-24 19:59:29.811057246,check network / power cycle
+M0066,Model-X1,C,zero_hashrate,2026-09-24 18:04:00,2026-09-25 03:01:56.934752806,check pool config / reboot
+M0182,Model-X1,C,offline,2026-09-24 18:15:00,2026-09-24 20:13:03.484079034,check network / power cycle
+M0751,Model-X1,B,fan_fault,2026-09-24 22:45:00,2026-09-24 23:37:51.051620776,replace fan
+M0696,Model-X2,A,high_temp,2026-09-24 23:02:00,2026-09-25 01:39:37.520593519,clean intake / adjust cooling
+M0087,Model-X1,F,high_temp,2026-09-24 23:10:00,2026-09-25 01:30:15.012041899,clean intake / adjust cooling
+M0003,Model-X1,E,fan_fault,2026-09-25 00:47:00,2026-09-25 04:19:05.646046054,replace fan
+M0415,Model-X1,F,fan_fault,2026-09-25 01:53:00,2026-09-25 04:01:35.344441360,replace fan
+M0266,Model-Y1,E,offline,2026-09-25 03:04:00,2026-09-25 04:07:50.019600582,check network / power cycle
+M0579,Model-Y1,D,offline,2026-09-25 03:30:00,2026-09-25 04:27:43.257054632,check network / power cycle
+M0364,Model-X1,E,zero_hashrate,2026-09-25 07:43:00,2026-09-25 11:34:16.356500199,check pool config / reboot
+M0656,Model-X2,F,offline,2026-09-25 11:19:00,2026-09-25 12:31:52.622236278,check network / power cycle
+M0313,Model-X2,B,offline,2026-09-25 13:05:00,2026-09-25 14:39:26.923842590,check network / power cycle
+M0263,Model-Y1,D,offline,2026-09-25 14:10:00,2026-09-25 20:17:50.217790124,check network / power cycle
+M0449,Model-Y1,F,zero_hashrate,2026-09-25 14:59:00,2026-09-25 18:59:57.926652941,check pool config / reboot
+M0514,Model-Y1,F,offline,2026-09-25 16:38:00,2026-09-25 20:37:21.304520024,check network / power cycle
+M0117,Model-X2,E,high_reject_rate,2026-09-25 17:03:00,2026-09-25 23:08:48.679930355,check firmware / reboot
+M0308,Model-X1,D,offline,2026-09-25 17:46:00,2026-09-25 21:09:10.775419844,check network / power cycle
+M0552,Model-X2,D,hashboard_fault,2026-09-25 18:25:00,2026-09-26 04:08:44.148145563,replace hashboard
+M0507,Model-X1,B,offline,2026-09-25 18:33:00,2026-09-25 20:13:50.411166716,check network / power cycle
+M0084,Model-X1,F,offline,2026-09-25 22:10:00,2026-09-25 22:34:50.622635212,check network / power cycle
+M0356,Model-X1,E,zero_hashrate,2026-09-25 23:11:00,2026-09-26 05:36:28.171713704,check pool config / reboot
+M0683,Model-X2,D,high_temp,2026-09-25 23:29:00,2026-09-26 00:29:07.632821994,clean intake / adjust cooling
+M0357,Model-X1,F,zero_hashrate,2026-09-26 00:38:00,2026-09-26 03:47:24.669382866,check pool config / reboot
+M0033,Model-X1,E,zero_hashrate,2026-09-26 03:46:00,2026-09-26 05:30:04.581271753,check pool config / reboot
+M0444,Model-X2,F,zero_hashrate,2026-09-26 05:05:00,2026-09-26 07:42:26.143301455,check pool config / reboot
+M0748,Model-X1,E,high_temp,2026-09-26 07:29:00,2026-09-26 08:50:25.498164007,clean intake / adjust cooling
+M0796,Model-Y1,E,zero_hashrate,2026-09-26 08:55:00,2026-09-26 18:26:50.268983517,check pool config / reboot
+M0505,Model-X1,E,offline,2026-09-26 10:17:00,2026-09-26 11:22:43.187850836,check network / power cycle
+M0481,Model-X2,B,offline,2026-09-26 10:42:00,2026-09-26 12:20:30.284210505,check network / power cycle
+M0146,Model-X1,F,high_temp,2026-09-26 11:02:00,2026-09-26 15:06:44.196456798,clean intake / adjust cooling
+M0332,Model-X2,B,zero_hashrate,2026-09-26 12:13:00,2026-09-26 13:29:42.946469886,check pool config / reboot
+M0131,Model-X1,E,high_temp,2026-09-26 12:39:00,2026-09-26 12:41:19.902704521,clean intake / adjust cooling
+M0703,Model-X2,E,high_temp,2026-09-26 12:43:00,2026-09-26 14:48:17.930915407,clean intake / adjust cooling
+M0621,Model-X2,B,zero_hashrate,2026-09-26 12:45:00,2026-09-26 13:42:52.346974708,check pool config / reboot
+M0614,Model-X1,A,high_temp,2026-09-26 14:42:00,2026-09-26 15:18:51.120685039,clean intake / adjust cooling
+M0411,Model-X2,E,fan_fault,2026-09-26 15:25:00,2026-09-26 19:21:22.404720573,replace fan
+M0708,Model-X2,F,hashboard_fault,2026-09-26 15:48:00,2026-09-26 20:32:11.989793716,replace hashboard
+M0310,Model-X2,D,hashboard_fault,2026-09-26 17:52:00,2026-09-27 02:51:55.538433525,replace hashboard
+M0641,Model-X1,F,zero_hashrate,2026-09-26 20:30:00,2026-09-26 22:23:29.652248108,check pool config / reboot
+M0387,Model-X2,E,high_temp,2026-09-26 21:22:00,2026-09-27 00:15:09.624272224,clean intake / adjust cooling
+M0034,Model-Y1,D,fan_fault,2026-09-26 21:34:00,2026-09-26 23:43:47.829596258,replace fan
+M0750,Model-X2,E,fan_fault,2026-09-26 22:02:00,2026-09-27 05:39:23.720971492,replace fan
+M0083,Model-Y1,B,offline,2026-09-26 22:16:00,2026-09-26 23:45:09.398840090,check network / power cycle
+M0736,Model-Y1,D,zero_hashrate,2026-09-26 22:18:00,2026-09-27 00:20:43.674858430,check pool config / reboot
+M0535,Model-X2,E,high_temp,2026-09-26 23:00:00,2026-09-26 23:48:19.697050090,clean intake / adjust cooling
+M0004,Model-X1,A,high_temp,2026-09-26 23:13:00,2026-09-27 02:09:39.479173421,clean intake / adjust cooling
+M0554,Model-X2,D,zero_hashrate,2026-09-27 05:16:00,2026-09-27 07:28:58.956336942,check pool config / reboot
+M0500,Model-X1,B,high_temp,2026-09-27 05:29:00,2026-09-27 06:28:50.218161668,clean intake / adjust cooling
+M0587,Model-X2,E,offline,2026-09-27 05:34:00,2026-09-27 07:57:06.082567819,check network / power cycle
+M0612,Model-X1,F,hashboard_fault,2026-09-27 08:51:00,2026-09-27 13:30:11.637272335,replace hashboard
+M0047,Model-Y1,F,high_temp,2026-09-27 09:15:00,2026-09-27 12:03:20.147265941,clean intake / adjust cooling
+M0532,Model-X2,E,offline,2026-09-27 10:50:00,2026-09-27 12:59:32.427414562,check network / power cycle
+M0065,Model-X2,A,high_temp,2026-09-27 11:14:00,2026-09-27 12:34:05.623971150,clean intake / adjust cooling
+M0418,Model-X1,D,high_temp,2026-09-27 11:32:00,2026-09-27 12:11:47.235733809,clean intake / adjust cooling
+M0572,Model-X1,E,high_temp,2026-09-27 12:35:00,2026-09-27 14:26:44.142635868,clean intake / adjust cooling
+M0533,Model-X1,E,offline,2026-09-27 13:33:00,2026-09-27 15:12:51.895217087,check network / power cycle
+M0273,Model-X2,C,hashboard_fault,2026-09-27 16:28:00,2026-09-28 06:49:50.787971763,replace hashboard
+M0730,Model-X1,D,fan_fault,2026-09-27 17:24:00,2026-09-27 18:25:54.697504001,replace fan
+M0485,Model-X2,F,zero_hashrate,2026-09-27 17:31:00,2026-09-27 21:52:46.728843593,check pool config / reboot
+M0101,Model-X1,C,high_temp,2026-09-27 18:09:00,2026-09-27 18:26:48.869754655,clean intake / adjust cooling
+M0164,Model-X1,F,zero_hashrate,2026-09-27 20:17:00,2026-09-28 03:13:44.856222227,check pool config / reboot
+M0546,Model-X2,E,zero_hashrate,2026-09-27 23:30:00,2026-09-28 01:54:10.067810864,check pool config / reboot
+M0684,Model-X2,C,high_temp,2026-09-28 04:26:00,2026-09-28 06:47:06.428889664,clean intake / adjust cooling
+M0066,Model-X1,C,zero_hashrate,2026-09-28 04:56:00,2026-09-28 06:28:17.011674462,check pool config / reboot
+M0460,Model-X2,E,high_temp,2026-09-28 07:30:00,2026-09-28 09:04:17.385466065,clean intake / adjust cooling
+M0091,Model-X2,C,high_temp,2026-09-28 08:43:00,2026-09-28 10:50:06.411638193,clean intake / adjust cooling
+M0157,Model-X2,F,zero_hashrate,2026-09-28 09:16:00,2026-09-28 17:23:01.730590438,check pool config / reboot
+M0745,Model-X2,E,hashboard_fault,2026-09-28 09:55:00,2026-09-28 13:40:03.815681061,replace hashboard
+M0571,Model-X2,E,zero_hashrate,2026-09-28 10:13:00,2026-09-28 15:47:00.860667992,check pool config / reboot
+M0376,Model-X2,F,high_temp,2026-09-28 10:25:00,2026-09-28 12:07:09.291067178,clean intake / adjust cooling
+M0055,Model-Y1,C,high_temp,2026-09-28 11:59:00,2026-09-28 13:54:31.679388901,clean intake / adjust cooling
+M0732,Model-X2,D,high_temp,2026-09-28 12:04:00,2026-09-28 12:46:58.707840703,clean intake / adjust cooling
+M0126,Model-X1,F,high_temp,2026-09-28 12:55:00,2026-09-28 14:33:27.935372830,clean intake / adjust cooling
+M0800,Model-X1,B,high_temp,2026-09-28 14:25:00,2026-09-28 15:54:33.798103757,clean intake / adjust cooling
+M0377,Model-X2,F,high_temp,2026-09-28 14:45:00,2026-09-28 15:16:09.715405228,clean intake / adjust cooling
+M0585,Model-X2,F,high_temp,2026-09-28 15:35:00,2026-09-28 16:59:14.888203809,clean intake / adjust cooling
+M0036,Model-Y1,C,hashboard_fault,2026-09-28 16:42:00,2026-09-29 01:24:23.940617234,replace hashboard
+M0028,Model-X1,F,fan_fault,2026-09-28 17:38:00,2026-09-29 01:06:35.441738914,replace fan
+M0247,Model-X2,C,high_temp,2026-09-28 17:58:00,2026-09-28 18:58:11.823707915,clean intake / adjust cooling
+M0598,Model-X2,D,high_temp,2026-09-28 20:47:00,2026-09-28 21:23:38.055951485,clean intake / adjust cooling
